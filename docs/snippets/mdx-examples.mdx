@@ -1,177 +1,71 @@
 ---
-title: MDX 示例
-description: MDX 语法和组件示例
+title: "MDX 示例"
+description: "MDX 语法和组件示例"
 ---
 
 # MDX 示例
 
-MDX 是 Markdown + JSX，可以在 Markdown 中使用 React 组件。以下是常用语法示例。
+MDX 是 Markdown + JSX，可以在 Markdown 中使用 React 组件。
 
-## Frontmatter
+## 基本语法
 
-每个 MDX 文件顶部需要包含 frontmatter：
+### 强调
 
-```yaml
----
-title: 页面标题
-description: 页面描述
----
-```
+- **粗体**：`**粗体**`
+- *斜体*：`*斜体*`
+- ~~删除线~~：`~~删除线~~`
 
-## 标题
+### 代码
 
-```md
-# 一级标题
-## 二级标题
-### 三级标题
-```
+行内代码：`const x = 1`
 
-## 列表
+代码块：
 
-**无序列表**
-
-```md
-- 项目一
-- 项目二
-  - 嵌套
-  - 嵌套
-- 项目三
-```
-
-**有序列表**
-
-```md
-1. 第一步
-2. 第二步
-3. 第三步
-```
-
-## 代码块
-
-### 行内代码
-
-```md
-这是 `行内代码` 示例
-```
-
-### 多行代码
-
-````md
 ```javascript
-function hello() {
-  console.log('Hello!');
+function greet(name) {
+  return `Hello, ${name}!`;
 }
 ```
-````
 
-### 支持的语言
+### 引用
 
-- `javascript` / `js`
-- `typescript` / `ts`
-- `python` / `py`
-- `bash` / `shell`
-- `json`
-- `yaml`
-- `mdx`
-- 等等...
-
-## 表格
-
-```md
-| 表头1 | 表头2 | 表头3 |
-|-------|-------|-------|
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-```
-
-渲染效果：
-
-| 表头1 | 表头2 | 表头3 |
-|-------|-------|-------|
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-
-## Callout 组件
-
-Mintlify 支持多种 Callout 类型：
-
-```mdx
-<Note>这是一条普通提示</Note>
-
-<Warning>这是警告信息</Warning>
-
-<Danger>这是危险警告</Danger>
-
-<Tip>这是技巧提示</Tip>
-```
-
-### 效果示例
-
-**Note**: 用于补充信息
-**Warning**: 需要注意的事项
-**Danger**: 危险或错误操作
-**Tip**: 有用的小技巧
-
-## 链接
-
-```md
-[内部链接](/quickstart)
-[外部链接](https://example.com)
-```
-
-## 图片
-
-```md
-![替代文字](/images/example.png)
-```
-
-## 引用
-
-```md
-> 这是一段引用内容
-> 可以有多行
-```
-
-> 这是一段引用内容
+> 这是一段引用文本
+>
 > 可以有多行
 
-## 水平线
+## 组件示例
 
-```md
----
-```
-
----
-
-## Mintlify 特定功能
-
-### 卡片的组
+### Callout
 
 ```mdx
-<CardGroup>
-  <Card title="卡片标题" icon="📚">
-    卡片内容
-  </Card>
-  <Card title="另一张卡片" icon="🔧">
-    更多内容
-  </Card>
-</CardGroup>
+:::note
+这是一条笔记
+:::
 ```
 
-### Tabs
+效果：
+:::note
+这是一条笔记
+:::
 
-```mdx
-<Tabs>
-  <Tab title="Node.js">
-    Node.js 相关内容
-  </Tab>
-  <Tab title="Python">
-    Python 相关内容
-  </Tab>
-</Tabs>
-```
+### 表格
 
-## 相关资源
+| 功能 | 语法 |
+|------|------|
+| 粗体 | `**text**` |
+| 斜体 | `*text*` |
+| 代码 | `` `code` `` |
 
-- [Markdown 最佳实践](/concepts/markdown-best-practices)
-- [常用命令](/snippets/useful-commands)
+### 列表
+
+- 第一项
+- 第二项
+  - 嵌套项
+  - 嵌套项
+- 第三项
+
+### 任务列表
+
+- [x] 已完成
+- [ ] 待完成
+- [ ] 另一个任务

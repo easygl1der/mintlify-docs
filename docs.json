@@ -27,7 +27,7 @@
       "pages": ["snippets/useful-commands", "snippets/mdx-examples"]
     }
   ],
-  "footer.socials": [
+  "footerSocials": [
     {"title": "GitHub", "url": "https://github.com"}
   ]
 }

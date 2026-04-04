@@ -1,139 +1,70 @@
 ---
-title: 用 Mintlify 部署文档
-description: 将你的笔记部署为在线文档站
+title: "用 Mintlify 部署文档"
+description: "将你的笔记部署为在线文档站"
 ---
 
 # 用 Mintlify 部署文档
 
-Mintlify 是一个现代化的文档网站生成器，支持 MDX，部署简单，界面美观。
+使用 Mintlify 将你的笔记变成专业文档网站。
 
 ## 前提条件
 
+- GitHub 账号
 - Node.js 18+
-- Git
-- GitHub 账户
 
-## 快速部署
+## 部署步骤
 
-### 方式一：使用 Mintlify CLI
+### 1. 创建仓库
+
+在 GitHub 创建新仓库，或者使用现有仓库。
+
+### 2. 安装 Mintlify CLI
 
 ```bash
-# 安装 Mintlify
-npm i -g mintlify
-
-# 进入文档目录
-cd your-docs-folder
-
-# 启动预览
-mintlify dev
-
-# 构建生产版本
-mintlify build
-
-# 部署
-mintlify deploy
+npm i -g mint
 ```
 
-### 方式二：连接 GitHub
+### 3. 本地预览
+
+```bash
+mint dev
+```
+
+访问 http://localhost:3000 预览。
+
+### 4. 推送到 GitHub
+
+```bash
+git init
+git add .
+git commit -m "feat: initial documentation"
+git branch -M main
+git remote add origin https://github.com/username/repo.git
+git push -u origin main
+```
+
+### 5. 连接 Mintlify
 
 1. 访问 [mintlify.com](https://mintlify.com)
-2. 使用 GitHub 登录
-3. 选择要部署的仓库
-4. 自动部署配置
+2. 连接你的 GitHub 仓库
+3. 选择要部署的分支
 
-## 目录结构
+部署完成后，你会获得一个 `your-docs.mintlify.app` 的域名。
 
-```
-your-docs/
-├── docs.json          # 配置文件
-├── docs/
-│   ├── index.mdx      # 首页
-│   ├── quickstart.mdx
-│   └── .../
-├── .mintlify/
-│   └── Assistant.md   # AI 助手配置
-└── images/
-    ├── logo.svg
-    └── favicon.svg
-```
+## 启用 AI 助手
 
-## 配置文件
+1. 升级到 Pro 套餐
+2. 在仓库根目录创建 `.mintlify/Assistant.md`
+3. Mintlify 会自动启用侧边 AI 问答
 
-`docs.json` 是核心配置文件：
+## 持续更新
 
-```json
-{
-  "name": "你的文档名称",
-  "theme": "mint",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#f0fdf4",
-    "dark": "#166534"
-  },
-  "navigation": [
-    {
-      "group": "分组名称",
-      "pages": ["page1", "folder/page2"]
-    }
-  ]
-}
-```
-
-## 自定义样式
-
-### 修改 Logo
-
-将 `images/logo.svg` 替换为你的 Logo。
-
-### 修改颜色
-
-编辑 `docs.json` 中的 `colors` 配置：
-
-```json
-"colors": {
-  "primary": "#your-color",
-  "light": "#your-light-color",
-  "dark": "#your-dark-color"
-}
-```
-
-## 添加新页面
-
-1. 在 `docs/` 下创建 `.mdx` 文件
-2. 添加 frontmatter：
-
-```mdx
----
-title: 页面标题
-description: 页面描述
----
-
-# 内容
-```
-
-3. 更新 `docs.json` 中的 `navigation` 配置
-
-## 预览和调试
+每次 push 到 GitHub，Mintlify 会自动重新部署。
 
 ```bash
-# 启动本地预览服务器
-mintlify dev
-
-# 查看预览效果
-# 访问 http://localhost:3000
+git add .
+git commit -m "docs: 更新内容"
+git push
 ```
 
-## 常见问题
-
-### 部署后页面没有更新？
-
-检查 GitHub Actions 是否运行成功，或者手动触发重新部署。
-
-### 自定义域名？
-
-在 Mintlify Dashboard 的 Settings 中配置自定义域名。
-
-## 相关资源
-
-- [快速上手](/quickstart)
-- [MDX 示例](/snippets/mdx-examples)
+几分钟后，更新就会生效。
