@@ -4,8 +4,6 @@ title: 2026-04-04 GitHub Trending 报告
 
 # 2026-04-04 GitHub Trending
 
-> 今日 GitHub 热门项目 AI 分析报告 | [全部报告 →](../index)
-
 ## 项目列表
 
 | 项目 | 编程语言 | 今日新增 | 总 Stars | 分析报告 |
