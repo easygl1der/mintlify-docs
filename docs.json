@@ -53,7 +53,9 @@
         "groups": [
           {
             "group": "2026年4月",
-            "pages": ["social-media/2026-04-04"]
+            "pages": [
+              "social-media/2026-04-04"
+            ]
           }
         ]
       },
@@ -62,35 +64,52 @@
         "groups": [
           {
             "group": "关于",
-            "pages": ["my-notes/about/_index", "my-notes/about/个人背景"]
+            "pages": [
+              "my-notes/about/_index",
+              "my-notes/about/个人背景"
+            ]
           },
           {
             "group": "想法",
-            "pages": ["my-notes/ideas/_index"]
+            "pages": [
+              "my-notes/ideas/_index"
+            ]
           },
           {
             "group": "工作",
-            "pages": ["my-notes/work/_index"]
+            "pages": [
+              "my-notes/work/_index"
+            ]
           },
           {
             "group": "学习",
-            "pages": ["my-notes/learning/_index"]
+            "pages": [
+              "my-notes/learning/_index"
+            ]
           },
           {
             "group": "会议",
-            "pages": ["my-notes/meetings/_index"]
+            "pages": [
+              "my-notes/meetings/_index"
+            ]
           },
           {
             "group": "研究",
-            "pages": ["my-notes/research/_index"]
+            "pages": [
+              "my-notes/research/_index"
+            ]
           },
           {
             "group": "行政",
-            "pages": ["my-notes/admin/_index"]
+            "pages": [
+              "my-notes/admin/_index"
+            ]
           },
           {
             "group": "代码",
-            "pages": ["my-notes/code/_index"]
+            "pages": [
+              "my-notes/code/_index"
+            ]
           }
         ]
       }
@@ -102,6 +121,10 @@
     }
   },
   "contextual": {
-    "options": ["copy", "view", "claude"]
+    "options": [
+      "copy",
+      "view",
+      "claude"
+    ]
   }
 }
