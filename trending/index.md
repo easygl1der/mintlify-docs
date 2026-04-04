@@ -12,4 +12,4 @@ title: GitHub Trending 技术调研报告
 
 ### 2026年4月
 
-- [2026-04-04](/trending/2026-04-04) - 5个项目
+- [2026-04-04](/trending/2026-04-04) - 5个项目（onyx, sherlock, timesfm, TradingAgents-CN, Skill_Seekers）
