@@ -65,12 +65,18 @@
           {
             "group": "2026年4月",
             "pages": [
-              "trending/2026-04-04/index",
-              "trending/2026-04-04/onyx",
-              "trending/2026-04-04/sherlock",
-              "trending/2026-04-04/timesfm",
-              "trending/2026-04-04/TradingAgents-CN",
-              "trending/2026-04-04/Skill_Seekers"
+              {
+                "group": "2026-04-04",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-04/index",
+                  "trending/2026-04-04/onyx",
+                  "trending/2026-04-04/sherlock",
+                  "trending/2026-04-04/timesfm",
+                  "trending/2026-04-04/TradingAgents-CN",
+                  "trending/2026-04-04/Skill_Seekers"
+                ]
+              }
             ]
           }
         ]
