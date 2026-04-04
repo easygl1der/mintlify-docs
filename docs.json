@@ -54,7 +54,20 @@
           {
             "group": "2026年4月",
             "pages": [
-              "social-media/2026-04-04"
+              "social-media/2026-04-04",
+              {
+                "group": "2026-04-04",
+                "expanded": false,
+                "pages": [
+                  "social-media/2026-04-04/daily-summary",
+                  "social-media/2026-04-04/00-00",
+                  "social-media/2026-04-04/04-00",
+                  "social-media/2026-04-04/08-00",
+                  "social-media/2026-04-04/12-00",
+                  "social-media/2026-04-04/16-00",
+                  "social-media/2026-04-04/20-00"
+                ]
+              }
             ]
           }
         ]
