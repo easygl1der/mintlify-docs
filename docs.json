@@ -65,49 +65,49 @@
           {
             "group": "关于",
             "pages": [
-              "my-notes/about/_index"
+              "my-notes/about/index"
             ]
           },
           {
             "group": "想法",
             "pages": [
-              "my-notes/ideas/_index"
+              "my-notes/ideas/index"
             ]
           },
           {
             "group": "工作",
             "pages": [
-              "my-notes/work/_index"
+              "my-notes/work/index"
             ]
           },
           {
             "group": "学习",
             "pages": [
-              "my-notes/learning/_index"
+              "my-notes/learning/index"
             ]
           },
           {
             "group": "会议",
             "pages": [
-              "my-notes/meetings/_index"
+              "my-notes/meetings/index"
             ]
           },
           {
             "group": "研究",
             "pages": [
-              "my-notes/research/_index"
+              "my-notes/research/index"
             ]
           },
           {
             "group": "行政",
             "pages": [
-              "my-notes/admin/_index"
+              "my-notes/admin/index"
             ]
           },
           {
             "group": "代码",
             "pages": [
-              "my-notes/code/_index"
+              "my-notes/code/index"
             ]
           }
         ]
