@@ -2,8 +2,6 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Yitwah Notes",
-  "logo": "/images/logo.svg",
-  "favicon": "/images/favicon.svg",
   "colors": {
     "primary": "#16A34A",
     "light": "#f0fdf4",
