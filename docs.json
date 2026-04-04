@@ -60,53 +60,31 @@
         ]
       },
       {
+        "tab": "GitHub Trending",
+        "groups": [
+          {
+            "group": "2026年4月",
+            "pages": [
+              "trending/2026-04-04/index"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "我的笔记",
         "groups": [
           {
-            "group": "关于",
+            "group": "我的笔记",
             "pages": [
-              "my-notes/about/index"
-            ]
-          },
-          {
-            "group": "想法",
-            "pages": [
-              "my-notes/ideas/index"
-            ]
-          },
-          {
-            "group": "工作",
-            "pages": [
-              "my-notes/work/index"
-            ]
-          },
-          {
-            "group": "学习",
-            "pages": [
-              "my-notes/learning/index"
-            ]
-          },
-          {
-            "group": "会议",
-            "pages": [
-              "my-notes/meetings/index"
-            ]
-          },
-          {
-            "group": "研究",
-            "pages": [
-              "my-notes/research/index"
-            ]
-          },
-          {
-            "group": "行政",
-            "pages": [
-              "my-notes/admin/index"
-            ]
-          },
-          {
-            "group": "代码",
-            "pages": [
+              "my-notes/index",
+              "my-notes/about/个人背景",
+              "my-notes/about/index",
+              "my-notes/ideas/index",
+              "my-notes/work/index",
+              "my-notes/learning/index",
+              "my-notes/meetings/index",
+              "my-notes/research/index",
+              "my-notes/admin/index",
               "my-notes/code/index"
             ]
           }
