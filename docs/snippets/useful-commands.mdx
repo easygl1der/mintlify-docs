@@ -1,0 +1,148 @@
+---
+title: 常用命令
+description: 日常开发常用命令速查
+---
+
+# 常用命令
+
+日常开发中常用的命令行工具速查。
+
+## Git
+
+### 基础操作
+
+```bash
+# 初始化仓库
+git init
+
+# 克隆仓库
+git clone https://github.com/user/repo.git
+
+# 添加文件到暂存区
+git add filename
+git add .
+
+# 提交
+git commit -m "提交信息"
+
+# 推送
+git push origin main
+```
+
+### 分支操作
+
+```bash
+# 创建并切换分支
+git checkout -b feature/new-feature
+
+# 切换分支
+git checkout main
+
+# 列出所有分支
+git branch -a
+
+# 删除分支
+git branch -d feature/old-feature
+```
+
+### 查看状态
+
+```bash
+# 查看工作区状态
+git status
+
+# 查看提交历史
+git log --oneline
+
+# 查看差异
+git diff
+```
+
+## Node.js / npm
+
+```bash
+# 安装依赖
+npm install
+
+# 安装特定包
+npm install package-name
+
+# 安装开发依赖
+npm install --save-dev package-name
+
+# 运行脚本
+npm run dev
+npm run build
+
+# 全局安装包
+npm install -g package-name
+```
+
+## 文件操作
+
+```bash
+# 创建目录
+mkdir directory-name
+
+# 创建文件
+touch filename.txt
+
+# 复制文件
+cp source.txt destination.txt
+
+# 移动/重命名
+mv old-name.txt new-name.txt
+
+# 删除
+rm filename.txt
+rm -rf directory/
+```
+
+## Mintlify
+
+```bash
+# 安装 CLI
+npm i -g mintlify
+
+# 启动预览
+mintlify dev
+
+# 构建
+mintlify build
+
+# 部署
+mintlify deploy
+```
+
+## Docker
+
+```bash
+# 构建镜像
+docker build -t image-name .
+
+# 运行容器
+docker run -p 3000:3000 image-name
+
+# 查看运行中的容器
+docker ps
+
+# 停止容器
+docker stop container-id
+```
+
+## 系统
+
+```bash
+# 查看进程
+ps aux | grep process-name
+
+# 杀死进程
+kill -9 process-id
+
+# 查看端口占用
+lsof -i :3000
+
+# 磁盘使用
+df -h
+du -sh directory/
+```

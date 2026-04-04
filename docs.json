@@ -1,0 +1,33 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Yitwah Notes",
+  "logo": "/images/logo.svg",
+  "favicon": "/images/favicon.svg",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#f0fdf4",
+    "dark": "#166534"
+  },
+  "navigation": [
+    {
+      "group": "入门",
+      "pages": ["index", "quickstart"]
+    },
+    {
+      "group": "概念",
+      "pages": ["concepts/overview", "concepts/knowledge-management", "concepts/markdown-best-practices"]
+    },
+    {
+      "group": "实践指南",
+      "pages": ["how-to/organize-notes", "how-to/deploy-with-mintlify"]
+    },
+    {
+      "group": "代码片段",
+      "pages": ["snippets/useful-commands", "snippets/mdx-examples"]
+    }
+  ],
+  "footer.socials": [
+    {"title": "GitHub", "url": "https://github.com"}
+  ]
+}
