@@ -65,8 +65,7 @@
           {
             "group": "关于",
             "pages": [
-              "my-notes/about/_index",
-              "my-notes/about/个人背景"
+              "my-notes/about/_index"
             ]
           },
           {
