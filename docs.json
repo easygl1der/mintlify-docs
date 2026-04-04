@@ -63,9 +63,9 @@
         "tab": "GitHub Trending",
         "groups": [
           {
-            "group": "2026年4月",
+            "group": "每日趋势",
             "pages": [
-              "trending/2026-04-04/index"
+              "trending/index"
             ]
           }
         ]
