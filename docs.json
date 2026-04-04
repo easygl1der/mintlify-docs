@@ -77,15 +77,14 @@
             "group": "我的笔记",
             "pages": [
               "my-notes/index",
-              "my-notes/about/个人背景",
-              "my-notes/about/index",
-              "my-notes/ideas/index",
-              "my-notes/work/index",
-              "my-notes/learning/index",
-              "my-notes/meetings/index",
-              "my-notes/research/index",
-              "my-notes/admin/index",
-              "my-notes/code/index"
+              "my-notes/关于我",
+              "my-notes/想法",
+              "my-notes/工作",
+              "my-notes/学习",
+              "my-notes/会议",
+              "my-notes/研究",
+              "my-notes/行政",
+              "my-notes/代码"
             ]
           }
         ]
