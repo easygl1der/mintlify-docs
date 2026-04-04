@@ -19,21 +19,37 @@
         "groups": [
           {
             "group": "入门",
-            "pages": ["index", "quickstart"]
+            "pages": [
+              "index",
+              "quickstart"
+            ]
           },
           {
             "group": "概念",
-            "pages": ["concepts/overview", "concepts/knowledge-management", "concepts/markdown-best-practices"]
+            "pages": [
+              "concepts/overview",
+              "concepts/knowledge-management",
+              "concepts/markdown-best-practices"
+            ]
           },
           {
             "group": "实践指南",
-            "pages": ["how-to/organize-notes", "how-to/deploy-with-mintlify"]
+            "pages": [
+              "how-to/organize-notes",
+              "how-to/deploy-with-mintlify"
+            ]
           },
           {
             "group": "代码片段",
-            "pages": ["snippets/useful-commands", "snippets/mdx-examples"]
+            "pages": [
+              "snippets/useful-commands",
+              "snippets/mdx-examples"
+            ]
           }
         ]
+      },
+      {
+        "tab": "热点"
       }
     ]
   },
