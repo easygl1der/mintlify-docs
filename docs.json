@@ -43,6 +43,6 @@
     }
   },
   "contextual": {
-    "options": ["copy", "view"]
+    "options": ["copy", "view", "claude"]
   }
 }
