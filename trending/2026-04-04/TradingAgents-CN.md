@@ -1,3 +1,7 @@
+---
+title: TradingAgents-CN 技术调研报告
+description: AI 量化交易框架 · 今日 +756 Stars
+---
 
 
 # TradingAgents-CN 技术调研报告

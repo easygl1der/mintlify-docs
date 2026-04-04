@@ -1,3 +1,7 @@
+---
+title: timesfm 技术调研报告
+description: Google 时间序列预测模型 · 今日 +892 Stars
+---
 
 
 # timesfm 技术调研报告
