@@ -12,4 +12,5 @@ title: GitHub Trending 技术调研报告
 
 ### 2026年4月
 
+- [2026-04-01](/trending/2026-04-01) - 10个项目（claude-howto, sherlock, deer-flow, agency-agents, cc-switch 等）
 - [2026-04-04](/trending/2026-04-04) - 5个项目（onyx, sherlock, timesfm, TradingAgents-CN, Skill_Seekers）
