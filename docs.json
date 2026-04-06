@@ -135,6 +135,39 @@
                   "trending/2026-04-05/MiroFish",
                   "trending/2026-04-05/sherlock"
                 ]
+              },
+              {
+                "group": "2026-04-06",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-06/index",
+                  "trending/2026-04-06/VibeVoice",
+                  "trending/2026-04-06/oh-my-claudecode",
+                  "trending/2026-04-06/deer-flow",
+                  "trending/2026-04-06/last30days-skill",
+                  "trending/2026-04-06/hermes-agent",
+                  "trending/2026-04-06/claude-code-best-practice",
+                  "trending/2026-04-06/Deep-Live-Cam",
+                  "trending/2026-04-06/learn-claude-code",
+                  "trending/2026-04-06/agency-agents",
+                  "trending/2026-04-06/get-shit-done",
+                  "trending/2026-04-06/goose",
+                  "trending/2026-04-06/oh-my-codex",
+                  "trending/2026-04-06/onyx",
+                  "trending/2026-04-06/openscreen",
+                  "trending/2026-04-06/sherlock",
+                  "trending/2026-04-06/Skill_Seekers",
+                  "trending/2026-04-06/superpowers",
+                  "trending/2026-04-06/timesfm",
+                  "trending/2026-04-06/TradingAgents-CN",
+                  "trending/2026-04-06/llama.cpp",
+                  "trending/2026-04-06/mlx-vlm",
+                  "trending/2026-04-06/agent-browser",
+                  "trending/2026-04-06/claude-howto",
+                  "trending/2026-04-06/claude-mem",
+                  "trending/2026-04-06/frontend-slides",
+                  "trending/2026-04-06/fff.nvim"
+                ]
               }
             ]
           },
