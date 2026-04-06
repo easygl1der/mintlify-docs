@@ -38,13 +38,6 @@
               "how-to/organize-notes",
               "how-to/deploy-with-mintlify"
             ]
-          },
-          {
-            "group": "代码片段",
-            "pages": [
-              "snippets/useful-commands",
-              "snippets/mdx-examples"
-            ]
           }
         ]
       },
