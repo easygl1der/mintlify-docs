@@ -75,6 +75,18 @@
         "tab": "GitHub Trending",
         "groups": [
           {
+            "group": "2026年3月",
+            "pages": [
+              {
+                "group": "2026-03-31",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-03-31/index"
+                ]
+              }
+            ]
+          },
+          {
             "group": "2026年4月",
             "pages": [
               {
