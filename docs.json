@@ -82,11 +82,20 @@
                 "expanded": false,
                 "pages": [
                   "trending/2026-04-04/index",
+                  "trending/2026-04-04/agent-browser",
+                  "trending/2026-04-04/fff.nvim",
+                  "trending/2026-04-04/frontend-slides",
+                  "trending/2026-04-04/goose",
+                  "trending/2026-04-04/llama.cpp",
+                  "trending/2026-04-04/mlx-vlm",
+                  "trending/2026-04-04/oh-my-codex",
                   "trending/2026-04-04/onyx",
+                  "trending/2026-04-04/openscreen",
                   "trending/2026-04-04/sherlock",
+                  "trending/2026-04-04/Skill_Seekers",
+                  "trending/2026-04-04/superpowers",
                   "trending/2026-04-04/timesfm",
-                  "trending/2026-04-04/TradingAgents-CN",
-                  "trending/2026-04-04/Skill_Seekers"
+                  "trending/2026-04-04/TradingAgents-CN"
                 ]
               }
             ]
