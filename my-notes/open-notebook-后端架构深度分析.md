@@ -109,4 +109,4 @@ SurrealDB 运行在 rocksdb 持久化模式，WebSocket RPC 连接。
 | SurrealDB v2 成熟度 | 中 | 关注 embedded 模式 |
 | CORS 全开 | 高 | 生产需配置 allow_origins |
 | 认证简单 | 高 | dev-only，生产需 OAuth/JWT |
-| Esperanto 版本约束 <3 | 中 | 升级路径需规划 |
+| Esperanto 版本约束 &lt;3 | 中 | 升级路径需规划 |
