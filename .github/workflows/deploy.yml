@@ -30,12 +30,15 @@ jobs:
         run: npm install -g mint
 
       - name: Build Mintlify
-        run: mint build
+        run: mint export --output export.zip
+
+      - name: Extract Mintlify
+        run: unzip -o export.zip
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./mintlify-docs
+          path: ./
 
   deploy:
     environment:
