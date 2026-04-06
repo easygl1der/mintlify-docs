@@ -118,6 +118,23 @@
                   "trending/2026-04-04/timesfm",
                   "trending/2026-04-04/TradingAgents-CN"
                 ]
+              },
+              {
+                "group": "2026-04-05",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-05/index",
+                  "trending/2026-04-05/openscreen",
+                  "trending/2026-04-05/claude-howto",
+                  "trending/2026-04-05/hermes-agent",
+                  "trending/2026-04-05/goose",
+                  "trending/2026-04-05/oh-my-codex",
+                  "trending/2026-04-05/agency-agents",
+                  "trending/2026-04-05/onyx",
+                  "trending/2026-04-05/oh-my-claudecode",
+                  "trending/2026-04-05/MiroFish",
+                  "trending/2026-04-05/sherlock"
+                ]
               }
             ]
           },
