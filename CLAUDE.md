@@ -89,6 +89,27 @@ Key rules:
 - Empty line before `---` horizontal rule
 - **Always exactly 10 rows** in the table
 
+### Social Media Hot Trends — File Naming
+
+Reference: `/Users/yueyh/Projects/mintlify-docs/social-media/2026-04-04/20-00.mdx`
+
+Canonical template path: `social-media/{YYYY-MM-DD}/{HH:MM}.mdx`
+
+Frontmatter format:
+```yaml
+---
+title: YYYY-MM-DD HH:MM 社交热点
+description: 微博/知乎/抖音/B站/头条/豆瓣/BBC/什么值得买/纽约时报 · 全平台热点监控
+---
+```
+
+Key rules:
+- File path: `social-media/{YYYY-MM-DD}/{HH:MM}.mdx` (e.g. `social-media/2026-04-08/02:38.mdx`)
+- `title` field must include full date: `YYYY-MM-DD HH:MM 社交热点`
+- Table for each platform: **热度 | 标题 | 情感 | 摘要** (微博/知乎/B站) or **热度 | 标题 | 链接** (抖音/头条/豆瓣/BBC/什么值得买/纽约时报)
+- Sentiment: `🟢 正面` / `🟡 中性` / `🔴 负面` / `⚪ 未知`
+- **Must also update `docs.json`** navigation to register new date group
+
 ### Key Patterns to Follow
 
 - Navigation order in `mint.json` matches the sidebar order users see in the live docs
