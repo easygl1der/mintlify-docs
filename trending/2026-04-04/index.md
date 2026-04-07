@@ -1,26 +1,30 @@
 ---
-title: 2026-04-04 GitHub Trending 报告
+title: 2026-04-04 GitHub Daily Rank
+description: GitHub 每日飙升榜 · 2026-04-04
 ---
 
-# 2026-04-04 GitHub Trending
+# 2026-04-04 GitHub Daily Rank
 
-## 项目列表
+> 数据来源: [OpenGithubs/github-daily-rank](https://github.com/OpenGithubs/github-daily-rank)
 
-| 项目 | 编程语言 | 今日新增 | 总 Stars | 分析报告 |
-|------|----------|----------|----------|----------|
-| [agent-browser](#agent-browser) | TypeScript | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/agent-browser) |
-| [fff.nvim](#fff.nvim) | Lua | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/fff.nvim) |
-| [frontend-slides](#frontend-slides) | JavaScript | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/frontend-slides) |
-| [goose](#goose) | Go | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/goose) |
-| [llama.cpp](#llama.cpp) | C++ | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/llama.cpp) |
-| [mlx-vlm](#mlx-vlm) | Python | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/mlx-vlm) |
-| [oh-my-codex](#oh-my-codex) | Python | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/oh-my-codex) |
-| [onyx](#onyx) | Clojure | ⭐+1872 | 1872 | [📄 查看报告](/trending/2026-04-04/onyx) |
-| [openscreen](#openscreen) | Python | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/openscreen) |
-| [sherlock](#sherlock) | Python | ⭐+1247 | 1247 | [📄 查看报告](/trending/2026-04-04/sherlock) |
-| [Skill_Seekers](#skill_seekers) | Python | ⭐+623 | 623 | [📄 查看报告](/trending/2026-04-04/Skill_Seekers) |
-| [superpowers](#superpowers) | TypeScript | ⭐+? | ? | [📄 查看报告](/trending/2026-04-04/superpowers) |
-| [timesfm](#timesfm) | Python | ⭐+892 | 892 | [📄 查看报告](/trending/2026-04-04/timesfm) |
-| [TradingAgents-CN](#tradingagents-cn) | Python | ⭐+756 | 756 | [📄 查看报告](/trending/2026-04-04/TradingAgents-CN) |
+## Top 10 排行榜
 
-*由 AI 自动生成 · 数据来源: GitHub Trending · [→ 发起 PR](https://github.com/easygl1der/mintlify-docs)*
+| 项目 | 今日新增 | 总 Stars | 分析报告 |
+|------|----------|----------|----------|
+| [agent-browser](https://github.com/vercel-labs/agent-browser) | ? | ? | [📄 查看报告](/trending/2026-04-04/agent-browser) |
+| [fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | ? | ? | [📄 查看报告](/trending/2026-04-04/fff.nvim) |
+| [frontend-slides](https://github.com/zarazhangrui/frontend-slides) | ? | ? | [📄 查看报告](/trending/2026-04-04/frontend-slides) |
+| [goose](https://github.com/block/goose) | ? | ? | [📄 查看报告](/trending/2026-04-04/goose) |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | ? | ? | [📄 查看报告](/trending/2026-04-04/llama.cpp) |
+| [mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | ? | ? | [📄 查看报告](/trending/2026-04-04/mlx-vlm) |
+| [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | ? | ? | [📄 查看报告](/trending/2026-04-04/oh-my-codex) |
+| [onyx](https://github.com/onyx-dot-app/onyx) | ⭐+1872 | ? | [📄 查看报告](/trending/2026-04-04/onyx) |
+| [openscreen](https://github.com/siddharthvaddem/openscreen) | ? | ? | [📄 查看报告](/trending/2026-04-04/openscreen) |
+| [sherlock](https://github.com/sherlock-project/sherlock) | ⭐+1247 | ? | [📄 查看报告](/trending/2026-04-04/sherlock) |
+| [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | ⭐+623 | ? | [📄 查看报告](/trending/2026-04-04/Skill_Seekers) |
+| [superpowers](https://github.com/obra/superpowers) | ? | ? | [📄 查看报告](/trending/2026-04-04/superpowers) |
+| [timesfm](https://github.com/google-research/timesfm) | ⭐+892 | ? | [📄 查看报告](/trending/2026-04-04/timesfm) |
+| [TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | ⭐+756 | ? | [📄 查看报告](/trending/2026-04-04/TradingAgents-CN) |
+
+---
+*数据来源: [github-daily-rank](https://github.com/OpenGithubs/github-daily-rank) · 每日早上 8:30 更新*
