@@ -53,8 +53,8 @@
                 "expanded": false,
                 "pages": [
                   "social-media/2026-04-08/daily-summary",
+                  "social-media/2026-04-08/02:54",
                   "social-media/2026-04-08/02:38",
-                  "social-media/2026-04-08/02:25",
                   "social-media/2026-04-08/01:57"
                 ]
               },
@@ -230,9 +230,15 @@
               "my-notes/工作",
               "my-notes/学习",
               "my-notes/会议",
-              "my-notes/研究",
-              "my-notes/open-notebook-后端架构深度分析",
-              "my-notes/open-notebook-前端架构与功能分析",
+              {
+                "group": "研究",
+                "expanded": false,
+                "pages": [
+                  "my-notes/研究",
+                  "my-notes/open-notebook-后端架构深度分析",
+                  "my-notes/open-notebook-前端架构与功能分析"
+                ]
+              },
               "my-notes/行政",
               "my-notes/代码"
             ]
