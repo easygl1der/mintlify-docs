@@ -1,0 +1,728 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FOpenGithubs%2Fgithub-daily-rank
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=OpenGithubs%2Fgithub-daily-rank
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "OpenGithubs" [ref=e70] [cursor=pointer]:
+            - /url: /OpenGithubs
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "github-daily-rank" [ref=e73] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FOpenGithubs%2Fgithub-daily-rank
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 44" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FOpenGithubs%2Fgithub-daily-rank
+                - img [ref=e82]
+                - text: Fork
+                - generic "44" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FOpenGithubs%2Fgithub-daily-rank
+                - img [ref=e88]
+                - text: Star
+                - generic "859 users starred this repository" [ref=e90]: "859"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests 1" [ref=e105] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+              - generic "1" [ref=e109]
+          - listitem [ref=e110]:
+            - link "Discussions" [ref=e111] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/discussions
+              - img [ref=e112]
+              - generic [ref=e114]: Discussions
+          - listitem [ref=e115]:
+            - link "Actions" [ref=e116] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/actions
+              - img [ref=e117]
+              - generic [ref=e119]: Actions
+          - listitem [ref=e120]:
+            - link "Projects" [ref=e121] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/projects
+              - img [ref=e122]
+              - generic [ref=e124]: Projects
+          - listitem [ref=e125]:
+            - link "Security and quality" [ref=e126] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/security
+              - img [ref=e127]
+              - generic [ref=e129]: Security and quality
+          - listitem [ref=e130]:
+            - link "Insights" [ref=e131] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/pulse
+              - img [ref=e132]
+              - generic [ref=e134]: Insights
+    - generic [ref=e147]:
+      - heading "OpenGithubs/github-daily-rank" [level=1] [ref=e149]
+      - generic [ref=e150]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - button "main branch" [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - generic [ref=e160]:
+                    - img [ref=e162]
+                    - generic [ref=e165]: main
+                  - generic:
+                    - img
+              - generic [ref=e166]:
+                - link "2 Branches" [ref=e167] [cursor=pointer]:
+                  - /url: /OpenGithubs/github-daily-rank/branches
+                  - generic [ref=e168]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]:
+                      - strong [ref=e171]: "2"
+                      - text: Branches
+                - link "0 Tags" [ref=e172] [cursor=pointer]:
+                  - /url: /OpenGithubs/github-daily-rank/tags
+                  - generic [ref=e173]:
+                    - generic:
+                      - img
+                    - generic [ref=e175]:
+                      - strong [ref=e176]: "0"
+                      - text: Tags
+            - generic [ref=e177]:
+              - generic [ref=e181]:
+                - img [ref=e183]
+                - combobox "Go to file" [ref=e185]
+              - button "Code" [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]:
+                  - generic:
+                    - img
+                  - generic [ref=e188]: Code
+                  - generic:
+                    - img
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - heading "Folders and files" [level=2] [ref=e191]
+              - table "Folders and files" [ref=e192]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e193]:
+                  - row "Latest commit OpenGithubs commits by OpenGithubs 2026.04.06日飙升榜 Commit ef71e71 · Apr 7, 202616 hours ago History 980 Commits" [ref=e194]:
+                    - cell "Latest commit OpenGithubs commits by OpenGithubs 2026.04.06日飙升榜 Commit ef71e71 · Apr 7, 202616 hours ago History 980 Commits" [ref=e195]:
+                      - generic [ref=e196]:
+                        - heading "Latest commit" [level=2] [ref=e197]
+                        - generic [ref=e198]:
+                          - generic [ref=e200]:
+                            - link "OpenGithubs" [ref=e201] [cursor=pointer]:
+                              - /url: /OpenGithubs
+                              - img "OpenGithubs" [ref=e202]
+                            - link "commits by OpenGithubs" [ref=e203] [cursor=pointer]:
+                              - /url: /OpenGithubs/github-daily-rank/commits?author=OpenGithubs
+                              - text: OpenGithubs
+                          - link "2026.04.06日飙升榜" [ref=e207] [cursor=pointer]:
+                            - /url: /OpenGithubs/github-daily-rank/commit/ef71e710c82107380a53e245e8c8345966312076
+                        - generic [ref=e208]:
+                          - generic [ref=e210]:
+                            - link "Commit ef71e71" [ref=e211] [cursor=pointer]:
+                              - /url: /OpenGithubs/github-daily-rank/commit/ef71e710c82107380a53e245e8c8345966312076
+                              - text: ef71e71
+                            - text: ·
+                            - generic "Apr 7, 2026, 8:30 AM GMT+8" [ref=e212]: Apr 7, 202616 hours ago
+                          - generic [ref=e213]:
+                            - heading "History" [level=2] [ref=e214]
+                            - link "980 Commits" [ref=e215] [cursor=pointer]:
+                              - /url: /OpenGithubs/github-daily-rank/commits/main/
+                              - generic [ref=e216]:
+                                - generic:
+                                  - img
+                                - generic [ref=e217]: 980 Commits
+                  - row "2024, (Directory) 2024.12.31日飙升榜 Jan 1, 20252 years ago" [ref=e218]:
+                    - cell "2024, (Directory)" [ref=e219]:
+                      - generic [ref=e220]:
+                        - img [ref=e221]
+                        - link "2024, (Directory)" [ref=e226] [cursor=pointer]:
+                          - /url: /OpenGithubs/github-daily-rank/tree/main/2024
+                          - text: "2024"
+                    - cell "2024.12.31日飙升榜" [ref=e227]:
+                      - link "2024.12.31日飙升榜" [ref=e230] [cursor=pointer]:
+                        - /url: /OpenGithubs/github-daily-rank/commit/67dc589ab2b347f47458d7b977f18f0ea05b6b47
+                    - cell "Jan 1, 20252 years ago" [ref=e231]:
+                      - generic [ref=e232]: Jan 1, 20252 years ago
+                  - row "2025, (Directory) 2025.12.31日飙升榜 Jan 1, 20263 months ago" [ref=e233]:
+                    - cell "2025, (Directory)" [ref=e234]:
+                      - generic [ref=e235]:
+                        - img [ref=e236]
+                        - link "2025, (Directory)" [ref=e241] [cursor=pointer]:
+                          - /url: /OpenGithubs/github-daily-rank/tree/main/2025
+                          - text: "2025"
+                    - cell "2025.12.31日飙升榜" [ref=e242]:
+                      - link "2025.12.31日飙升榜" [ref=e245] [cursor=pointer]:
+                        - /url: /OpenGithubs/github-daily-rank/commit/5ce22bca10e08e5660e406780cd6833a1744e38d
+                    - cell "Jan 1, 20263 months ago" [ref=e246]:
+                      - generic [ref=e247]: Jan 1, 20263 months ago
+                  - row "2026, (Directory) 2026.04.06日飙升榜 Apr 7, 202616 hours ago" [ref=e248]:
+                    - cell "2026, (Directory)" [ref=e249]:
+                      - generic [ref=e250]:
+                        - img [ref=e251]
+                        - link "2026, (Directory)" [ref=e256] [cursor=pointer]:
+                          - /url: /OpenGithubs/github-daily-rank/tree/main/2026
+                          - text: "2026"
+                    - cell "2026.04.06日飙升榜" [ref=e257]:
+                      - link "2026.04.06日飙升榜" [ref=e260] [cursor=pointer]:
+                        - /url: /OpenGithubs/github-daily-rank/commit/ef71e710c82107380a53e245e8c8345966312076
+                    - cell "Apr 7, 202616 hours ago" [ref=e261]:
+                      - generic [ref=e262]: Apr 7, 202616 hours ago
+                  - row ".gitignore, (File) add ignore Jan 19, 20242 years ago" [ref=e263]:
+                    - cell ".gitignore, (File)" [ref=e264]:
+                      - generic [ref=e265]:
+                        - img [ref=e266]
+                        - link ".gitignore, (File)" [ref=e271] [cursor=pointer]:
+                          - /url: /OpenGithubs/github-daily-rank/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "add ignore" [ref=e272]:
+                      - link "add ignore" [ref=e275] [cursor=pointer]:
+                        - /url: /OpenGithubs/github-daily-rank/commit/879da7fca24eb6c33e40c3c037f579e9fb273191
+                    - cell "Jan 19, 20242 years ago" [ref=e276]:
+                      - generic [ref=e277]: Jan 19, 20242 years ago
+                  - row "README.md, (File) 2026.04.06日飙升榜 Apr 7, 202616 hours ago" [ref=e278]:
+                    - cell "README.md, (File)" [ref=e279]:
+                      - generic [ref=e280]:
+                        - img [ref=e281]
+                        - link "README.md, (File)" [ref=e286] [cursor=pointer]:
+                          - /url: /OpenGithubs/github-daily-rank/blob/main/README.md
+                          - text: README.md
+                    - cell "2026.04.06日飙升榜" [ref=e287]:
+                      - link "2026.04.06日飙升榜" [ref=e290] [cursor=pointer]:
+                        - /url: /OpenGithubs/github-daily-rank/commit/ef71e710c82107380a53e245e8c8345966312076
+                    - cell "Apr 7, 202616 hours ago" [ref=e291]:
+                      - generic [ref=e292]: Apr 7, 202616 hours ago
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - heading "Repository files navigation" [level=2] [ref=e296]
+                - navigation "Repository files" [ref=e297]:
+                  - list [ref=e298]:
+                    - listitem [ref=e299]:
+                      - link "README" [ref=e300] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e302]
+                        - generic [ref=e304]: README
+                - button "Outline" [ref=e305] [cursor=pointer]:
+                  - img [ref=e306]
+              - article [ref=e309]:
+                - generic [ref=e310]:
+                  - heading "2026.04.06 æœ€ä½³å¼€æº�é¡¹ç›®ðŸ”�:hermes-agent" [level=2] [ref=e311]
+                  - 'link "Permalink: 2026.04.06 æœ€ä½³å¼€æº�é¡¹ç›®ðŸ”�:hermes-agent" [ref=e312] [cursor=pointer]':
+                    - /url: "#20260406-æœäåæºéçðÿhermes-agent"
+                    - img [ref=e313]
+                - generic [ref=e315]:
+                  - heading "å…³æ³¨ç¤¾åŒº" [level=2] [ref=e316]: å…³æ³¨ç¤¾åŒº
+                  - 'link "Permalink: å…³æ³¨ç¤¾åŒº" [ref=e317] [cursor=pointer]':
+                    - /url: "#åæçåœº-"
+                    - img [ref=e318]
+                - list [ref=e320]:
+                  - listitem [ref=e321]:
+                    - text: OpenGithubç¤¾åŒºï¼š
+                    - link "https://open.itc.cn/" [ref=e322] [cursor=pointer]:
+                      - /url: https://open.itc.cn/
+                  - listitem [ref=e323]:
+                    - text: "Github :"
+                    - link "https://github.com/OpenGithubs" [ref=e324] [cursor=pointer]:
+                      - /url: https://github.com/OpenGithubs
+                  - listitem [ref=e325]:
+                    - text: "å¾®ä¿¡å…¬ä¼—å�·: >>"
+                    - link "æ�œç´¢å¼€æº�æŽ¨è��å®˜" [ref=e326] [cursor=pointer]:
+                      - /url: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUwOTU1MTQ3MQ==&action=getalbum&album_id=4039839316019691542
+                  - listitem [ref=e327]:
+                    - text: "å¤´æ�¡ç¤¾åŒº: >>"
+                    - link "æ�œç´¢å¼€æº�æŽ¨è��å®˜" [ref=e328] [cursor=pointer]:
+                      - /url: https://www.toutiao.com/c/user/token/MS4wLjABAAAAmvfOws0L3K53LliyFX5JSmIS3b8RmD4dj_uwATFbgu4/
+                  - listitem [ref=e329]:
+                    - text: "çŸ¥ä¹Žç¤¾åŒº: >>"
+                    - link "æ�œç´¢Open Githubç¤¾åŒº" [ref=e330] [cursor=pointer]:
+                      - /url: https://www.zhihu.com/people/OpenGithub
+                  - listitem [ref=e331]:
+                    - text: "è®¢é˜…Github: >>"
+                    - link "Githubå‘¨åˆŠ" [ref=e332] [cursor=pointer]:
+                      - /url: https://github.com/OpenGithubs/weekly
+                    - text: ","
+                    - link "GithubæœˆåˆŠ" [ref=e333] [cursor=pointer]:
+                      - /url: https://github.com/OpenGithubs/monthly
+                  - listitem [ref=e334]:
+                    - strong [ref=e335]: è®¢é˜…æ¦œå�•
+                    - text: ": >>"
+                    - link "Githubæ—¥æ¦œ" [ref=e336] [cursor=pointer]:
+                      - /url: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUwOTU1MTQ3MQ==&action=getalbum&album_id=4065034652468035603#wechat_redirect
+                    - text: ","
+                    - link "Githubå‘¨æ¦œ" [ref=e337] [cursor=pointer]:
+                      - /url: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUwOTU1MTQ3MQ==&action=getalbum&album_id=4065034978231238664#wechat_redirect
+                    - text: ","
+                    - link "Githubæœˆæ¦œ" [ref=e338] [cursor=pointer]:
+                      - /url: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUwOTU1MTQ3MQ==&action=getalbum&album_id=4065035174692438029#wechat_redirect
+                  - listitem [ref=e339]:
+                    - strong [ref=e340]: "å–œæ¬¢åˆ†äº«&å…³æ³¨å¼€æº�, +å¾®ä¿¡: open_github"
+                - blockquote [ref=e341]:
+                  - paragraph [ref=e342]: ðŸ�†2026.04.06æ—¥æ¦œæœ€ä½³é¡¹ç›®:NousResearch/hermes-agent
+                - list [ref=e343]:
+                  - listitem [ref=e344]:
+                    - text: å¼€æº�åœ°å�€ï¼š
+                    - link "https://github.com/NousResearch/hermes-agent" [ref=e345] [cursor=pointer]:
+                      - /url: https://github.com/NousResearch/hermes-agent
+                  - listitem [ref=e346]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-07-23
+                  - listitem [ref=e347]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š27779â�
+                  - listitem [ref=e348]: ðŸ”º æ—¥Starå¢žé•¿é‡�ï¼š1726â�
+                  - listitem [ref=e349]: "ðŸ“� é¡¹ç›®æ��è¿°: The agent that grows with you"
+                - generic [ref=e350]:
+                  - heading "2026.04.06 æ—¥æ¦œæŽ’è¡Œ" [level=2] [ref=e351]: 2026.04.06 æ—¥æ¦œæŽ’è¡Œ
+                  - 'link "Permalink: 2026.04.06 æ—¥æ¦œæŽ’è¡Œ" [ref=e352] [cursor=pointer]':
+                    - /url: "#20260406-ææœæžèœ-"
+                    - img [ref=e353]
+                - table [ref=e356]:
+                  - rowgroup [ref=e357]:
+                    - row "æŽ’å�� é¡¹ç›®å�� Starâ� ä»Šæ—¥å¢žé•¿é‡�" [ref=e358]:
+                      - columnheader "æŽ’å��" [ref=e359]
+                      - columnheader "é¡¹ç›®å��" [ref=e360]
+                      - columnheader "Starâ�" [ref=e361]
+                      - columnheader "ä»Šæ—¥å¢žé•¿é‡�" [ref=e362]
+                  - rowgroup [ref=e363]:
+                    - row "1 NousResearch/hermes-agent 27.8k ðŸ”º1726" [ref=e364]:
+                      - cell "1" [ref=e365]
+                      - cell "NousResearch/hermes-agent" [ref=e366]:
+                        - link "NousResearch/hermes-agent" [ref=e367] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent
+                      - cell "27.8k" [ref=e368]
+                      - cell "ðŸ”º1726" [ref=e369]
+                    - row "2 siddharthvaddem/openscreen 23.8k ðŸ”º1516" [ref=e370]:
+                      - cell "2" [ref=e371]
+                      - cell "siddharthvaddem/openscreen" [ref=e372]:
+                        - link "siddharthvaddem/openscreen" [ref=e373] [cursor=pointer]:
+                          - /url: https://github.com/siddharthvaddem/openscreen
+                      - cell "23.8k" [ref=e374]
+                      - cell "ðŸ”º1516" [ref=e375]
+                    - row "3 block/goose 38k ðŸ”º1232" [ref=e376]:
+                      - cell "3" [ref=e377]
+                      - cell "block/goose" [ref=e378]:
+                        - link "block/goose" [ref=e379] [cursor=pointer]:
+                          - /url: https://github.com/block/goose
+                      - cell "38k" [ref=e380]
+                      - cell "ðŸ”º1232" [ref=e381]
+                    - row "4 msitarzewski/agency-agents 73k ðŸ”º1054" [ref=e382]:
+                      - cell "4" [ref=e383]
+                      - cell "msitarzewski/agency-agents" [ref=e384]:
+                        - link "msitarzewski/agency-agents" [ref=e385] [cursor=pointer]:
+                          - /url: https://github.com/msitarzewski/agency-agents
+                      - cell "73k" [ref=e386]
+                      - cell "ðŸ”º1054" [ref=e387]
+                    - row "5 luongnv89/claude-howto 21.2k ðŸ”º1030" [ref=e388]:
+                      - cell "5" [ref=e389]
+                      - cell "luongnv89/claude-howto" [ref=e390]:
+                        - link "luongnv89/claude-howto" [ref=e391] [cursor=pointer]:
+                          - /url: https://github.com/luongnv89/claude-howto
+                      - cell "21.2k" [ref=e392]
+                      - cell "ðŸ”º1030" [ref=e393]
+                    - row "6 elebumm/RedditVideoMakerBot 9.4k ðŸ”º1000" [ref=e394]:
+                      - cell "6" [ref=e395]
+                      - cell "elebumm/RedditVideoMakerBot" [ref=e396]:
+                        - link "elebumm/RedditVideoMakerBot" [ref=e397] [cursor=pointer]:
+                          - /url: https://github.com/elebumm/RedditVideoMakerBot
+                      - cell "9.4k" [ref=e398]
+                      - cell "ðŸ”º1000" [ref=e399]
+                    - row "7 google-ai-edge/gallery 17.7k ðŸ”º910" [ref=e400]:
+                      - cell "7" [ref=e401]
+                      - cell "google-ai-edge/gallery" [ref=e402]:
+                        - link "google-ai-edge/gallery" [ref=e403] [cursor=pointer]:
+                          - /url: https://github.com/google-ai-edge/gallery
+                      - cell "17.7k" [ref=e404]
+                      - cell "ðŸ”º910" [ref=e405]
+                    - row "8 Yeachan-Heo/oh-my-codex 17.4k ðŸ”º862" [ref=e406]:
+                      - cell "8" [ref=e407]
+                      - cell "Yeachan-Heo/oh-my-codex" [ref=e408]:
+                        - link "Yeachan-Heo/oh-my-codex" [ref=e409] [cursor=pointer]:
+                          - /url: https://github.com/Yeachan-Heo/oh-my-codex
+                      - cell "17.4k" [ref=e410]
+                      - cell "ðŸ”º862" [ref=e411]
+                    - row "9 666ghj/MiroFish 50.6k ðŸ”º724" [ref=e412]:
+                      - cell "9" [ref=e413]
+                      - cell "666ghj/MiroFish" [ref=e414]:
+                        - link "666ghj/MiroFish" [ref=e415] [cursor=pointer]:
+                          - /url: https://github.com/666ghj/MiroFish
+                      - cell "50.6k" [ref=e416]
+                      - cell "ðŸ”º724" [ref=e417]
+                    - row "10 tobi/qmd 18.6k ðŸ”º584" [ref=e418]:
+                      - cell "10" [ref=e419]
+                      - cell "tobi/qmd" [ref=e420]:
+                        - link "tobi/qmd" [ref=e421] [cursor=pointer]:
+                          - /url: https://github.com/tobi/qmd
+                      - cell "18.6k" [ref=e422]
+                      - cell "ðŸ”º584" [ref=e423]
+                - paragraph [ref=e424]:
+                  - strong [ref=e425]: æ³¨
+                  - text: ": æ•°æ�®ç»Ÿè®¡å�‚è§�github:"
+                  - link "https://github.com/OpenGithubs/github-daily-rank" [ref=e426] [cursor=pointer]:
+                    - /url: https://github.com/OpenGithubs/github-daily-rank
+                - generic [ref=e427]:
+                  - heading "2026.04.06 æ—¥æ¦œé¡¹ç›®è¯¦æƒ…" [level=2] [ref=e428]: 2026.04.06 æ—¥æ¦œé¡¹ç›®è¯¦æƒ…
+                  - 'link "Permalink: 2026.04.06 æ—¥æ¦œé¡¹ç›®è¯¦æƒ…" [ref=e429] [cursor=pointer]':
+                    - /url: "#20260406-ææœéçèæƒ-"
+                    - img [ref=e430]
+                - generic [ref=e432]:
+                  - heading "1. https://github.com/NousResearch/hermes-agent" [level=3] [ref=e433]:
+                    - generic [ref=e434]:
+                      - text: "1."
+                      - link "https://github.com/NousResearch/hermes-agent" [ref=e435] [cursor=pointer]:
+                        - /url: https://github.com/NousResearch/hermes-agent
+                  - 'link "Permalink: 1. https://github.com/NousResearch/hermes-agent" [ref=e436] [cursor=pointer]':
+                    - /url: "#1--httpsgithubcomnousresearchhermes-agent-"
+                    - img [ref=e437]
+                - list [ref=e439]:
+                  - listitem [ref=e440]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š27.8k
+                  - listitem [ref=e441]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š1726â�
+                  - listitem [ref=e442]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š7717â�
+                  - listitem [ref=e443]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š25523â�
+                  - listitem [ref=e444]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-07-23
+                  - listitem [ref=e445]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šThe agent that grows with you
+                - generic [ref=e446]:
+                  - heading "2. https://github.com/siddharthvaddem/openscreen" [level=3] [ref=e447]:
+                    - generic [ref=e448]:
+                      - text: "2."
+                      - link "https://github.com/siddharthvaddem/openscreen" [ref=e449] [cursor=pointer]:
+                        - /url: https://github.com/siddharthvaddem/openscreen
+                  - 'link "Permalink: 2. https://github.com/siddharthvaddem/openscreen" [ref=e450] [cursor=pointer]':
+                    - /url: "#2--httpsgithubcomsiddharthvaddemopenscreen-"
+                    - img [ref=e451]
+                - list [ref=e453]:
+                  - listitem [ref=e454]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š23.8k
+                  - listitem [ref=e455]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š1516â�
+                  - listitem [ref=e456]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š8211â�
+                  - listitem [ref=e457]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š8211â�
+                  - listitem [ref=e458]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-10-10
+                  - listitem [ref=e459]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šCreate stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+                - generic [ref=e460]:
+                  - heading "3. https://github.com/block/goose" [level=3] [ref=e461]:
+                    - generic [ref=e462]:
+                      - text: "3."
+                      - link "https://github.com/block/goose" [ref=e463] [cursor=pointer]:
+                        - /url: https://github.com/block/goose
+                  - 'link "Permalink: 3. https://github.com/block/goose" [ref=e464] [cursor=pointer]':
+                    - /url: "#3--httpsgithubcomblockgoose-"
+                    - img [ref=e465]
+                - list [ref=e467]:
+                  - listitem [ref=e468]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š38k
+                  - listitem [ref=e469]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š1232â�
+                  - listitem [ref=e470]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š2344â�
+                  - listitem [ref=e471]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š2344â�
+                  - listitem [ref=e472]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2024-08-24
+                  - listitem [ref=e473]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šan open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+                - generic [ref=e474]:
+                  - heading "4. https://github.com/msitarzewski/agency-agents" [level=3] [ref=e475]:
+                    - generic [ref=e476]:
+                      - text: "4."
+                      - link "https://github.com/msitarzewski/agency-agents" [ref=e477] [cursor=pointer]:
+                        - /url: https://github.com/msitarzewski/agency-agents
+                  - 'link "Permalink: 4. https://github.com/msitarzewski/agency-agents" [ref=e478] [cursor=pointer]':
+                    - /url: "#4--httpsgithubcommsitarzewskiagency-agents-"
+                    - img [ref=e479]
+                - list [ref=e481]:
+                  - listitem [ref=e482]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š73k
+                  - listitem [ref=e483]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š1054â�
+                  - listitem [ref=e484]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š5612â�
+                  - listitem [ref=e485]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š60947â�
+                  - listitem [ref=e486]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-10-13
+                  - listitem [ref=e487]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šA complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+                - generic [ref=e488]:
+                  - heading "5. https://github.com/luongnv89/claude-howto" [level=3] [ref=e489]:
+                    - generic [ref=e490]:
+                      - text: "5."
+                      - link "https://github.com/luongnv89/claude-howto" [ref=e491] [cursor=pointer]:
+                        - /url: https://github.com/luongnv89/claude-howto
+                  - 'link "Permalink: 5. https://github.com/luongnv89/claude-howto" [ref=e492] [cursor=pointer]':
+                    - /url: "#5--httpsgithubcomluongnv89claude-howto-"
+                    - img [ref=e493]
+                - list [ref=e495]:
+                  - listitem [ref=e496]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š21.2k
+                  - listitem [ref=e497]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š1030â�
+                  - listitem [ref=e498]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š8710â�
+                  - listitem [ref=e499]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š14973â�
+                  - listitem [ref=e500]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-11-08
+                  - listitem [ref=e501]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šA visual, example-driven guide to Claude Code â€” from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
+                - generic [ref=e502]:
+                  - heading "6. è§†é¢‘åˆ¶ä½œ https://github.com/elebumm/RedditVideoMakerBot" [level=3] [ref=e503]:
+                    - generic [ref=e504]:
+                      - text: 6. è§†é¢‘åˆ¶ä½œ
+                      - link "https://github.com/elebumm/RedditVideoMakerBot" [ref=e505] [cursor=pointer]:
+                        - /url: https://github.com/elebumm/RedditVideoMakerBot
+                  - 'link "Permalink: 6. è§†é¢‘åˆ¶ä½œ https://github.com/elebumm/RedditVideoMakerBot" [ref=e506] [cursor=pointer]':
+                    - /url: "#6-èéåˆäœ-httpsgithubcomelebummredditvideomakerbot-"
+                    - img [ref=e507]
+                - list [ref=e509]:
+                  - listitem [ref=e510]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š9.4k
+                  - listitem [ref=e511]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š1000â�
+                  - listitem [ref=e512]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š1066â�
+                  - listitem [ref=e513]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š1078â�
+                  - listitem [ref=e514]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2022-05-26
+                  - listitem [ref=e515]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šä¸€ä¸ªæœ‰åˆ›æ„�çš„è§†é¢‘åˆ¶ä½œé¡¹ç›®ã€‚RedditVideoMakerBot å�¯ä»¥ä»Ž Reddit ä¸ŠèŽ·å�–å†…å®¹å¹¶åˆ¶ä½œæˆ�è§†é¢‘ï¼Œä¸ºå†…å®¹åˆ›ä½œè€…æ��ä¾›äº†ä¸€ç§�æ–°çš„åˆ›ä½œæ–¹å¼�ã€‚å¯¹äºŽå–œæ¬¢åˆ¶ä½œè§†é¢‘å’Œæ´»è·ƒåœ¨ Reddit å¹³å�°çš„ç”¨æˆ·æ�¥è¯´ï¼Œè¿™ä¸ªé¡¹ç›®å…·æœ‰å¾ˆå¤§çš„å�¸å¼•åŠ›ã€‚
+                - generic [ref=e516]:
+                  - heading "7. https://github.com/google-ai-edge/gallery" [level=3] [ref=e517]:
+                    - generic [ref=e518]:
+                      - text: "7."
+                      - link "https://github.com/google-ai-edge/gallery" [ref=e519] [cursor=pointer]:
+                        - /url: https://github.com/google-ai-edge/gallery
+                  - 'link "Permalink: 7. https://github.com/google-ai-edge/gallery" [ref=e520] [cursor=pointer]':
+                    - /url: "#7--httpsgithubcomgoogle-ai-edgegallery-"
+                    - img [ref=e521]
+                - list [ref=e523]:
+                  - listitem [ref=e524]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š17.7k
+                  - listitem [ref=e525]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š910â�
+                  - listitem [ref=e526]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š910â�
+                  - listitem [ref=e527]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š910â�
+                  - listitem [ref=e528]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-04-01
+                  - listitem [ref=e529]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šA gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
+                - generic [ref=e530]:
+                  - heading "8. https://github.com/Yeachan-Heo/oh-my-codex" [level=3] [ref=e531]:
+                    - generic [ref=e532]:
+                      - text: "8."
+                      - link "https://github.com/Yeachan-Heo/oh-my-codex" [ref=e533] [cursor=pointer]:
+                        - /url: https://github.com/Yeachan-Heo/oh-my-codex
+                  - 'link "Permalink: 8. https://github.com/Yeachan-Heo/oh-my-codex" [ref=e534] [cursor=pointer]':
+                    - /url: "#8--httpsgithubcomyeachan-heooh-my-codex-"
+                    - img [ref=e535]
+                - list [ref=e537]:
+                  - listitem [ref=e538]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š17.4k
+                  - listitem [ref=e539]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š862â�
+                  - listitem [ref=e540]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š6017â�
+                  - listitem [ref=e541]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š6017â�
+                  - listitem [ref=e542]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2026-02-02
+                  - listitem [ref=e543]: "ðŸ“� é¡¹ç›®æ��è¿°ï¼šOmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more."
+                - generic [ref=e544]:
+                  - heading "9. https://github.com/666ghj/MiroFish" [level=3] [ref=e545]:
+                    - generic [ref=e546]:
+                      - text: "9."
+                      - link "https://github.com/666ghj/MiroFish" [ref=e547] [cursor=pointer]:
+                        - /url: https://github.com/666ghj/MiroFish
+                  - 'link "Permalink: 9. https://github.com/666ghj/MiroFish" [ref=e548] [cursor=pointer]':
+                    - /url: "#9--httpsgithubcom666ghjmirofish-"
+                    - img [ref=e549]
+                - list [ref=e551]:
+                  - listitem [ref=e552]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š50.6k
+                  - listitem [ref=e553]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š724â�
+                  - listitem [ref=e554]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š3712â�
+                  - listitem [ref=e555]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š14889â�
+                  - listitem [ref=e556]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-11-26
+                  - listitem [ref=e557]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šA Simple and Universal Swarm Intelligence Engine, Predicting Anything. ç®€æ´�é€šç”¨çš„ç¾¤ä½“æ™ºèƒ½å¼•æ“Žï¼Œé¢„æµ‹ä¸‡ç‰©
+                - generic [ref=e558]:
+                  - heading "10. https://github.com/tobi/qmd" [level=3] [ref=e559]:
+                    - generic [ref=e560]:
+                      - text: "10."
+                      - link "https://github.com/tobi/qmd" [ref=e561] [cursor=pointer]:
+                        - /url: https://github.com/tobi/qmd
+                  - 'link "Permalink: 10. https://github.com/tobi/qmd" [ref=e562] [cursor=pointer]':
+                    - /url: "#10--httpsgithubcomtobiqmd-"
+                    - img [ref=e563]
+                - list [ref=e565]:
+                  - listitem [ref=e566]: â� æ€»æ˜Ÿæ ‡æ•°é‡�ï¼š18.6k
+                  - listitem [ref=e567]: ðŸ”º æ—¥å¢žé•¿æ•°é‡�ï¼š584â�
+                  - listitem [ref=e568]: ðŸ”º ä¸Šå‘¨å¢žé•¿æ•°é‡�ï¼š1222â�
+                  - listitem [ref=e569]: ðŸ”º ä¸Šæœˆå¢žé•¿æ•°é‡�ï¼š5211â�
+                  - listitem [ref=e570]: ðŸ“… å¼€æº�æ—¶é—´ï¼š2025-12-08
+                  - listitem [ref=e571]: ðŸ“� é¡¹ç›®æ��è¿°ï¼šmini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local
+                - separator [ref=e572]
+                - generic [ref=e573]:
+                  - heading "æ›´å¤šGithubå¼€æº�é¡¹ç›®,è¯·å…³æ³¨å¾®ä¿¡&å…¬ä¼—å�·" [level=2] [ref=e574]
+                  - 'link "Permalink: æ›´å¤šGithubå¼€æº�é¡¹ç›®,è¯·å…³æ³¨å¾®ä¿¡&å…¬ä¼—å�·" [ref=e575] [cursor=pointer]':
+                    - /url: "#æåšgithubåæºéçèåæåäåäå"
+                    - img [ref=e576]
+                - text: æ¬¢è¿Žæ·»åŠ å¾®ä¿¡å¥½å�‹å…±å�Œå¦ä¹ è¿›æ¥ï¼Œå¾®ä¿¡å�·ï¼šopen_github
+                - text: â–²å…³æ³¨å…¬ä¼—å�·"å¼€æº�æŽ¨è��å®˜"ï¼Œæ´žå¯ŸGithubå¼€æº�ç¤¾åŒºåŠ¨æ€�
+                - link [ref=e579] [cursor=pointer]:
+                  - /url: https://camo.githubusercontent.com/09faed1d96acbf832793208ab67ca7240712c660756021ec994cbb3a74b887a8/687474703a2f2f70686f746f63646e2e74762e736f68752e636f6d2f696d672f715f6d696e692f32303235303632302f7069635f6f72675f62623566396431632d383535312d346638652d383731392d6237323961346532653365342e706e67
+                - text: ¯ŸGithubå¼€æº�ç¤¾åŒºåŠ¨æ€�
+                - link [ref=e581] [cursor=pointer]:
+                  - /url: https://camo.githubusercontent.com/09faed1d96acbf832793208ab67ca7240712c660756021ec994cbb3a74b887a8/687474703a2f2f70686f746f63646e2e74762e736f68752e636f6d2f696d672f715f6d696e692f32303235303632302f7069635f6f72675f62623566396431632d383535312d346638652d383731392d6237323961346532653365342e706e67
+                - text: p://photocdn.tv.sohu.com/img/q_mini/20250620/pic_org_bb5f9d1c-8551-4f8e-8719-b729a4e2e3e4.png" alt=""> d1c-8551-4f8e-8719-b729a4e2e3e4.png" alt=""> å’Œè·¨ç½‘ç»œå·¥ä½œçš„æ•ˆçŽ‡ã€‚
+                - separator [ref=e582]
+                - generic [ref=e583]:
+                  - heading "æ›´å¤šGithubå¼€æº�é¡¹ç›®,è¯·å…³æ³¨å¾®ä¿¡&å…¬ä¼—å�·" [level=2] [ref=e584]
+                  - 'link "Permalink: æ›´å¤šGithubå¼€æº�é¡¹ç›®,è¯·å…³æ³¨å¾®ä¿¡&å…¬ä¼—å�·" [ref=e585] [cursor=pointer]':
+                    - /url: "#æåšgithubåæºéçèåæåäåäå-1"
+                    - img [ref=e586]
+                - text: æ¬¢è¿Žæ·»åŠ å¾®ä¿¡å¥½å�‹å…±å�Œå¦ä¹ è¿›æ¥ï¼Œå¾®ä¿¡å�·ï¼šopen_github
+                - text: â–²å…³æ³¨å…¬ä¼—å�·"å¼€æº�æŽ¨è��å®˜"ï¼Œæ´žå¯ŸGithubå¼€æº�ç¤¾åŒºåŠ¨æ€�
+                - link [ref=e589] [cursor=pointer]:
+                  - /url: https://camo.githubusercontent.com/09faed1d96acbf832793208ab67ca7240712c660756021ec994cbb3a74b887a8/687474703a2f2f70686f746f63646e2e74762e736f68752e636f6d2f696d672f715f6d696e692f32303235303632302f7069635f6f72675f62623566396431632d383535312d346638652d383731392d6237323961346532653365342e706e67
+                - text: 50px;height:250px;" src="
+                - link "http://photocdn.tv.sohu.com/img/q_mini/20250620/pic_org_bb5f9d1c-8551-4f8e-8719-b729a4e2e3e4.png" [ref=e590] [cursor=pointer]:
+                  - /url: http://photocdn.tv.sohu.com/img/q_mini/20250620/pic_org_bb5f9d1c-8551-4f8e-8719-b729a4e2e3e4.png
+                - text: "\" alt=\"\">"
+        - generic [ref=e594]:
+          - generic [ref=e597]:
+            - heading "About" [level=2] [ref=e598]
+            - paragraph [ref=e599]: Github开源项目:每天📈飙升榜 top10,每天早上8:30更新
+            - generic [ref=e600]:
+              - img [ref=e601]
+              - link "open.itc.cn/" [ref=e604] [cursor=pointer]:
+                - /url: https://open.itc.cn/
+            - heading "Topics" [level=3] [ref=e605]
+            - generic [ref=e607]:
+              - link "github" [ref=e608] [cursor=pointer]:
+                - /url: /topics/github
+              - link "rank" [ref=e609] [cursor=pointer]:
+                - /url: /topics/rank
+              - link "daily" [ref=e610] [cursor=pointer]:
+                - /url: /topics/daily
+              - link "trends" [ref=e611] [cursor=pointer]:
+                - /url: /topics/trends
+              - link "github-rank" [ref=e612] [cursor=pointer]:
+                - /url: /topics/github-rank
+            - heading "Resources" [level=3] [ref=e613]
+            - link "Readme" [ref=e615] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e616]
+              - text: Readme
+            - link "Activity" [ref=e619] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/activity
+              - img [ref=e620]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e622]
+            - link "859 stars" [ref=e624] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/stargazers
+              - img [ref=e625]
+              - strong [ref=e627]: "859"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e628]
+            - link "21 watching" [ref=e630] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/watchers
+              - img [ref=e631]
+              - strong [ref=e633]: "21"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e634]
+            - link "44 forks" [ref=e636] [cursor=pointer]:
+              - /url: /OpenGithubs/github-daily-rank/forks
+              - img [ref=e637]
+              - strong [ref=e639]: "44"
+              - text: forks
+            - link "Report repository" [ref=e641] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FOpenGithubs%2Fgithub-daily-rank&report=OpenGithubs+%28user%29
+          - generic [ref=e643]:
+            - heading "Releases" [level=2] [ref=e644]:
+              - link "Releases" [ref=e645] [cursor=pointer]:
+                - /url: /OpenGithubs/github-daily-rank/releases
+            - generic [ref=e646]: No releases published
+          - generic "Loading latest packages" [ref=e649]:
+            - heading "Packages" [level=2] [ref=e650]:
+              - link "Packages" [ref=e651] [cursor=pointer]:
+                - /url: /users/OpenGithubs/packages?repo_name=github-daily-rank
+          - generic [ref=e662]:
+            - heading "Contributors 1" [level=2] [ref=e663]:
+              - link "Contributors 1" [ref=e664] [cursor=pointer]:
+                - /url: /OpenGithubs/github-daily-rank/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e665]
+            - list [ref=e666]:
+              - listitem [ref=e667]:
+                - link "@OpenGithubs" [ref=e668] [cursor=pointer]:
+                  - /url: https://github.com/OpenGithubs
+                  - img "@OpenGithubs" [ref=e669]
+                - link "OpenGithubs OpenGithubs" [ref=e671] [cursor=pointer]:
+                  - /url: https://github.com/OpenGithubs
+                  - strong [ref=e672]: OpenGithubs
+                  - text: OpenGithubs
+  - contentinfo [ref=e674]:
+    - heading "Footer" [level=2] [ref=e675]
+    - generic [ref=e676]:
+      - generic [ref=e677]:
+        - link "GitHub Homepage" [ref=e678] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e679]
+        - generic [ref=e681]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e682]:
+        - heading "Footer navigation" [level=3] [ref=e683]
+        - list "Footer navigation" [ref=e684]:
+          - listitem [ref=e685]:
+            - link "Terms" [ref=e686] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e687]:
+            - link "Privacy" [ref=e688] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e689]:
+            - link "Security" [ref=e690] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e691]:
+            - link "Status" [ref=e692] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e693]:
+            - link "Community" [ref=e694] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e695]:
+            - link "Docs" [ref=e696] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e697]:
+            - link "Contact" [ref=e698] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e699]:
+            - button "Manage cookies" [ref=e701] [cursor=pointer]
+          - listitem [ref=e702]:
+            - button "Do not share my personal information" [ref=e704] [cursor=pointer]

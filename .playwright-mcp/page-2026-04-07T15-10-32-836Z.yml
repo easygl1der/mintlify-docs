@@ -1,0 +1,379 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - link "Yitwah Notes home pagelight logodark logo" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e13]: Yitwah Notes home page
+          - img "light logo" [ref=e14]
+          - img "dark logo" [ref=e15]
+        - button "Open search" [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e19]
+            - generic [ref=e22]: Search...
+          - generic [ref=e23]: ⌘K
+        - generic [ref=e24]:
+          - navigation:
+            - list
+          - button "Toggle dark mode" [ref=e26]:
+            - img [ref=e27]
+            - img [ref=e34]
+        - generic [ref=e36]:
+          - button "Open search" [ref=e37]:
+            - text: Search...
+            - img [ref=e38]
+          - button "More actions" [ref=e39]:
+            - img [ref=e40]
+      - button "Navigation 2026-04-06 2026-04-06 GitHub Daily Rank" [ref=e41]:
+        - generic [ref=e42]:
+          - text: Navigation
+          - img [ref=e43]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - text: 2026-04-06
+            - img [ref=e47]
+          - generic [ref=e49]: 2026-04-06 GitHub Daily Rank
+    - generic [ref=e51]:
+      - link "文档" [ref=e52] [cursor=pointer]:
+        - /url: /
+        - text: 文档
+      - link "社交热点" [ref=e53] [cursor=pointer]:
+        - /url: /social-media/2026-04-04/daily-summary
+        - text: 社交热点
+      - link "GitHub Trending" [ref=e54] [cursor=pointer]:
+        - /url: /trending/2026-04-01
+        - text: GitHub Trending
+      - link "我的笔记" [ref=e55] [cursor=pointer]:
+        - /url: /my-notes
+        - text: 我的笔记
+  - generic [ref=e56]:
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - heading "2026年4月" [level=5] [ref=e63]
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - button "Toggle 2026-04-01 section" [ref=e66]:
+              - generic [ref=e67]: 2026-04-01
+              - img [ref=e68]
+          - listitem [ref=e70]:
+            - button "Toggle 2026-04-02 section" [ref=e71]:
+              - generic [ref=e72]: 2026-04-02
+              - img [ref=e73]
+          - listitem [ref=e75]:
+            - button "Toggle 2026-04-03 section" [ref=e76]:
+              - generic [ref=e77]: 2026-04-03
+              - img [ref=e78]
+          - listitem [ref=e80]:
+            - button "Toggle 2026-04-04 section" [ref=e81]:
+              - generic [ref=e82]: 2026-04-04
+              - img [ref=e83]
+          - listitem [ref=e85]:
+            - button "Toggle 2026-04-05 section" [ref=e86]:
+              - generic [ref=e87]: 2026-04-05
+              - img [ref=e88]
+          - listitem [ref=e90]:
+            - button "Toggle 2026-04-06 section" [expanded] [ref=e91]:
+              - generic [ref=e92]: 2026-04-06
+              - img [ref=e93]
+            - list [ref=e95]:
+              - listitem [ref=e96]:
+                - link "2026-04-06 GitHub Daily Rank" [ref=e97] [cursor=pointer]:
+                  - /url: /trending/2026-04-06
+                  - generic [ref=e99]: 2026-04-06 GitHub Daily Rank
+              - listitem [ref=e100]:
+                - link "VibeVoice" [ref=e101] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/VibeVoice
+                  - generic [ref=e103]: VibeVoice
+              - listitem [ref=e104]:
+                - link "Oh my claudecode" [ref=e105] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/oh-my-claudecode
+                  - generic [ref=e107]: Oh my claudecode
+              - listitem [ref=e108]:
+                - link "Deer flow" [ref=e109] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/deer-flow
+                  - generic [ref=e111]: Deer flow
+              - listitem [ref=e112]:
+                - link "Last30days skill" [ref=e113] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/last30days-skill
+                  - generic [ref=e115]: Last30days skill
+              - listitem [ref=e116]:
+                - link "Hermes agent" [ref=e117] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/hermes-agent
+                  - generic [ref=e119]: Hermes agent
+              - listitem [ref=e120]:
+                - link "Claude code best practice" [ref=e121] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/claude-code-best-practice
+                  - generic [ref=e123]: Claude code best practice
+              - listitem [ref=e124]:
+                - link "Deep Live Cam" [ref=e125] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/Deep-Live-Cam
+                  - generic [ref=e127]: Deep Live Cam
+              - listitem [ref=e128]:
+                - link "Learn claude code" [ref=e129] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/learn-claude-code
+                  - generic [ref=e131]: Learn claude code
+              - listitem [ref=e132]:
+                - link "Agency agents" [ref=e133] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/agency-agents
+                  - generic [ref=e135]: Agency agents
+              - listitem [ref=e136]:
+                - link "Get shit done" [ref=e137] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/get-shit-done
+                  - generic [ref=e139]: Get shit done
+              - listitem [ref=e140]:
+                - link "Goose" [ref=e141] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/goose
+                  - generic [ref=e143]: Goose
+              - listitem [ref=e144]:
+                - link "Oh my codex" [ref=e145] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/oh-my-codex
+                  - generic [ref=e147]: Oh my codex
+              - listitem [ref=e148]:
+                - link "Onyx" [ref=e149] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/onyx
+                  - generic [ref=e151]: Onyx
+              - listitem [ref=e152]:
+                - link "Openscreen" [ref=e153] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/openscreen
+                  - generic [ref=e155]: Openscreen
+              - listitem [ref=e156]:
+                - link "Sherlock" [ref=e157] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/sherlock
+                  - generic [ref=e159]: Sherlock
+              - listitem [ref=e160]:
+                - link "Skill Seekers" [ref=e161] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/Skill_Seekers
+                  - generic [ref=e163]: Skill Seekers
+              - listitem [ref=e164]:
+                - link "Superpowers" [ref=e165] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/superpowers
+                  - generic [ref=e167]: Superpowers
+              - listitem [ref=e168]:
+                - link "Timesfm" [ref=e169] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/timesfm
+                  - generic [ref=e171]: Timesfm
+              - listitem [ref=e172]:
+                - link "TradingAgents CN" [ref=e173] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/TradingAgents-CN
+                  - generic [ref=e175]: TradingAgents CN
+              - listitem [ref=e176]:
+                - link "Llama.cpp" [ref=e177] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/llama.cpp
+                  - generic [ref=e179]: Llama.cpp
+              - listitem [ref=e180]:
+                - link "Mlx vlm" [ref=e181] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/mlx-vlm
+                  - generic [ref=e183]: Mlx vlm
+              - listitem [ref=e184]:
+                - link "Agent browser" [ref=e185] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/agent-browser
+                  - generic [ref=e187]: Agent browser
+              - listitem [ref=e188]:
+                - link "Claude howto" [ref=e189] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/claude-howto
+                  - generic [ref=e191]: Claude howto
+              - listitem [ref=e192]:
+                - link "Claude mem" [ref=e193] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/claude-mem
+                  - generic [ref=e195]: Claude mem
+              - listitem [ref=e196]:
+                - link "Frontend slides" [ref=e197] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/frontend-slides
+                  - generic [ref=e199]: Frontend slides
+              - listitem [ref=e200]:
+                - link "Fff.nvim" [ref=e201] [cursor=pointer]:
+                  - /url: /trending/2026-04-06/fff.nvim
+                  - generic [ref=e203]: Fff.nvim
+      - generic [ref=e204]:
+        - heading "2026年3月" [level=5] [ref=e206]
+        - list [ref=e207]:
+          - listitem [ref=e208]:
+            - button "Toggle 2026-03-29 section" [ref=e209]:
+              - generic [ref=e210]: 2026-03-29
+              - img [ref=e211]
+          - listitem [ref=e213]:
+            - button "Toggle 2026-03-30 section" [ref=e214]:
+              - generic [ref=e215]: 2026-03-30
+              - img [ref=e216]
+          - listitem [ref=e218]:
+            - button "Toggle 2026-03-31 section" [ref=e219]:
+              - generic [ref=e220]: 2026-03-31
+              - img [ref=e221]
+    - generic [ref=e224]:
+      - generic [ref=e227]:
+        - button "On this page" [ref=e228]:
+          - img [ref=e229]
+          - text: On this page
+        - list [ref=e231]:
+          - listitem [ref=e232]:
+            - link "2026-04-06 GitHub Daily Rank" [ref=e233] [cursor=pointer]:
+              - /url: "#2026-04-06-github-daily-rank"
+          - listitem [ref=e234]:
+            - link "Top 10 排行榜" [ref=e235] [cursor=pointer]:
+              - /url: "#top-10-%E6%8E%92%E8%A1%8C%E6%A6%9C"
+      - generic [ref=e236]:
+        - banner [ref=e237]:
+          - generic [ref=e238]:
+            - generic [ref=e239]: 2026-04-06
+            - generic [ref=e240]:
+              - heading "2026-04-06 GitHub Daily Rank" [level=1] [ref=e241]
+              - generic [ref=e242]:
+                - button "Copy page" [ref=e243]:
+                  - generic [ref=e244]:
+                    - img [ref=e245]
+                    - text: Copy page
+                - button "More actions" [ref=e248]:
+                  - img [ref=e249]
+          - paragraph [ref=e252]: GitHub 每日飙升榜 · 2026-04-06
+          - generic [ref=e253]:
+            - button "Copy page" [ref=e254]:
+              - generic [ref=e255]:
+                - img [ref=e256]
+                - text: Copy page
+            - button "More actions" [ref=e259]:
+              - img [ref=e260]
+        - generic [ref=e262]:
+          - heading "Navigate to header 2026-04-06 GitHub Daily Rank" [level=1] [ref=e263]:
+            - link "Navigate to header" [ref=e265] [cursor=pointer]:
+              - /url: "#2026-04-06-github-daily-rank"
+              - img [ref=e267]
+            - text: 2026-04-06 GitHub Daily Rank
+          - blockquote [ref=e269]:
+            - generic [ref=e270]:
+              - text: "数据来源:"
+              - link "OpenGithubs/github-daily-rank" [ref=e271] [cursor=pointer]:
+                - /url: https://github.com/OpenGithubs/github-daily-rank
+          - heading "Navigate to header Top 10 排行榜" [level=2] [ref=e272]:
+            - link "Navigate to header" [ref=e274] [cursor=pointer]:
+              - /url: "#top-10-排行榜"
+              - img [ref=e276]
+            - text: Top 10 排行榜
+          - table [ref=e280]:
+            - rowgroup [ref=e281]:
+              - row "项目 今日新增 总 Stars 分析报告" [ref=e282]:
+                - columnheader "项目" [ref=e283]
+                - columnheader "今日新增" [ref=e284]
+                - columnheader "总 Stars" [ref=e285]
+                - columnheader "分析报告" [ref=e286]
+            - rowgroup [ref=e287]:
+              - row "microsoft/VibeVoice ⭐+1491 26.8k 📄 查看报告" [ref=e288]:
+                - cell "microsoft/VibeVoice" [ref=e289]:
+                  - link "microsoft/VibeVoice" [ref=e290] [cursor=pointer]:
+                    - /url: https://github.com/microsoft/VibeVoice
+                - cell "⭐+1491" [ref=e291]
+                - cell "26.8k" [ref=e292]
+                - cell "📄 查看报告" [ref=e293]:
+                  - link "📄 查看报告" [ref=e294] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/VibeVoice
+              - row "Yeachan-Heo/oh-my-claudecode ⭐+1308 15.8k 📄 查看报告" [ref=e295]:
+                - cell "Yeachan-Heo/oh-my-claudecode" [ref=e296]:
+                  - link "Yeachan-Heo/oh-my-claudecode" [ref=e297] [cursor=pointer]:
+                    - /url: https://github.com/Yeachan-Heo/oh-my-claudecode
+                - cell "⭐+1308" [ref=e298]
+                - cell "15.8k" [ref=e299]
+                - cell "📄 查看报告" [ref=e300]:
+                  - link "📄 查看报告" [ref=e301] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/oh-my-claudecode
+              - row "bytedance/deer-flow ⭐+1247 52.4k 📄 查看报告" [ref=e302]:
+                - cell "bytedance/deer-flow" [ref=e303]:
+                  - link "bytedance/deer-flow" [ref=e304] [cursor=pointer]:
+                    - /url: https://github.com/bytedance/deer-flow
+                - cell "⭐+1247" [ref=e305]
+                - cell "52.4k" [ref=e306]
+                - cell "📄 查看报告" [ref=e307]:
+                  - link "📄 查看报告" [ref=e308] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/deer-flow
+              - row "mvanhorn/last30days-skill ⭐+1196 15.1k 📄 查看报告" [ref=e309]:
+                - cell "mvanhorn/last30days-skill" [ref=e310]:
+                  - link "mvanhorn/last30days-skill" [ref=e311] [cursor=pointer]:
+                    - /url: https://github.com/mvanhorn/last30days-skill
+                - cell "⭐+1196" [ref=e312]
+                - cell "15.1k" [ref=e313]
+                - cell "📄 查看报告" [ref=e314]:
+                  - link "📄 查看报告" [ref=e315] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/last30days-skill
+              - row "NousResearch/hermes-agent ⭐+1183 16.3k 📄 查看报告" [ref=e316]:
+                - cell "NousResearch/hermes-agent" [ref=e317]:
+                  - link "NousResearch/hermes-agent" [ref=e318] [cursor=pointer]:
+                    - /url: https://github.com/NousResearch/hermes-agent
+                - cell "⭐+1183" [ref=e319]
+                - cell "16.3k" [ref=e320]
+                - cell "📄 查看报告" [ref=e321]:
+                  - link "📄 查看报告" [ref=e322] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/hermes-agent
+              - row "shanraisshan/claude-code-best-practice ⭐+1015 24.2k 📄 查看报告" [ref=e323]:
+                - cell "shanraisshan/claude-code-best-practice" [ref=e324]:
+                  - link "shanraisshan/claude-code-best-practice" [ref=e325] [cursor=pointer]:
+                    - /url: https://github.com/shanraisshan/claude-code-best-practice
+                - cell "⭐+1015" [ref=e326]
+                - cell "24.2k" [ref=e327]
+                - cell "📄 查看报告" [ref=e328]:
+                  - link "📄 查看报告" [ref=e329] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/claude-code-best-practice
+              - row "hacksider/Deep-Live-Cam ⭐+971 85.1k 📄 查看报告" [ref=e330]:
+                - cell "hacksider/Deep-Live-Cam" [ref=e331]:
+                  - link "hacksider/Deep-Live-Cam" [ref=e332] [cursor=pointer]:
+                    - /url: https://github.com/hacksider/Deep-Live-Cam
+                - cell "⭐+971" [ref=e333]
+                - cell "85.1k" [ref=e334]
+                - cell "📄 查看报告" [ref=e335]:
+                  - link "📄 查看报告" [ref=e336] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/Deep-Live-Cam
+              - row "shareAI-lab/learn-claude-code ⭐+867 42.6k 📄 查看报告" [ref=e337]:
+                - cell "shareAI-lab/learn-claude-code" [ref=e338]:
+                  - link "shareAI-lab/learn-claude-code" [ref=e339] [cursor=pointer]:
+                    - /url: https://github.com/shareAI-lab/learn-claude-code
+                - cell "⭐+867" [ref=e340]
+                - cell "42.6k" [ref=e341]
+                - cell "📄 查看报告" [ref=e342]:
+                  - link "📄 查看报告" [ref=e343] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/learn-claude-code
+              - row "msitarzewski/agency-agents ⭐+639 65.5k 📄 查看报告" [ref=e344]:
+                - cell "msitarzewski/agency-agents" [ref=e345]:
+                  - link "msitarzewski/agency-agents" [ref=e346] [cursor=pointer]:
+                    - /url: https://github.com/msitarzewski/agency-agents
+                - cell "⭐+639" [ref=e347]
+                - cell "65.5k" [ref=e348]
+                - cell "📄 查看报告" [ref=e349]:
+                  - link "📄 查看报告" [ref=e350] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/agency-agents
+              - row "gsd-build/get-shit-done ⭐+627 44.5k 📄 查看报告" [ref=e351]:
+                - cell "gsd-build/get-shit-done" [ref=e352]:
+                  - link "gsd-build/get-shit-done" [ref=e353] [cursor=pointer]:
+                    - /url: https://github.com/gsd-build/get-shit-done
+                - cell "⭐+627" [ref=e354]
+                - cell "44.5k" [ref=e355]
+                - cell "📄 查看报告" [ref=e356]:
+                  - link "📄 查看报告" [ref=e357] [cursor=pointer]:
+                    - /url: /trending/2026-04-06/get-shit-done
+          - separator [ref=e358]
+          - emphasis [ref=e360]:
+            - text: "数据来源:"
+            - link "github-daily-rank" [ref=e361] [cursor=pointer]:
+              - /url: https://github.com/OpenGithubs/github-daily-rank
+            - text: · 每日早上 8:30 更新
+        - generic [ref=e362]:
+          - link "2026-04-05 sherlock 技术调研报告" [ref=e363] [cursor=pointer]:
+            - /url: /trending/2026-04-05/sherlock
+            - img [ref=e364]
+            - text: 2026-04-05 sherlock 技术调研报告
+          - link "VibeVoice" [ref=e366] [cursor=pointer]:
+            - /url: /trending/2026-04-06/VibeVoice
+            - text: VibeVoice
+            - img [ref=e367]
+        - generic [ref=e373]:
+          - textbox [ref=e374]:
+            - /placeholder: Ask a question...
+          - generic [ref=e375]: ⌘I
+          - button [disabled] [ref=e376]:
+            - img [ref=e377]
+        - contentinfo [ref=e379]:
+          - link "github" [ref=e381] [cursor=pointer]:
+            - /url: https://github.com/easygl1der
+            - text: github
+            - img [ref=e382]
+          - link "Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e385] [cursor=pointer]:
+            - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=undefined
+            - text: Powered by
+            - img [ref=e386]
+            - text: This documentation is built and hosted on Mintlify, a developer documentation platform
