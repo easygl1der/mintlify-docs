@@ -29,7 +29,9 @@
             "pages": [
               "concepts/overview",
               "concepts/knowledge-management",
-              "concepts/markdown-best-practices"
+              "concepts/markdown-best-practices",
+              "concepts/navigation-config",
+              "concepts/mdx-components"
             ]
           },
           {

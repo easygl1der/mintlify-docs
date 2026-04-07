@@ -1,0 +1,242 @@
+---
+title: "导航配置详解"
+description: "docs.json 每个字段的完整说明 — Mintlify 导航架构核心"
+---
+
+# 导航配置详解
+
+`docs.json` 是 Mintlify 的**核心配置文件**，控制站点的名称、颜色、导航结构和 AI 助手选项。本页逐字段解析。
+
+`★ Insight ─────────────────────────────────────`**
+docs.json 采用"声明式配置"替代传统代码——你不需要写任何程序逻辑，只需声明"页面有哪些、分组是什么顺序"，Mintlify 的构建系统自动生成完整站点。修改后**无需重启**，热更新立即生效（本地开发时）。
+`─────────────────────────────────────────────────`
+
+## 完整字段一览
+
+```json
+{
+  "$schema": "https://mintlify.com/docs.json",   // IDE 自动补全（可选）
+  "theme": "mint",                               // 固定值，勿修改
+  "name": "Yitwah Notes",                       // 浏览器标签页标题
+  "logo": { "light": "", "dark": "" },          // 导航栏 Logo
+  "favicon": "/images/favicon.svg",              // 浏览器 Tab 图标
+  "colors": {                                    // 主题色配置
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "navigation": { "tabs": [...] },              // ⭐ 导航结构（最关键）
+  "footer": { "socials": {...} },              // 页脚社交链接
+  "contextual": { "options": [...] }            // AI 助手配置
+}
+```
+
+## navigation.tabs — 顶部 Tab 配置
+
+**这是最重要的字段**，定义站点的顶级分区。
+
+```json
+"navigation": {
+  "tabs": [
+    {
+      "tab": "文档",                    // Tab 标签文字
+      "groups": [
+        {
+          "group": "入门",              // 分组标题
+          "pages": [
+            "index",                   // 页面路径（无扩展名）
+            "quickstart"
+          ]
+        },
+        {
+          "group": "概念",
+          "pages": [
+            "concepts/overview",
+            "concepts/knowledge-management"
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### 三种页面引用方式
+
+```json
+// 方式一：字符串 — 直接引用（最常用）
+"pages": ["index", "quickstart"]
+
+// 方式二：对象 — 带子分组（可折叠）
+"pages": [
+  {
+    "group": "2026年4月",
+    "expanded": false,          // 默认折叠
+    "pages": [
+      "trending/2026-04-04/index",
+      "trending/2026-04-04/agent-browser"
+    ]
+  }
+]
+
+// 方式三：混用（同一分组下可以同时有页面和子分组）
+"pages": [
+  "index",
+  {
+    "group": "子分组",
+    "expanded": true,
+    "pages": ["page1", "page2"]
+  }
+]
+```
+
+### 路径规则
+
+| 规则 | 示例 |
+|------|------|
+| 相对于项目根目录 | `"concepts/overview"` 对应 `concepts/overview.mdx` |
+| 不带文件扩展名 | `"index"` 而非 `"index.mdx"` |
+| 省略 `pages/` 前缀 | 直接写文件名 |
+
+### 顺序决定显示顺序
+
+```json
+// 第一个出现在最上方
+"pages": ["alpha", "beta", "gamma"]
+// 显示顺序：alpha → beta → gamma
+```
+
+## logo 和 favicon
+
+```json
+"logo": {
+  "light": "/images/logo-light.svg",   // 亮色模式下显示
+  "dark": "/images/logo-dark.svg"       // 暗色模式下显示
+}
+```
+
+如果 Logo 文件相同，可以只写一个 key，或者两个 key 共用同一个值（像本仓库这样）。
+
+## colors — 主题色
+
+```json
+"colors": {
+  "primary": "#16A34A",    // 主色调 — 链接、按钮、高亮
+  "light": "#07C983",      // 亮色主题下的强调色
+  "dark": "#15803D"        // 暗色主题下的强调色
+}
+```
+
+**primary 色**会影响：侧边栏当前页面高亮、链接颜色、内置组件（如 `<Note>`、`<Tip>`）的左边框。
+
+## footer — 页脚
+
+```json
+"footer": {
+  "socials": {
+    "github": "https://github.com/easygl1der",
+    "twitter": "https://twitter.com/username"
+  }
+}
+```
+
+支持的社交平台：`github`, `twitter`, `linkedin`, `youtube`, `discord`。
+
+## contextual — AI 助手配置
+
+```json
+"contextual": {
+  "options": ["copy", "view", "claude"]
+}
+```
+
+| 选项 | 功能 |
+|------|------|
+| `"copy"` | 代码块右上角显示复制按钮 |
+| `"view"` | 代码块显示"查看源码"选项 |
+| `"claude"` | 启用 Mintlify 内置 AI 问答（需 Pro） |
+
+`★ Insight ─────────────────────────────────────`**
+`"claude"` 选项启用的是 Mintlify 自己托管的 AI 助手，它在**构建时注入页面内容**到 AI 上下文中。这意味着：每次添加/修改内容后，需要**重新部署**（push 到 GitHub），AI 才能看到新内容。本地 `mint dev` 时 AI 功能不可用。
+`─────────────────────────────────────────────────`
+
+## 本仓库 docs.json 完整解析
+
+以下是从本仓库 `docs.json` 中提取的真实配置示例：
+
+```json
+{
+  "tab": "文档",           // 第一个 Tab
+  "groups": [
+    {
+      "group": "入门",     // 第一个分组
+      "pages": ["index", "quickstart"]
+    },
+    {
+      "group": "概念",
+      "pages": [
+        "concepts/overview",
+        "concepts/knowledge-management",
+        "concepts/markdown-best-practices"
+      ]
+    },
+    {
+      "group": "实践指南",
+      "pages": [
+        "how-to/organize-notes",
+        "how-to/deploy-with-mintlify"
+      ]
+    }
+  ]
+}
+```
+
+## 常见错误排查
+
+| 症状 | 原因 | 解决方法 |
+|------|------|---------|
+| 页面不出现在导航中 | 路径拼写错误或遗漏扩展名 | 检查 `docs.json` 中的路径是否与文件名完全匹配 |
+| 分组折叠不生效 | `expanded` 写在了 `group` 上而非子级 | `expanded` 必须写在包含 `pages` 数组的对象上 |
+| Logo 不显示 | 文件路径错误 | 确保文件放在 `public/images/` 或 `images/` 目录下 |
+| 颜色不生效 | 缓存未清除 | 部署后强制刷新（Ctrl+Shift+R） |
+
+## 添加新页面的完整流程
+
+1. **创建 MDX 文件**，例如 `concepts/my-new-page.mdx`：
+
+```yaml
+---
+title: "新页面标题"
+description: "简短描述"
+---
+
+# 新页面标题
+
+内容...
+```
+
+2. **在 docs.json 中注册**（在对应 Tab 和分组下添加路径）：
+
+```json
+{
+  "group": "概念",
+  "pages": [
+    "concepts/overview",
+    "concepts/my-new-page"    // ← 新增这一行
+  ]
+}
+```
+
+3. **本地预览**：
+
+```bash
+npx mint dev
+```
+
+4. **提交部署**：
+
+```bash
+git add .
+git commit -m "docs: 添加新页面"
+git push
+```
