@@ -6,6 +6,7 @@ description: GitHub 每日飙升榜 · 2026-04-06
 # 2026-04-06 GitHub Daily Rank
 
 > 数据来源: [OpenGithubs/github-daily-rank](https://github.com/OpenGithubs/github-daily-rank)
+> 最后更新: 2026-04-07
 
 ## 今日最佳项目
 
