@@ -11,7 +11,7 @@
 | [关于我](/my-notes/关于我) | 个人背景、职业信息、学术方向、荣誉、联系方式 |
 | [想法](/my-notes/想法) | Gemma4 模型笔记等想法记录 |
 | [工作](/my-notes/工作) | Mac Mini SSD 路径映射等工作经验记录 |
-| [学习](/my-notes/学习) | HKUST 数学系 Faculty 名录（教授、副教授、助理教授）及研究方向统计 |
+| [学习](/my-notes/学习) | HKUST 数学系 Faculty 名录 + LaTeX sleek-template 环境制作教程 |
 | [会议](/my-notes/会议) | 待同步内容 |
 | [研究](/my-notes/研究) | 后端架构深度分析、前端架构与功能分析等研究文档 |
 | [行政](/my-notes/行政) | 待同步内容 |
@@ -45,7 +45,7 @@ Mac Mini SSD 路径映射等工作经验记录。
 
 ## 学习
 
-HKUST 数学系 Faculty 名录，包含 18 位教授、8 位副教授、16 位助理教授的详细信息及研究方向统计。
+HKUST 数学系 Faculty 名录 + LaTeX sleek-template 环境制作教程。
 
 [/my-notes/学习](/my-notes/学习)
 
