@@ -80,21 +80,49 @@
                 "group": "2026-04-01",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-01/index"
+                  "trending/2026-04-01/index",
+                  "trending/2026-04-01/claude-howto",
+                  "trending/2026-04-01/claude-code-best-practice",
+                  "trending/2026-04-01/oh-my-claudecode",
+                  "trending/2026-04-01/VibeVoice",
+                  "trending/2026-04-01/hermes-agent",
+                  "trending/2026-04-01/learn-claude-code",
+                  "trending/2026-04-01/sherlock",
+                  "trending/2026-04-01/deer-flow",
+                  "trending/2026-04-01/agency-agents"
                 ]
               },
               {
                 "group": "2026-04-02",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-02/index"
+                  "trending/2026-04-02/index",
+                  "trending/2026-04-02/claude-howto",
+                  "trending/2026-04-02/oh-my-claudecode",
+                  "trending/2026-04-02/timesfm",
+                  "trending/2026-04-02/onyx",
+                  "trending/2026-04-02/hermes-agent",
+                  "trending/2026-04-02/codex",
+                  "trending/2026-04-02/VibeVoice",
+                  "trending/2026-04-02/learn-claude-code",
+                  "trending/2026-04-02/agency-agents"
                 ]
               },
               {
                 "group": "2026-04-03",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-03/index"
+                  "trending/2026-04-03/index",
+                  "trending/2026-04-03/oh-my-codex",
+                  "trending/2026-04-03/openscreen",
+                  "trending/2026-04-03/onyx",
+                  "trending/2026-04-03/sherlock",
+                  "trending/2026-04-03/hermes-agent",
+                  "trending/2026-04-03/oh-my-claudecode",
+                  "trending/2026-04-03/agency-agents",
+                  "trending/2026-04-03/timesfm",
+                  "trending/2026-04-03/claude-howto",
+                  "trending/2026-04-03/learn-claude-code"
                 ]
               },
               {
@@ -136,6 +164,23 @@
                 ]
               },
               {
+                "group": "2026-04-06",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-06/index",
+                  "trending/2026-04-06/VibeVoice",
+                  "trending/2026-04-06/oh-my-claudecode",
+                  "trending/2026-04-06/deer-flow",
+                  "trending/2026-04-06/last30days-skill",
+                  "trending/2026-04-06/hermes-agent",
+                  "trending/2026-04-06/claude-code-best-practice",
+                  "trending/2026-04-06/Deep-Live-Cam",
+                  "trending/2026-04-06/learn-claude-code",
+                  "trending/2026-04-06/agency-agents",
+                  "trending/2026-04-06/get-shit-done"
+                ]
+              },
+              {
                 "group": "2026-04-07",
                 "expanded": false,
                 "pages": [
@@ -153,36 +198,10 @@
                 ]
               },
               {
-                "group": "2026-04-06",
+                "group": "2026-04-08",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-06/index",
-                  "trending/2026-04-06/VibeVoice",
-                  "trending/2026-04-06/oh-my-claudecode",
-                  "trending/2026-04-06/deer-flow",
-                  "trending/2026-04-06/last30days-skill",
-                  "trending/2026-04-06/hermes-agent",
-                  "trending/2026-04-06/claude-code-best-practice",
-                  "trending/2026-04-06/Deep-Live-Cam",
-                  "trending/2026-04-06/learn-claude-code",
-                  "trending/2026-04-06/agency-agents",
-                  "trending/2026-04-06/get-shit-done",
-                  "trending/2026-04-06/goose",
-                  "trending/2026-04-06/oh-my-codex",
-                  "trending/2026-04-06/onyx",
-                  "trending/2026-04-06/openscreen",
-                  "trending/2026-04-06/sherlock",
-                  "trending/2026-04-06/Skill_Seekers",
-                  "trending/2026-04-06/superpowers",
-                  "trending/2026-04-06/timesfm",
-                  "trending/2026-04-06/TradingAgents-CN",
-                  "trending/2026-04-06/llama.cpp",
-                  "trending/2026-04-06/mlx-vlm",
-                  "trending/2026-04-06/agent-browser",
-                  "trending/2026-04-06/claude-howto",
-                  "trending/2026-04-06/claude-mem",
-                  "trending/2026-04-06/frontend-slides",
-                  "trending/2026-04-06/fff.nvim"
+                  "trending/2026-04-08/index"
                 ]
               }
             ]
@@ -231,12 +250,6 @@
                   "trending/2026-03-31/index"
                 ]
               }
-            ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-08/index"
             ]
           }
         ]

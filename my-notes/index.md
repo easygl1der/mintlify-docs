@@ -61,7 +61,9 @@ HKUST 数学系 Faculty 名录 + LaTeX sleek-template 环境制作教程。
 
 ## 研究
 
-后端架构深度分析、前端架构与功能分析等研究文档。
+研究文档，包括：
+- [open-notebook-后端架构深度分析.md](../my-notes/open-notebook-后端架构深度分析.md)
+- [open-notebook-前端架构与功能分析.md](../my-notes/open-notebook-前端架构与功能分析.md)
 
 [/my-notes/研究](/my-notes/研究)
 
