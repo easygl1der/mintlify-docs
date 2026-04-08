@@ -272,7 +272,17 @@
                 "pages": [
                   "my-notes/研究",
                   "my-notes/open-notebook-后端架构深度分析",
-                  "my-notes/open-notebook-前端架构与功能分析"
+                  "my-notes/open-notebook-前端架构与功能分析",
+                  "my-notes/研究-多Agent框架综合结论",
+                  "my-notes/研究-Claude_Code_Harness综合对比",
+                  "my-notes/研究-claw-code底层架构解析",
+                  "my-notes/研究-LangGraph框架深度解析",
+                  "my-notes/研究-CrewAI框架深度解析",
+                  "my-notes/研究-AutoGen_AgentsSDK框架深度解析",
+                  "my-notes/研究-生产级Agent_Harness架构",
+                  "my-notes/研究-Multi-Agent框架对比_gurusup",
+                  "my-notes/研究-Minimax_M2.7复刻Grok_4Agent方案",
+                  "my-notes/研究-react-resizable-panels组件库详解"
                 ]
               },
               "my-notes/行政",
