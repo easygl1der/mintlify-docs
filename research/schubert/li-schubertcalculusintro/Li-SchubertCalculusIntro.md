@@ -750,7 +750,7 @@ $f:\check{X}\to \mathbb{C}$
 Expectations:
 
 $\begin{array}{rlr}{QH^{*}(X)} & \cong & {Jac(f)} \end{array}$   
-$\triangleright$ {eigenvalues of $\hat{c}_1\})\longleftrightarrow \{\mathrm{critical~values~of}f\}$   
+$\triangleright$ \{eigenvalues of $\hat{c}_1$\} \longleftrightarrow \{\mathrm{critical~values~of}f\}$   
 $\triangleright$ ...
 
 # Viewpoint from mirror symmetry: What is...?
