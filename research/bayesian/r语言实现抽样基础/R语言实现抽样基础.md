@@ -44,7 +44,7 @@ $$
 
 注：概率可以为密度函数的核
 
-$> p<-exp(-0.5^{*}x^{\wedge}2)$
+$> p\&lt;-exp(-0.5^{*}x^{\wedge}2)$
 
 # 二维离散型随机向量
 
@@ -54,12 +54,12 @@ $> p<-exp(-0.5^{*}x^{\wedge}2)$
 
 # 二维离散型随机向量
 
-$>\mathrm{x}<-\mathrm{c}(\ldots);\mathrm{y}<-\mathrm{c}(\ldots);\mathrm{l}<-\mathrm{length}(\mathrm{x});\mathrm{J}<-\mathrm{length}(\mathrm{y})$   
-> $p<-matrix(..., nrow=1, ncol=J)$   
-> p2<-as.vector(p) #注：按列拉直   
-> index<-sample(1:(I*J), 100, replace=T, prob=p2)   
-> index1<- (index-1)%%|+1; index2<- (index-1)%%|+1   
-> data_sample<-cbind(x[index1], y[index2])
+$>\mathrm{x}\&lt;-\mathrm{c}(\ldots);\mathrm{y}\&lt;-\mathrm{c}(\ldots);\mathrm{l}\&lt;-\mathrm{length}(\mathrm{x});\mathrm{J}\&lt;-\mathrm{length}(\mathrm{y})$   
+> $p\&lt;-matrix(..., nrow=1, ncol=J)$   
+> p2\&lt;-as.vector(p) #注：按列拉直   
+> index\&lt;-sample(1:(I*J), 100, replace=T, prob=p2)   
+> index1\&lt;- (index-1)%%|+1; index2\&lt;- (index-1)%%|+1   
+> data_sample\&lt;-cbind(x[index1], y[index2])
 
 # 二维离散型随机向量
 
@@ -69,21 +69,21 @@ $>\mathrm{x}<-\mathrm{c}(\ldots);\mathrm{y}<-\mathrm{c}(\ldots);\mathrm{l}<-\mat
 
 # 二维离散型随机向量
 
-$>\mathrm{x}<-\mathrm{c}(\ldots);\quad \mathrm{y}<-\mathrm{c}(\ldots);\quad \mathrm{l}<-\mathrm{length}(\mathrm{x});\quad \mathrm{J}<-\mathrm{length}(\mathrm{y})$   
-> p<-matrix(..., nrow=1, ncol=J); px<-rowSums(p)   
-> index1<-sample(1:I, 100, replace=T, prob=px)   
-> index2<-numeric(100)   
-> for (i in 1:100) { index2[i]<-sample(1:J, 1, prob=p[index1[i],])}   
-> data_sample<-cbind(x[index1], y[index2])
+$>\mathrm{x}\&lt;-\mathrm{c}(\ldots);\quad \mathrm{y}\&lt;-\mathrm{c}(\ldots);\quad \mathrm{l}\&lt;-\mathrm{length}(\mathrm{x});\quad \mathrm{J}\&lt;-\mathrm{length}(\mathrm{y})$   
+> p\&lt;-matrix(..., nrow=1, ncol=J); px\&lt;-rowSums(p)   
+> index1\&lt;-sample(1:I, 100, replace=T, prob=px)   
+> index2\&lt;-numeric(100)   
+> for (i in 1:100) \{ index2[i]\&lt;-sample(1:J, 1, prob=p[index1[i],])}   
+> data_sample\&lt;-cbind(x[index1], y[index2])
 
 # 二维离散型随机向量
 
-$>\mathrm{x}<-\mathrm{c}(\ldots);\quad \mathrm{y}<-\mathrm{c}(\ldots);\quad \mathrm{l}<-\mathrm{length}(\mathrm{x});\quad \mathrm{J}<-\mathrm{length}(\mathrm{y})$   
-> p<-matrix(..., nrow=1, ncol=J); py<-colSums(p)   
-> index2<-sample(1:J, 100, replace=T, prob=py)   
-> index1<-numeric(100)   
-> for (i in 1:100) { index1[i]<-sample(1:i, 1, prob=p[,index2[i]])}   
-> data_sample<-cbind(x[index1], y[index2])
+$>\mathrm{x}\&lt;-\mathrm{c}(\ldots);\quad \mathrm{y}\&lt;-\mathrm{c}(\ldots);\quad \mathrm{l}\&lt;-\mathrm{length}(\mathrm{x});\quad \mathrm{J}\&lt;-\mathrm{length}(\mathrm{y})$   
+> p\&lt;-matrix(..., nrow=1, ncol=J); py\&lt;-colSums(p)   
+> index2\&lt;-sample(1:J, 100, replace=T, prob=py)   
+> index1\&lt;-numeric(100)   
+> for (i in 1:100) \{ index1[i]\&lt;-sample(1:i, 1, prob=p[,index2[i]])}   
+> data_sample\&lt;-cbind(x[index1], y[index2])
 
 # 二维连续型随机向量
 

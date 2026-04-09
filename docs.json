@@ -338,14 +338,7 @@
               "research/bayesian/10-bayesian-workflow/10-bayesian-workflow",
               "research/bayesian/11-advanced-topics/11-advanced-topics",
               "research/bayesian/p值补充/p值补充",
-              "research/bayesian/拒绝抽样补充/拒绝抽样补充",
-              {
-                "group": "Textbook",
-                "expanded": false,
-                "pages": [
-                  "research/bayesian/textbook/monte_carlo_statistical_methods_christian_robert_george_casella/Monte_Carlo_Statistical_Methods_Christian_Robert_George_Casella"
-                ]
-              }
+              "research/bayesian/拒绝抽样补充/拒绝抽样补充"
             ]
           },
           {

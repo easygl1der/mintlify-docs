@@ -117,3 +117,55 @@ Key rules:
 - Use **tabs** for multi-platform/ multi-language instructions (follow existing tab patterns in this repo)
 - Use **code groups** (````code-group` wrapper) when showing multiple framework variants
 - Keep code blocks with **explicit language tags** for syntax highlighting
+
+### GitHub Repo Research — Standard Workflow
+
+When analyzing a GitHub repo (via article link or direct URL), follow this workflow:
+
+**1. Agent Team Setup**
+```
+TeamCreate "github-research-analysis"
+TaskCreate(3): 读取文章 / Web调研 / 制定方案
+Agent reader + researcher + planner (all background)
+```
+
+**2. Reader** — Read source content
+- Use `browser_navigate` + `browser_snapshot` via Playwright MCP (WebFetch fails on WeChat/某些域名)
+- Extract: title, author, core claims, key features
+
+**3. Researcher** — Web expansion research
+- Search for: latest news, competitors, academic response, GitHub stars/trends
+- Use WebSearch and browser tools
+
+**4. Planner** — Develop 3 implementation plans
+- Based on reader + researcher findings
+- Each plan: problem definition, implementation, expected output, risks
+
+**5. Mintlify Output** — Always create vault
+```
+mintlify-docs/github-research/{repo-name}/
+├── index.mdx              # 入口索引页
+├── findings_deepscientist.md   # 核心发现
+├── findings_competitors.md     # 竞品分析
+├── findings_academic.md       # 学术反响
+└── research_plan.md           # 研究计划
+```
+
+**6. Navigation** — Update docs.json
+```json
+{
+  "tab": "GitHub Research",
+  "groups": [{
+    "group": "{repo-name}",
+    "expanded": true,    // true=展开显示所有子页面
+    "pages": [
+      "github-research/{repo-name}/index",
+      "github-research/{repo-name}/findings_*",
+      ...
+    ]
+  }]
+}
+```
+
+**Team Config Reference**: `~/.claude/teams/github-research-analysis/config.json`
+
