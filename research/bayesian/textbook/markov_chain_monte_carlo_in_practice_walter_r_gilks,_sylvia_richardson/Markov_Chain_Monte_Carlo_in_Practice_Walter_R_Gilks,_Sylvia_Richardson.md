@@ -786,7 +786,7 @@ Initialize X_0; set t = 0
 Repeat {
   Sample a point Y from q(Y|X_t)
   Sample a Uniform(0,1) random variable U
-  If U <= alpha(X_t, Y) set X_{t+1} = Y
+  If U \<= alpha(X_t, Y) set X_{t+1} = Y
   otherwise set X_{t+1} = X_t
   Increment t
 }
