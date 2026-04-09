@@ -28,7 +28,7 @@ $\mathsf{K}^* =$ multiplicative group of the field $\kappa$
 
 char $\kappa =$ characteristic of K
 
-char exp K = characteristic exponent of K, i.e., max{1, char K}
+char exp K = characteristic exponent of K, i.e., max\{1, char K\}
 
 det = determinant
 
