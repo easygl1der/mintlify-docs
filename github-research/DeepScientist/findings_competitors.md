@@ -1,0 +1,37 @@
+# 自动化科研工具竞品分析
+
+## 1. Paper Circle（最相似的系统）
+
+- **标题**: Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework
+- **作者**: Komal Kumar等
+- **发布日期**: 2026-04-07
+- **URL**: https://arxiv.org/pdf/2604.06170v1
+- **功能**:
+  - 多智能体研究文献发现与分析系统
+  - 整合离线和在线检索、多标准评分、多样性感知排名
+  - 将论文转换为结构化知识图谱
+  - 支持问答和覆盖率验证
+
+## 2. AutoGL (Auto Graph Learning)
+
+- **定位**: 自动化图神经网络学习框架
+- **特点**: 自动完成图数据的特征工程、模型选择、超参数优化
+- **对比DeepScientist**: 领域更专一，专注于图学习自动化
+
+## 3. AutoML 平台
+
+- Google Cloud AutoML
+- Amazon SageMaker Autopilot
+- Microsoft Azure AutoML
+- H2O.ai AutoML
+
+## 4. HTC-Claw
+
+- **标题**: The HTC-Claw: Automating Discovery through High-Throughput Computational Campaigns
+- **功能**: 智能高通量计算平台，自动分解高层研究目标为可并行任务集
+
+## 市场趋势
+
+1. **多智能体系统**: 多个AI代理协同工作成为主流方向
+2. **端到端自动化**: 从文献发现到论文撰写的全流程覆盖
+3. **垂直领域专精**: 特定领域（如材料科学、生物学）的自动化工具兴起

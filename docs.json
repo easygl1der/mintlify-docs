@@ -265,6 +265,22 @@
         ]
       },
       {
+        "tab": "GitHub Research",
+        "groups": [
+          {
+            "group": "DeepScientist",
+            "expanded": false,
+            "pages": [
+              "github-research/DeepScientist/index",
+              "github-research/DeepScientist/findings_deepscientist",
+              "github-research/DeepScientist/findings_competitors",
+              "github-research/DeepScientist/findings_academic",
+              "github-research/DeepScientist/research_plan"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "我的笔记",
         "groups": [
           {
