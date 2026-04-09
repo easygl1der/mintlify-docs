@@ -6561,7 +6561,15 @@ $$
 
 (b) Repeat part (a) for the binomial distributions with $n = 15$ and with $p = 0.10, 0.20, \ldots, 0.90$ . Comment on the shapes of the pmf's as $p$ increases. Use the following R segment:
 
-$\mathrm{x} <   - 0:15$ par(mfrow=c(3,3));p<-1:9/10 for(j in p){plot(dbinom(x,15,j)\~x);title(paste("p="，j))}
+```r
+x <- 0:15
+par(mfrow=c(3,3))
+p <- 1:9/10
+for(j in p) {
+  plot(dbinom(x,15,j)~x)
+  title(paste("p=", j))
+}
+```
 
 (c) Let $Y = \frac{X}{n}$ , where $X$ has a $b(n, 0.05)$ distribution. Obtain the plots of the pmfs of $Y$ for $n = 10, 20, 50, 200$ . Comment on the plots (what do the plots seem to be converging to as $n$ gets large?).
 
