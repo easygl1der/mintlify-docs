@@ -38,9 +38,9 @@ $$
 
 # 例：从N(0,1)中抽取样本
 
-> x<-seq(-3, 3, length=500)   
-> p<-dnorm(x, 0, 1)   
-> x_sample<-sample(x, 100, replace=T, prob=p)
+> x\&lt;-seq(-3, 3, length=500)   
+> p\&lt;-dnorm(x, 0, 1)   
+> x_sample\&lt;-sample(x, 100, replace=T, prob=p)
 
 注：概率可以为密度函数的核
 

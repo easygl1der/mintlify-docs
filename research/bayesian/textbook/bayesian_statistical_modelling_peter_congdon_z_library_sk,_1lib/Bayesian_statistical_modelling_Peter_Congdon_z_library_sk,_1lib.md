@@ -6808,13 +6808,13 @@ one may also set priors on the elements of the beta probabilities, with $\gamma_
 
 The previous small area health example is in fact a mixed PT, analogous to the MDP model (Hanson and Johnson, 2002, p. 1022), since the centering density $G$ is random by virtue of the parameter $\phi$ . In this example, suppose $M = 4$ is taken as the maximum number of levels. Taking $c_{m} = 0.5m^{2}$ and $\tau = 1 / \phi$ would lead to the code
 
-C<-0.5;tau2 \~ dgamma(1,1);phi<-1/sqrt(tau2)   
-for (m in 2:M){c[m]<- C\*pow(m,2)}   
+C\&lt;-0.5;tau2 \~ dgamma(1,1);phi\&lt;-1/sqrt(tau2)   
+for (m in 2:M){c[m]\&lt;- C\*pow(m,2)}   
 for (i in 1:N){V[1,i] \~dbern(0.5)   
 for (m in 2:M){p[m,i] \~dbeta(c[m],c[m]) V[m,i] \~dbern(p[m,i])}   
-# level 1 choice (convert $V = 0,1$ to $B = 1,2$ B[1,i]<-V[1,i]+1   
-# choices at level 2 and above for (m in 2:M){B[m,i]<-sum(Vp[m,i,1:m-1))+V[m,i]+1 for(jin 1:m-1){Vp[m,i,j]<-V[m-j,i]\*pow(2,j)}   
-# select from ordinates of baseline density estar[i]<-G.inv[B[M,i]];y[i] \~dpois(mu[i]); log(mu[i])<-log(E[i]) + beta0+phi\*estar[i]}
+# level 1 choice (convert $V = 0,1$ to $B = 1,2$ B[1,i]\&lt;-V[1,i]+1   
+# choices at level 2 and above for (m in 2:M){B[m,i]\&lt;-sum(Vp[m,i,1:m-1))+V[m,i]+1 for(jin 1:m-1){Vp[m,i,j]\&lt;-V[m-j,i]\*pow(2,j)}   
+# select from ordinates of baseline density estar[i]\&lt;-G.inv[B[M,i]];y[i] \~dpois(mu[i]); log(mu[i])\&lt;-log(E[i]) + beta0+phi\*estar[i]}
 
 The options for the baseline density ordinates would then be based on the selected prior $G$ , for example with $G$ an $N(0,1)$ and $M = 4$ , these would be the 6.25th, 12.5th, 18.75th, ..., 93.75th percentiles of $G^{-1}$ .
 

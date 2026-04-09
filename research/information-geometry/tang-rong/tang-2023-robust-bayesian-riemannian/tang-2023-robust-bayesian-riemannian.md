@@ -127,7 +127,7 @@ The detailed definitions of all the notions mentioned above are available in App
 
 Definition 2 (Local $C ^ { 3 }$ -Smoothness). Let $\mathcal { M }$ is a $d$ -dimensional submanifold embedded in $\mathbb { R } ^ { D }$ and let $\theta \in \mathcal { M }$ . We call $\mathcal { M }$ is locally $C _ { r , L } ^ { 3 }$ -smooth at $\theta$ if there exist constants $L > 0$ and neighborhoods $U _ { \theta } \subset \mathcal { M }$ , $V _ { \theta } \subset T _ { \theta } { \mathcal { M } }$ such that
 
-1. $B _ { r } ( \theta ) \cap { \mathcal { M } } \subset U _ { \theta }$ and $B _ { r } ( 0 _ { D } ) \cap T _ { \theta } { \mathcal { M } } \subset V _ { \theta }$ ;
+1. $B _ { r } ( \theta ) \cap \{ \mathcal { M } \} \subset U _ { \theta }$ and $B _ { r } ( 0 _ { D } ) \cap T _ { \theta } { \mathcal { M } } \subset V _ { \theta }$ ;
 
 2. the map $\psi _ { \theta } : U _ { \theta } \to V _ { \theta }$ defined by $\psi _ { \boldsymbol { \theta } } ( x ) = \mathrm { P r o j } _ { T _ { \boldsymbol { \theta } } \mathcal { M } } ( x - \theta )$ is a bijection onto $V _ { \theta }$ ;
 
@@ -796,7 +796,7 @@ by using the Newton-Raphson algorithm, where ${ \bf J _ { q } } ( \theta )$ to d
 
 Algorithm 1: Finding $\phi _ { \theta } ( v )$ : Solution manifold   
 
-<table><tr><td>MnBr(θ)={x ∈Br(0)|q(𝑥)=0}; Qθ ←Jq(0); repeat</td></tr><tr><td>Solve (Jq(θ+v+ Qea)TV-)△a = -q(θ+v+Qea) for △a;</td></tr><tr><td>a←a+△a; i←i+1;</td></tr><tr><td>until |q(θ+v+Qea)ll2≤εo or i&gt;nmax; ifi&gt;nmax or θ+v+Qea \neq M then</td></tr></table>
+<table><tr><td>MnBr(θ)=\{x ∈Br(0)|q(𝑥)=0\}; Qθ ←Jq(0); repeat</td></tr><tr><td>Solve (Jq(θ+v+ Qea)TV-)△a = -q(θ+v+Qea) for △a;</td></tr><tr><td>a←a+△a; i←i+1;</td></tr><tr><td>until |q(θ+v+Qea)ll2≤εo or i&gt;nmax; ifi&gt;nmax or θ+v+Qea \neq M then</td></tr></table>
 
 Here flag indicates whether the computation of $\phi _ { \theta } ( v )$ succeeds ( $\mathrm { H a g } = 1$ ) or fails $\mathrm { { f l a g } = 0 }$ ). However, this numerical scheme of computing $\phi _ { \theta } ( v )$ does not apply to a more general manifold where the function $\mathbf { q } ( \cdot )$ does not exist or is difficult to obtain. Instead, we propose a more general numerical scheme of computing $\phi _ { \theta } ( v )$ by solving the following optimization problem: given a tangent vector $v \in T _ { \theta } { \mathcal { M } }$ with a small enough norm $\lVert v \rVert$ , there exists $r > 0$ so that $y = \phi _ { \theta } ( v )$ can be identified as the unique solution of
 

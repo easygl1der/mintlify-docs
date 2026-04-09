@@ -2363,7 +2363,7 @@ Figure 5.2 An envelope $\mathcal{E}$ (broken line) for a region $\mathcal{D}$ de
 
 Typically $\mathcal{E}$ is chosen to be a rectangle with vertices at $(0, v_{-})$ ; $(u_{+}, v_{-})$ ; $(0, v_{+})$ ; and $(u_{+}, v_{+})$ , where constants $u_{+}$ , $v_{-}$ and $v_{+}$ are such that $\mathcal{E}$ contains $\mathcal{D}$ . This leads to the following algorithm.
 
-Determine constants $u_{+},v_{-},v_{+}$ Repeat{ Sample a $\mathrm{Uniform}(0,u_+)$ random variable U; Sample a $\mathrm{Uniform}(v_{-},v_{+})$ random variable V; If $(U,V)$ is in $\mathcal{D}$ ,accept $Y = V / U$ ；}   
+Determine constants $u_{+},v_{-},v_{+}$ Repeat\{ Sample a $\mathrm{Uniform}(0,u_+)$ random variable U; Sample a $\mathrm{Uniform}(v_{-},v_{+})$ random variable V; If $(U,V)$ is in $\mathcal{D}$ ,accept $Y = V / U$ ；\}   
 until one $Y$ is accepted.
 
 As in pure rejection sampling, it is important for computational efficiency to keep the number of rejections low. If squeezing regions can be found, efficiency may be improved. Wakefield et al. (1991) give a multivariate gener-

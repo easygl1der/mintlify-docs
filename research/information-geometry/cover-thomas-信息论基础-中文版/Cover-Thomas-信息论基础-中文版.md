@@ -4178,7 +4178,7 @@ $$
 
 例5.9.1首先考虑下面的例子，其中所有概率值都是二进制的。码的构造如下表：  
 
-<table><tr><td>\( x \)</td><td>\( p\left( x\right) \)</td><td>\( F\left( x\right) \)</td><td>\( F\left( x\right) \)</td><td>\( F\left( x\right) \) 的二进制表示</td><td>\( l\left( x\right)  = \left\lceil  {\log \frac{1}{p\left( x\right) }}\right\rceil   + 1 \)</td><td>码字</td></tr><tr><td>1</td><td>0.25</td><td>0.25</td><td>0.125</td><td>0.001</td><td>3</td><td>001</td></tr><tr><td>2</td><td>0.5</td><td>0.75</td><td>0.5</td><td>0.10</td><td>2</td><td>10</td></tr><tr><td>3</td><td>0.125</td><td>0.875</td><td>0.8125</td><td>0.1101</td><td>4</td><td>1101</td></tr><tr><td>4</td><td>0.125</td><td>1.0</td><td>0.9375</td><td>0.1111</td><td>4</td><td>1111</td></tr></table>
+<table><tr><td>\( x \)</td><td>\( p\left( x\right) \)</td><td>\( F\left( x\right) \)</td><td>\( F\left( x\right) \)</td><td>\( F\left( x\right) \) 的二进制表示</td><td>\( l\left( x\right)  = \left\lceil  \log \frac{1}{p\left( x\right) } + 1 \right\rceil</td><td>码字</td></tr><tr><td>1</td><td>0.25</td><td>0.25</td><td>0.125</td><td>0.001</td><td>3</td><td>001</td></tr><tr><td>2</td><td>0.5</td><td>0.75</td><td>0.5</td><td>0.10</td><td>2</td><td>10</td></tr><tr><td>3</td><td>0.125</td><td>0.875</td><td>0.8125</td><td>0.1101</td><td>4</td><td>1101</td></tr><tr><td>4</td><td>0.125</td><td>1.0</td><td>0.9375</td><td>0.1111</td><td>4</td><td>1111</td></tr></table>
 
 在此情形下，期望码长为2.75比特，而熵为1.75比特。对于这个例子，赫夫曼编码的期望码长恰好与熵相等。注意表格中给出的码字，显然存在着某些无效性，如最后两个码字的最后一位均可删除。但是，如果删除所有码字的最后一位，那么所得到的码就不再是无前缀的了。
 

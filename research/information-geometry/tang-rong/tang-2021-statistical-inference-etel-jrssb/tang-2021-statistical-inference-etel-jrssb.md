@@ -1457,7 +1457,7 @@ $$
 \begin{array} { r l } & { \lambda ^ { ( 1 ) } ( \theta ) = - \left( \displaystyle \frac { 1 } { n } \sum _ { i = 1 } ^ { n } \exp \left( \lambda ( \theta ) ^ { T } g ( X _ { i } , \theta ) \right) g ( X _ { i } , \theta ) g ( X _ { i } , \theta ) ^ { T } \right) ^ { - 1 } } \\ & { \quad \quad \cdot \left( \displaystyle \frac { 1 } { n } \sum _ { i = 1 } ^ { n } \exp \left( \lambda ( \theta ) ^ { T } g ( X _ { i } , \theta ) \right) \left( g ^ { ( 1 ) } ( X _ { i } , \theta ) + g ( X _ { i } , \theta ) \lambda ( \theta ) ^ { T } g ^ { ( 1 ) } ( X _ { i } , \theta ) \right) \right) . } \end{array}
 $$
 
-For any $\nu \in \mathbb { S } ^ { d - 1 }$ , let $b _ { 1 } =$ sup kg(x, θ)k2, x∈X θ∈{θ \vert kθ−θ˜k2≤ 2δ1(log n)1.5√ } n
+For any $\nu \in \mathbb { S } ^ { d - 1 }$ , let $b _ { 1 } =$ sup kg(x, θ)k2, x∈X θ∈\{\theta \vert kθ−θ˜k2≤ 2δ1(log n)1.5√ \} n
 
 $$
 \begin{array} { r l } & { \nu ^ { T } \left( \displaystyle \frac { 1 } { n } \sum _ { i = 1 } ^ { n } \exp \left( \lambda ( \theta ) ^ { T } g ( X _ { i } , \theta ) \right) g ( X _ { i } , \theta ) g ( X _ { i } , \theta ) ^ { T } \right) \nu } \\ & { \geq \exp ( - \lambda _ { 0 } b _ { 1 } ) \displaystyle \frac { 1 } { n } \sum _ { i = 1 } ^ { n } \nu ^ { T } g ( X _ { i } , \theta ) g ( X _ { i } , \theta ) ^ { T } \nu } \\ & { = \exp ( - \lambda _ { 0 } b _ { 1 } ) \left( \nu ^ { T } \Delta _ { \theta } \nu + \nu ^ { T } \left( \displaystyle \frac { 1 } { n } \sum _ { i = 1 } ^ { n } g ( X _ { i } , \theta ) g ( X _ { i } , \theta ) ^ { T } - \Delta _ { \theta } \right) \nu \right) } \end{array}

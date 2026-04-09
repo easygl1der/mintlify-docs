@@ -2570,7 +2570,7 @@ The Penn Bonus experiment is an example to illustrate the FRT in the SRE. The da
 I will focus on $\hat{\tau}_{\mathrm{S}}$ and $W_{\mathrm{S}}$ , and leave the FRT with other statistics as Problem 5.6. The following function computes $\hat{\tau}_{\mathrm{S}}$ and $W_{\mathrm{S}}$ :
 
 stat_SRE $=$ function(z，y，x)   
-{ xlevels $=$ unique(x) K = length(xlevels) PiK $=$ rep(0,K) TauK $=$ rep(0,K)
+\{ xlevels $=$ unique(x) K = length(xlevels) PiK $=$ rep(0,K) TauK $=$ rep(0,K)
 
 ```r
 WK = rep(0, K)

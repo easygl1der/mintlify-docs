@@ -7182,7 +7182,7 @@ $$
 
 The U.S., English, Swedish, and Canadian governments recommend remediation levels of \( R_{\text{action}} = 4, 5, 10 \), and \( 20 \, \text{pCi/L} \), which, with \( R_{\text{remed}} = 2 \, \text{pCi/L} \), correspond to equivalent costs per \( \text{pCi/L} \) of \( D_r = \$1000, \$670, \$250, and \$111, respectively. For an average U.S. household this implies dollar values per microlife of \( D_d = \$0.21, \$0.14, \$0.05, and \$0.02, respectively.
 
-From the risk assessment literature, typical values of $D_{d}$ for medical interventions are in the range $0.10 \text{ to } $0.50. Higher values are often attached to life in other contexts (for example, jury awards for deaths due to negligence). The lower values seem reasonable in this case because radon remediation, like medical intervention, is voluntary and addresses reduction of future risk rather than compensation for current loss.
+From the risk assessment literature, typical values of $D_{d}$ for medical interventions are in the range \$0.10 \text{ to } \$0.50. Higher values are often attached to life in other contexts (for example, jury awards for deaths due to negligence). The lower values seem reasonable in this case because radon remediation, like medical intervention, is voluntary and addresses reduction of future risk rather than compensation for current loss.
 
 With these as a comparison, the U.S. and English recommendations for radon action levels correspond to the low end of the range of acceptable risk-reduction expenditures. The Canadian and Swedish recommendations are relatively cavalier about the radon risk, in the sense that the implied dollar value per microlife is lower than ordinarily assumed for other risks.
 

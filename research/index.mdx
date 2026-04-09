@@ -1,0 +1,145 @@
+---
+title: 研究索引
+description: Overview of all research notes — Bayesian, Information Geometry, Schubert Calculus, and more.
+---
+
+# 研究索引
+
+<div style={{textAlign: "center", marginBottom: "2rem"}}>
+
+## 快速跳转
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', marginBottom: '2rem'}}>
+<a href="#bayesian" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Bayesian Statistics (17)</a>
+<a href="#causal-inference" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Causal Inference (1)</a>
+<a href="#differential-geometry" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Differential Geometry (2)</a>
+<a href="#discrete-mathematics" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Discrete Mathematics (1)</a>
+<a href="#information-geometry" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Information Geometry (24)</a>
+<a href="#schubert" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Schubert Calculus (12)</a>
+<a href="#statistic" style="padding: 0.4rem 0.8rem; background-color: #f3f4f6; border-radius: 0.4rem; font-size: 0.875rem; color: #374151; text-decoration: none">Mathematical Statistics (1)</a>
+</div>
+
+---
+
+共 **58** 篇研究笔记，涵盖数学、统计学与几何学多个领域。
+
+## Bayesian Statistics
+
+*Bayesian data analysis, MCMC methods, hierarchical models, and probabilistic inference.*
+
+| 标题 | 摘要 |
+|------|------|
+| [PROBABILITY AND INFERENCE](/research/bayesian/01-three-steps/01-three-steps) | THE THREE STEPS OF BAYESIAN DATA ANALYSIS 2 GENERAL NOTATION FOR STATISTICAL INFERENCE 3 BAYESIAN INFERENCE 4 DISCRETE P... |
+| [SINGLE-PARAMETER MODELS](/research/bayesian/02-single-parameter-models/02-single-parameter-models) | ESTIMATING A PROBABILITY FROM BINOMIAL DATA $\oplus$ POSTERIOR AS COMPROMISE BETWEEN DATA AND PRIOR INFORMATION SUMMARIZ... |
+| [INTRODUCTION TO MULTI-PARAMETER MODELS CHAPTER 3](/research/bayesian/03-multi-parameter-models/03-multi-parameter-models) | AVERAGING OVER NUISANCE PARAMETERS 2 NORMAL DATA WITH A NONINFORMATIVE PRIOR DISTRIBUTION 3 NORMAL DATA WITH A CONJUGATE... |
+| [HIERARCHICAL MODELS](/research/bayesian/05-hierarchical-models/05-hierarchical-models) | Many statistical applications involve multiple parameters that can be regarded as related or connected in some way by th... |
+| [MODEL CHECKING](/research/bayesian/06-model-checking/06-model-checking) | THE PLACE OF MODEL CHECKING IN APPLIED BAYESIAN STATISTICS DO THE INFERENCES FROM THE MODEL MAKE SENSE POSTERIOR PREDICT... |
+| [INTRODUCTION TO BAYESIAN COMPUTATION](/research/bayesian/10-bayesian-workflow/10-bayesian-workflow) | Bayesian computation revolves around two steps: - computation of the posterior distribution, $p(\theta | y)$ , - computa... |
+| [BASICS OF MARKOV CHAIN SIMULATION](/research/bayesian/11-advanced-topics/11-advanced-topics) | Many clever methods have been devised for constructing and sampling from arbitrary posterior distributions. Markov chain... |
+| [Metropolis算法简要证明](/research/bayesian/metropolis算法简要证明/Metropolis算法简要证明) | 目的：从 $f(x)$ 中抽取样本 方法：用迭代算法生成随机变量序列（马尔可夫链） 要求：建议分布需要对称 1. 给定 $x^{t - 1}$ , 从建议分布 $J(x^{t} \mid x^{t - 1})$ 中抽取样本, 并记为 $x^... |
+| [p值补充](/research/bayesian/p值补充/p值补充 (1)) | The classical $p$ -value for the test statistic $T(y)$ is $$ p _ {C} = \Pr \left(T (y ^ {\text {r e p}}) \geq T (y) | \t... |
+| [p值补充](/research/bayesian/p值补充/p值补充) | The classical $p$ -value for the test statistic $T(y)$ is $$ p _ {C} = \Pr \left(T (y ^ {\text {r e p}}) \geq T (y) | \t... |
+| [R语言实现抽样基础](/research/bayesian/r语言实现抽样基础/R语言实现抽样基础) | 已知 $P\left(X = x_{i}\right) = p_{i}, i = 1, \ldots, n$ 。根据以上概率分布抽取 100 个样本。 $$ \begin{array}{l} > x < - c (\dots); p < -... |
+| [Texts in Statistical Science](/research/bayesian/textbook/bayesian_data_analysis_carlin,_john_b_dunson,_david_b_gelman_etc/Bayesian_Data_Analysis_Carlin,_John_B_Dunson,_David_B_Gelman_etc) | ![](images/88777eea23eb73758821a5eb06d65a1526cde3cbc8e57c020ae29e7181b183a3.jpg) Andrew Gelman, John B. Carlin, Hal S. S... |
+| [Bayesian Statistical Modelling](/research/bayesian/textbook/bayesian_statistical_modelling_peter_congdon_z_library_sk,_1lib/Bayesian_statistical_modelling_Peter_Congdon_z_library_sk,_1lib) | ![](images/7cebbc06930d5fe96fa878ffb7aea786d9dca4436addc11a1b8b592f7d4717af.jpg) Peter Congdon Second Edition Queen Mary... |
+| [MARKOV CHAIN](/research/bayesian/textbook/markov_chain_monte_carlo_in_practice_walter_r_gilks,_sylvia_richardson/Markov_Chain_Monte_Carlo_in_Practice_Walter_R_Gilks,_Sylvia_Richardson) | MONTE CARLO IN PRACTICE ![](images/aa5f9d57a402b08a04b572746e825856fc51ceb5aa3e5d790eabc119e7f740dd.jpg) Interdisciplina... |
+| [Monte Carlo Statistical Methods](/research/bayesian/textbook/monte_carlo_statistical_methods_christian_robert_george_casella/Monte_Carlo_Statistical_Methods_Christian_Robert_George_Casella) | SECOND EDITION ![](images/fe94a0ab3ed4feac5c5413d3ccf44148020ea1dd56bc513b920221d6bcfbae40.jpg) Christian P. Robert Geor... |
+| [拒绝抽样补充](/research/bayesian/拒绝抽样补充/拒绝抽样补充 (1)) | 目的：从 $p(x)$ 中抽取样本 方法：从 $g(x)$ 中抽取样本，并按一定的概率接收 要求: 存在 $M$ , 使得 $p(x) \leq M g(x)$ 1. 从 $g(x)$ 中抽取样本, 并记为 $x^{*}$ 2. 计算 $r... |
+| [拒绝抽样补充](/research/bayesian/拒绝抽样补充/拒绝抽样补充) | 目的：从 $p(x)$ 中抽取样本 方法：从 $g(x)$ 中抽取样本，并按一定的概率接收 要求: 存在 $M$ , 使得 $p(x) \leq M g(x)$ 1. 从 $g(x)$ 中抽取样本, 并记为 $x^{*}$ 2. 计算 $r... |
+
+---
+
+## Causal Inference
+
+*Causal reasoning, potential outcomes framework, and identification strategies.*
+
+| 标题 | 摘要 |
+|------|------|
+| [A First Course in Causal Inference](/research/causal-inference/a first course in causal inference - peng ding/A First Course in Causal Inference - Peng Ding) | To students and readers who are interested in causal inference Preface XVii Acronyms xxiii Notation xxv I Introduction 1... |
+
+---
+
+## Differential Geometry
+
+*Curves, surfaces, and Riemannian geometry — the mathematics of smooth spaces.*
+
+| 标题 | 摘要 |
+|------|------|
+| [DIFFERENTIAL](/research/differential-geometry/do carmo - differential geometry of curves and surfaces/Do Carmo - Differential Geometry of Curves and Surfaces) | REVISED & UPDATED SECOND EDITION MANFREDO P. DO CARMO REVISED & UPDATED SECOND EDITION Instituto Nacional de Matematica ... |
+| [Mathematics: Theory & Applications](/research/differential-geometry/riemannian geometry (manfredo p. do carmo) (z-library)/Riemannian Geometry (Manfredo P. do Carmo) (Z-Library)) | Editors Richard V. Kadison Isidore M. Singer Manfredo Perdigão do Carmo Instituto de Matematica Pura e Aplicada Edificio... |
+
+---
+
+## Discrete Mathematics
+
+*Logic, combinatorics, graph theory, and discrete structures.*
+
+| 标题 | 摘要 |
+|------|------|
+| [离散数学](/research/discrete-mathematics/离散数学_左孝凌_刘永才/离散数学_左孝凌_刘永才) | 左孝凌 李为镒 刘永才 编著 LISAN SHUXUE 1-1 命题及其表示法 2 1-2 联结词 3 1-3 命题公式与翻译 9 1-4 真值表与等价公式 … 12 1-5 重言式与蕴含式 ………………………………………… 19 1-6 ... |
+
+---
+
+## Information Geometry
+
+*Statistical manifolds, exponential families, Amari's information geometry, and Orlicz spaces.*
+
+| 标题 | 摘要 |
+|------|------|
+| [Information Geometry and Its Applications](/research/information-geometry/amari-information-geometry-and-its-applications/Amari-Information-Geometry-and-Its-Applications) | Shun-ichi Amari Volume 194 S.S. Antman, Institute for Physical Science and Technology, University of Maryland, College P... |
+| [Information Geometry](/research/information-geometry/ay-jost-le-schwachhofer-information-geometry/Ay-Jost-Le-Schwachhofer-Information-Geometry) | Nihat Ay Jürgen Jost Hóng Vàn Lé Lorenz Schwachhöfer Volume 64 3. Folge Editorial Board L. Ambrosio, Pisa V. Baladi, Par... |
+| [Towards a category-theoretic foundation of Classical and Qua...](/research/information-geometry/ciaglia-category-foundation-information-geometry/Ciaglia-Category-Foundation-Information-Geometry) | F. M. Ciaglia $^{1,5}$ , F. Di Cosmo $^{2,3,6}$ , L. González-Bravo $^{3,4,7}$ September 15, 2025 <sup>1</sup> Universid... |
+| [Graduate Texts in Mathematics](/research/information-geometry/cover-thomas-elements-information-theory-gtm134/Cover-Thomas-Elements-Information-Theory-GTM134) | 1 TAKEUTI/ZARING. Introduction to Axiomatic Set Theory. 2nd ed. 2 Oxroby. Measure and Category. 2nd ed. 3 SCHAEFFER. Top... |
+| [信息论基础](/research/information-geometry/cover-thomas-信息论基础-中文版/Cover-Thomas-信息论基础-中文版) | （美）Thomas M. Cover Joy A. Thomas 著 阮吉寿 张华 译 沈世镒 审校 ![](images/23980e0b89a96ab5f5be1926e41c606e957aa46963d6840e844b0b0ea8... |
+| [Measuring thermodynamic length](/research/information-geometry/crooks-thermodynamic-length/Crooks-Thermodynamic-Length) | Gavin E. Crooks* Physical Bioscience Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA (D... |
+| [An brief introduction to Finsler geometry](/research/information-geometry/dahl-finsler-geometry-introduction/Dahl-Finsler-Geometry-Introduction) | Matias Dahl July 12, 2006 This work contains a short introduction to Finsler geometry. Special emphasis is put on the Le... |
+| [When and where the Orlicz and Luxemburg (quasi-) norms are e...](/research/information-geometry/del-campo-orlicz-luxemburg-norms-equivalence/del-Campo-Orlicz-Luxemburg-Norms-Equivalence) | ![](images/4a257c6fe1770309c574cab84847adf23408dac707d77c3da00ecd8e703cbc2c.jpg) Ricardo del Campo<sup>a</sup>, Antonio ... |
+| [CONNECTIONS ON NON-PARAMETRIC STATISTICAL MANIFOLDS BY ORLIC...](/research/information-geometry/gibilisco-pistone-non-parametric-statistical-manifolds-orlicz/Gibilisco-Pistone-Non-Parametric-Statistical-Manifolds-Orlicz) | PAOLO GIBILISCO* and GIOVANNI PISTONE Dipartimento di Matematica, Politecnico di Torino, Corso Duca degli Abruzzi, 24, 1... |
+| [INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY](/research/information-geometry/harper-information-geometry-evolutionary-game-theory/Harper-Information-Geometry-Evolutionary-Game-Theory) | MARC HARPER ABSTRACT. The Shahshahani geometry of evolutionary game theory is realized as the information geometry of th... |
+| [ON KÖTHE DUALS OF ORLICZ-LORENTZ SPACES](/research/information-geometry/kaminska-tag-kothe-duals-orlicz-lorentz/Kaminska-Tag-Kothe-Duals-Orlicz-Lorentz) | ANNA KAMINSKA AND HYUNG-JOON TAG ABSTRACT. In this article, we study a number of properties of the Kothe duals $\mathcal... |
+| [On Reproducing Kernel Banach Spaces: Generic Definitions and...](/research/information-geometry/lin-zhang-zhang-reproducing-kernel-banach-spaces/Lin-Zhang-Zhang-Reproducing-Kernel-Banach-Spaces) | Rongrong Lin*, Haizhang Zhang† and Jun Zhang‡ Recently, there has been emerging interest in constructing reproducing ker... |
+| [Geometric Science of Information](/research/information-geometry/nielsen-lambda-exponential-family-mle/Nielsen-Lambda-Exponential-Family-MLE) | 7th International Conference, GSI 2025 Saint-Malo, France, October 29-31, 2025 Proceedings, Part I ![](images/701b71e763... |
+| [3 Proof of Theorem 1](/research/information-geometry/nielsen-lambda-exponential-family-mle-part2/Nielsen-Lambda-Exponential-Family-MLE-Part2) | Theorem 2. In the setting above, suppose that for any (or equivalently, for some) $p \in M$ , the pair $(\mathfrak{g}, \... |
+| [Topological duals of locally convex function spaces](/research/information-geometry/pennanen-topological-duals-locally-convex-function-spaces/Pennanen-Topological-Duals-Locally-Convex-Function-Spaces) | Teemu Pennanen* Ari-Pekka Perkkio† December 11, 2020 This paper studies topological duals of locally convex function spa... |
+| [A LECTURE ABOUT THE USE OF ORLICZ SPACES IN INFORMATION GEOM...](/research/information-geometry/pistone-lecture-orlicz-spaces-information-geometry/Pistone-Lecture-Orlicz-Spaces-Information-Geometry) | GIOVANNIPISTONE ABSTRACT. This chapter is a revised version of a tutorial lecture that I presented at the École de Physi... |
+| [Nonparametric Information Geometry](/research/information-geometry/pistone-nonparametric-information-geometry/Pistone-Nonparametric-Information-Geometry) | Giovanni Pistone Collegio Carlo Alberto, Via Real Collegio 30, 10024 Moncalieri, Italy, giovanni.pistone@carloalberto.or... |
+| [APPLICATIONS OF ORLICZ SPACES](/research/information-geometry/rao-ren-applications-of-orlicz-spaces/Rao-Ren-Applications-of-Orlicz-Spaces) | M. M. Rao Z.D.Ren M. M. Rao University of California, Riverside Riverside, California Z. D. Ren Suzhou University Suzhou... |
+| [New results on mixture and exponential models by Orlicz spac...](/research/information-geometry/santacroce-mixture-exponential-models-orlicz/Santacroce-Mixture-Exponential-Models-Orlicz) | MARINA SANTACROCE*, PAOLA SIRI** and BARBARA TRIVELLATO† $^{1}$ Dipartimento di Scienze Matematiche “G.L. Lagrange,” Pol... |
+| [Quantum Orlicz Spaces in Information Geometry](/research/information-geometry/streater-quantum-orlicz-spaces-information-geometry/Streater-Quantum-Orlicz-Spaces-Information-Geometry) | R.F. Streater Dept of Mathematics King's College London Strand, WC2R 2LS 9 June 2004 Let $H_0$ be a selfadjoint operator... |
+| [Logit Standardization in Knowledge Distillation](/research/information-geometry/sun-logit-standardization-knowledge-distillation/Sun-Logit-Standardization-Knowledge-Distillation) | Shangquan Sun $^{1,2}$ , Wenqi Ren $^{3\dagger}$ , Jingzhi Li $^{1}$ , Rui Wang $^{1,2}$ , Xiaochun Cao $^{3}$ $^{1}$ In... |
+| [Possible Generalization of Boltzmann-Gibbs Statistics](/research/information-geometry/tsallis-generalized-boltzmann-gibbs-statistics/Tsallis-Generalized-Boltzmann-Gibbs-Statistics) | Constantino Tsallis Received November 12, 1987; revision received March 8, 1988 With the use of a quantity normally scal... |
+| [On Musielak-Orlicz Function Spaces and Applications to Infor...](/research/information-geometry/vigelis-phd-musielak-orlicz-function-spaces/Vigelis-PhD-Musielak-Orlicz-Function-Spaces) | UNIVERSIDADE FEDERAL DO CEARÁ CENTRO DE TECNOLOGIA DEPARTAMENTO DE ENGENHARIA DE TELEINFORMATÁTICA PROG. DE PÓS-GRADUÇÃO... |
+| [Statistical manifold as an affine space: A functional equati...](/research/information-geometry/zhang-hasto-statistical-manifold-affine-space/Zhang-Hasto-Statistical-Manifold-Affine-Space) | Jun Zhang $^{a,\ast}$ , Peter Hästö $^{b,1}$ $^{a}$ Department of Psychology, 525 East University Ave., University of Mi... |
+
+---
+
+## Schubert Calculus
+
+*Cohomology of flag varieties, Schubert polynomials, quantum cohomology, and enumerative geometry.*
+
+| 标题 | 摘要 |
+|------|------|
+| [Equivariant Cohomology in](/research/schubert/andersonfulton-equivariantcohomology/AndersonFulton-EquivariantCohomology) | David Anderson and William Fulton Preface page viii 1 Preview 1 1.1 The Borel construction 1 1.2 Fiber bundles 3 1.3 The... |
+| [INTRODUCTION TO THE COHOMOLOGY OF THE FLAG VARIETY](/research/schubert/billeygaopawlowski-introductiontocohomologyflagvariety/BilleyGaoPawlowski-IntroductionToCohomologyFlagVariety) | SARA C. BILLEY, YIBO GAO, AND BRENDAN PAWLOWSKI ABSTRACT. One hundred years ago, Hilbert gave a list of important open p... |
+| [QUANTUM COHOMOLOGY OF GRASSMANNIANS](/research/schubert/buch-quantumcohomologygrassmannians/Buch-QuantumCohomologyGrassmannians) | ANDERS SKOVSTED BUCH The purpose of this paper is to give simple proofs of the main theorems about the (small) quantum c... |
+| [INTRODUCTION TO THE COHOMOLOGY OF THE FLAG VARIETY](/research/schubert/fanguoxiong-2025-bumplesspipedreamspuzzles/FanGuoXiong-2025-BumplessPipeDreamsPuzzles) | SARA C. BILLEY, YIBO GAO, AND BRENDAN PAWLOWSKI Abstract. One hundred years ago, Hilbert gave a list of important open p... |
+| [Referee Report: Graham Positivity of Triple Schubert Calculu...](/research/schubert/gaoxiong-tripleschubertpositivity/GaoXiong-TripleSchubertPositivity-review) | **Authors**: Yibo Gao (Peking University), Rui Xiong (University of Ottawa) **Paper**: Graham Positivity of Triple Schub... |
+| [GRAHAM POSITIVITY OF TRIPLE SCHUBERT CALCULUS](/research/schubert/gaoxiong-tripleschubertpositivity/GaoXiong-TripleSchubertPositivity) | YIBO GAO AND RUI XIONG ABSTRACT. We prove Samuel's conjecture on certain Graham positivity of the expansion coefficient ... |
+| [James E. Humphreys](/research/schubert/humphreys-1975-linearalgebraicgroups/Humphreys-1975-LinearAlgebraicGroups) | For this printing, I have corrected some errors and made numerous minor changes in the interest of clarity. The most sig... |
+| [Quantum double Schubert polynomials, quantum Schubert polyno...](/research/schubert/kirillovmaeno-quantumdoubleschubert/KirillovMaeno-QuantumDoubleSchubert) | Anatol N. Kirillov* and Toshiaki Maeno† Department of Mathematical Sciences, University of Tokyo, Komaba, Meguro-ku, Tok... |
+| [Certain identities on the quantum product of Schubert classe...](/research/schubert/li-quantumschubertidentities/Li-QuantumSchubertIdentities) | 李长征 中山大学 珠海代数与组合研讨会 2023年10月28日 - Counting numbers of solutions to geometric questions The number of circles tangent to ... |
+| [Schubert calculus– A brief introduction](/research/schubert/li-schubertcalculusintro/Li-SchubertCalculusIntro) | Changzheng Li Sun Yat-sen University J-BJI, October 12, 2023 $$ \begin{array}{l} \mathbb {N} = \{0, 1, 2, \dots \} \\ \b... |
+| [POSITIVITY IN EQUIVARIANT QUANTUM SCHUBERT CALCULUS](/research/schubert/mihalcea-quantumschubertpositivity/Mihalcea-QuantumSchubertPositivity) | LEONARDO CONSTANTIN MIHALCEA ABSTRACT. A conjecture of D. Peterson, proved by W. Graham [Gr], states that the structure ... |
+| [A MOLEV-SAGAN TYPE FORMULA FOR DOUBLE SCHUBERT POLYNOMIALS](/research/schubert/molevsagan-formula-doubleschubert/MolevSagan-Formula-DoubleSchubert) | MATTHEW J. SAMUEL ABSTRACT. We give a Molev-Sagan type formula for computing the product $\mathfrak{S}_u(x;y)\mathfrak{S... |
+
+---
+
+## Mathematical Statistics
+
+*Statistical theory, estimators, hypothesis testing, and asymptotic methods.*
+
+| 标题 | 摘要 |
+|------|------|
+| [Introduction to](/research/statistic/hogg-mckean-craig-introduction-to-mathematical-statistics/Hogg-McKean-Craig-Introduction-to-Mathematical-Statistics) | Eighth Edition Hogg McKean Craig This page intentionally left blank Eighth Edition Robert V. Hogg University of Iowa Jos... |
+
+---
