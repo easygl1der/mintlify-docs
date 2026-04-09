@@ -7174,13 +7174,13 @@ We express decisions under certainty in terms of three quantities, equivalent un
 
 The dollar value of radon reduction, $D_r$ , depends on the number of lives (or microlives) saved by a drop in the radon level. This in turn depends on a variety of factors including the number, gender and smoking status of household occupants as well as the decrease in cancer risk due to the decrease in radon exposure. We do not discuss the details of such a calculation here but only report that for a 'typical' U.S. household (one with an average number of male and female smokers and nonsmokers) $D_r = 4800D_d$ . The appropriate radon level to act upon, $R_{\mathrm{action}}$ , depends on the dollar value of radon reduction and the benefits of remediation. We assume that remediation takes a house's annual-average living-area radon level down to a level $R_{\mathrm{remed}} = 2$ pCi/L if it was above that, but leaves it unchanged if it
 
-was below that. Then the action level is determined as the value at which the benefit of remediation \((\mathbb{S}D_{r}(R_{\mathrm{action}} - R_{\mathrm{remed}}))\) is equal to the cost (\(2000),
+was below that. Then the action level is determined as the value at which the benefit of remediation $D_{r}(R_{\mathrm{action}} - R_{\mathrm{remed}})$ is equal to the cost $2000,
 
 $$
-R _ {\text {a c t i o n}} = \frac {\mathbb {S} 2 0 0 0}{D _ {r}} + R _ {\text {r e m e d}}. \tag {9.4}
+R _ {\text {a c t i o n}} = \frac {2000}{D _ {r}} + R _ {\text {r e m e d}}. \tag {9.4}
 $$
 
-The U.S., English, Swedish, and Canadian governments recommend remediation levels of \( R_{\text{action}} = 4, 5, 10 \), and \( 20 \, \text{pCi/L} \), which, with \( R_{\text{remed}} = 2 \, \text{pCi/L} \), correspond to equivalent costs per \( \text{pCi/L} \) of \( D_r = \\(1000 \), \\)670, \\(250, and \\)111, respectively. For an average U.S. household this implies dollar values per microlife of \( D_d = \\)0.21 \), \$0.14, \$0.05, and \$0.02, respectively.
+The U.S., English, Swedish, and Canadian governments recommend remediation levels of \( R_{\text{action}} = 4, 5, 10 \), and \( 20 \, \text{pCi/L} \), which, with \( R_{\text{remed}} = 2 \, \text{pCi/L} \), correspond to equivalent costs per \( \text{pCi/L} \) of \( D_r = $1000, $670, $250, and $111, respectively. For an average U.S. household this implies dollar values per microlife of \( D_d = $0.21, $0.14, $0.05, and $0.02, respectively.
 
 From the risk assessment literature, typical values of $D_{d}$ for medical interventions are in the range $0.10 to$ 0.50. Higher values are often attached to life in other contexts (for example, jury awards for deaths due to negligence). The lower values seem reasonable in this case because radon remediation, like medical intervention, is voluntary and addresses reduction of future risk rather than compensation for current loss.
 
