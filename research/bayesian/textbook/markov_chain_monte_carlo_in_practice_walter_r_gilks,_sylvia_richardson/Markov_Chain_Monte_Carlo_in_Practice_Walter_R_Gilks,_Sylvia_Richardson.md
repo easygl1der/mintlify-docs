@@ -2385,7 +2385,7 @@ The important feature of both of these envelope constructions is that they can b
 ![](images/ca200d0a8df70d1687bdce5fae17e1a0a1a88deac019e8cba80a2b42bc98300e.jpg)  
 Figure 5.3 Adaptive rejection sampling: (a) tangent method; (b) secant method. Heavy line: $\log g(Y)$ ; thin line: envelope $\log G_S(Y)$ ; broken line: squeezing function $\log b_S(Y)$ ; arrows: abscissae used in the construction.
 
-Initialize $\mathcal{S}$ Repeat { Sample $Y$ from $G_{\mathcal{S}}(.)$ Sample $U$ from Uniform(0,1); If $U\leq g(Y) / G_{\mathcal{S}}(Y)$ accept $Y$ Include $Y$ in $\mathcal{S}$ 1   
+Initialize $\mathcal{S}$ Repeat \{ Sample $Y$ from $G_{\mathcal{S}}(.)$ Sample $U$ from Uniform(0,1); If $U\leq g(Y) / G_{\mathcal{S}}(Y)$ accept $Y$ Include $Y$ in $\mathcal{S}$ 1 \}   
 until one $Y$ is accepted.
 
 At each iteration of ARS, the envelope $G_{S}(Y)$ is brought closer to $g$ and the risk of further rejections and function evaluations is reduced. To accept one $Y$ , the tangent version of adaptive rejection sampling typically involves about four function evaluations including those at the initial abscissae; for the secant version, five or six function evaluations are usually required. These performance figures are surprisingly robust to location of starting abscissae and to the form of $g$ .

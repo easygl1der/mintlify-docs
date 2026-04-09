@@ -3429,7 +3429,7 @@ where $u_{i}$ is truncated Student $t$ (positive values only) with unknown degre
 6. In Example 3.5 introduce an extra parameter (uniform between 0 and 1) to downweight the historical data from Kaldor et al. (1990). What is the resulting mean odds ratio? This is a simple instance of a power prior as proposed by Ibrahim and Chen (2000).   
 7. The male and female populations aged 25-44 in Canada in 1996 were 4 629 975 and 4 730 640 respectively, while suicide deaths were 1390 and 380. Use negative binomial sampling to obtain the male-to-female suicide mortality rates per 100 000 and the $95\%$ credible interval for the ratio (relative risk) of male-to-female rates. For example, using WINBUGS, the parameterisation of the negative binomial distribution $y \sim NB(\pi, \delta)$ is as the number of failures $y$ before reaching $\delta$ successes with $\pi$ as the success probability. The term $\left(\frac{\delta}{\mu + \delta}\right)$ in (3.5) is therefore equivalent to $\pi$ . In terms of coding for the suicide deaths exercise, one could use the code
 
-model{for（i in 1:2）{y[i] $\sim$ dnegbin(p[i],del[i]) p[i] $<  -$ del[i]/(del[i] $^+$ mu[i]);mu[i] $<  -$ （pop[i]/100000)*nu[i]}
+model\{for（i in 1:2）\{y[i] $\sim$ dnegbin(p[i],del[i]) p[i] $<  -$ del[i]/(del[i] $^+$ mu[i]);mu[i] $<  -$ （pop[i]/100000)*nu[i]\}
 
 where coding for the relative risk and priors on $\mathsf{del}[i]$ and nu[i] is to be completed. Although $\delta$ is notionally an integer, it can be assigned a prior (e.g. gamma) for any continuous positive value.
 

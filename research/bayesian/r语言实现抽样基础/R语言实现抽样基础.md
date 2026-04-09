@@ -5,7 +5,7 @@
 已知 $P\left(X = x_{i}\right) = p_{i}, i = 1, \ldots, n$ 。根据以上概率分布抽取 100 个样本。
 
 $$
-\begin{array}{l} > x <   - c (\dots); p <   - c (\dots); n <   - l e n g t h (x) \\ > \text {i n d e x} <   - \text {s a m p l e} (1: n, 1 0 0, \text {r e p l a c e} = T, \text {p r o b} = p); x _ {\text {s a m p l e}} <   - x [ \text {i n d e x} ] \\ > x \_ s a m p l e <   - s a m p l e (x, 1 0 0, r e p l a c e = T, p r o b = p) \\ \end{array}
+\begin{array}{l} > x \&lt;   - c (\dots); p \&lt;   - c (\dots); n \&lt;   - l e n g t h (x) \\ > \text {i n d e x} \&lt;   - \text {s a m p l e} (1: n, 1 0 0, \text {r e p l a c e} = T, \text {p r o b} = p); x _ {\text {s a m p l e}} \&lt;   - x [ \text {i n d e x} ] \\ > x \_ s a m p l e \&lt;   - s a m p l e (x, 1 0 0, r e p l a c e = T, p r o b = p) \\ \end{array}
 $$
 
 # 连续型随机变量
@@ -28,13 +28,13 @@ $$
 
 # 例：从U(0,1)中抽取样本
 
-> x<-seq(0, 1, length=500)   
-> p<-rep(1/500, 500)   
-> x_sample<-sample(x, 100, replace=T, prob=p)
+> $x \leftarrow seq(0, 1, length=500)$
+> $p \leftarrow rep(1/500, 500)$
+> $x\_sample \leftarrow sample(x, 100, replace=T, prob=p)$
 
 注: p不一定需要是概率
 
-> p<-rep(1, 500)
+> $p \leftarrow rep(1, 500)$
 
 # 例：从N(0,1)中抽取样本
 
