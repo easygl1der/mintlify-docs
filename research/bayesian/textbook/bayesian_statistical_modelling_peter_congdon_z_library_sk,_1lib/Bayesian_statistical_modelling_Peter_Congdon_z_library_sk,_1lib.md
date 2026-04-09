@@ -2797,9 +2797,13 @@ Following Thode (1997, Section 3), suppose a component failure rate is 2 per 100
 
 conditional on point mass priors $\{\lambda_1 = 0.02, \lambda_2 = 0.04\}$ and with known exposures $n_j t_j$ , the probability that $W > 1.645$ is obtained as 0.90. The relevant code is
 
-model $\{\mathrm{y1}\sim$ dpois(mu1); y2 $\sim$ dpois(mu2)  
-mu1 <- lam1*n1*t1; mu2 <- lam2*n2*t2; d <- n2*t2/(n1*t1)  
-power <- step(W-1.645); W <- (y2-d*y1)/sqrt(y2+d*d*y1)}.
+```bugs
+model {
+  y1 ~ dpois(mu1); y2 ~ dpois(mu2)
+  mu1 <- lam1*n1*t1; mu2 <- lam2*n2*t2; d <- n2*t2/(n1*t1)
+  power <- step(W-1.645); W <- (y2-d*y1)/sqrt(y2+d*d*y1)
+}
+```
 
 The required average of 90 flying hours per plane is more than that obtained by Thode (1997) but less than that obtained by Shiue and Bain (1982). One may also take a large number (e.g. $T = 1000$ ) of samples of $y_{1}$ and $y_{2}$ , treat these as observations and obtain a power rate conditional on these $T$ samples, with $\lambda_{1}$ and $\lambda_{2}$ taken as unknowns. Classical power calculations assume no prior information on parameters; by contrast in a Bayesian analysis, one might assess to what extent the power is affected, and possibly increased above 0.90, by using various levels of prior information on $\lambda_{1}$ and $\lambda_{2}$ , such as a prior constraint $\lambda_{2} > \lambda_{1}$ .
 
