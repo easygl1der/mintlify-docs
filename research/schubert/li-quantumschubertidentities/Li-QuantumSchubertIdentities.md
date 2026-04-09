@@ -444,7 +444,7 @@ $$
 Expectations:
 
 $\begin{array}{rlr}{QH^{*}(X)} & \cong & {Jac(f)} \end{array}$   
-$\triangleright$ {eigenvalues of $c_{1}\} \longleftrightarrow \{$ critical values of $f\}$   
+$\triangleright$ \{eigenvalues of $c_{1}$\} \longleftrightarrow \{critical values of $f$\}   
 $\triangleright$ Isomorphism as $D$ -modules   
 $\triangleright$ Isomorphism as Frobenius manifolds.   
 …
