@@ -781,8 +781,16 @@ If the candidate point is accepted, the next state becomes $X_{t+1} = Y$ . If th
 
 Thus the Metropolis-Hastings algorithm is extremely simple:
 
-Initialize $X_0$ ; set $t = 0$ Repeat{ Sample a point $Y$ from $q(.|X_{t})$ Sample a Uniform(0,1) random variable $U$ If $U\leq \alpha (X_t,Y)$ set $X_{t + 1} = Y$ otherwise set $X_{t + 1} = X_{t}$ Increment t   
+```
+Initialize X_0; set t = 0
+Repeat {
+  Sample a point Y from q(Y|X_t)
+  Sample a Uniform(0,1) random variable U
+  If U <= alpha(X_t, Y) set X_{t+1} = Y
+  otherwise set X_{t+1} = X_t
+  Increment t
 }
+```
 
 Remarkably, the proposal distribution $q(\cdot |.)$ can have any form and the stationary distribution of the chain will be $\pi (\cdot)$ . (For regularity conditions see Roberts, 1995: this volume.) This can be seen from the following argument. The transition kernel for the Metropolis-Hastings algorithm is
 
