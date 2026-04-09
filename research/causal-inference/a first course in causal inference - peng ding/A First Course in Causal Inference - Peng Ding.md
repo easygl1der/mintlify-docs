@@ -1070,12 +1070,11 @@ Stratifying on the departments, we find smaller and insignificant differences be
 
 > P.diff = rep(0, 6)
 > PV = rep(0, 6)
-> for(dd in 1:6)
-+ {
-+ department = risk.difference(UCBA admissions[., dd])
-+ P.diff[dd] = department\\(p.diff
-+ PV[dd] = department\\)pv
-+ }
+> for(dd in 1:6) \{
++ department = risk.difference(UCBA\$admissions[., dd])
++ P.diff[dd] = department$p.diff
++ PV[dd] = department$pv
++ \}
 >
 > round(P.diff, 2)
 [1] -0.20 -0.05 0.03 -0.02 0.04 -0.01

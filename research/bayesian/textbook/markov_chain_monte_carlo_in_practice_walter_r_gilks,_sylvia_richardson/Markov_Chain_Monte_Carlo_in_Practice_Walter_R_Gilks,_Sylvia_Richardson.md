@@ -2332,7 +2332,7 @@ Rejection sampling requires an envelope function $G$ of $g$ (so $G(Y) \geq g(Y)$
 
 The algorithm then is:
 
-Repeat { Sample a point $Y$ from $G(.)$ Sample a Uniform(0,1) random variable $U$ If $U\leq g(Y) / G(Y)$ accept $Y$ ；}   
+Repeat \{ Sample a point $Y$ from $G(.)$ Sample a Uniform(0,1) random variable $U$ If $U\leq g(Y) / G(Y)$ accept $Y$ ；\}   
 until one $Y$ is accepted.
 
 Several rejections may occur before an acceptance. Each accept/reject test involves evaluating $g(Y)$ and $G(Y)$ , and typically the former will be computationally expensive. Marginally, the probability of accepting a point is $\int g(Y)dY / \int G(Y)dY$ , so to reduce the number of rejections, it is essential that the envelope $G$ be close to $g$ . For computational efficiency, it is also essential that $G$ be cheap to evaluate and sample from.

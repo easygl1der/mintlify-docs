@@ -269,7 +269,7 @@
         "groups": [
           {
             "group": "DeepScientist",
-            "expanded": false,
+            "expanded": true,
             "pages": [
               "github-research/DeepScientist/index",
               "github-research/DeepScientist/findings_deepscientist",
@@ -321,6 +321,12 @@
         "tab": "研究",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "research/index"
+            ]
+          },
+          {
             "group": "Bayesian",
             "expanded": false,
             "pages": [
@@ -331,27 +337,15 @@
               "research/bayesian/06-model-checking/06-model-checking",
               "research/bayesian/10-bayesian-workflow/10-bayesian-workflow",
               "research/bayesian/11-advanced-topics/11-advanced-topics",
-              "research/bayesian/Metropolis算法简要证明/Metropolis算法简要证明",
               "research/bayesian/p值补充/p值补充",
-              "research/bayesian/R语言实现抽样基础/R语言实现抽样基础",
               "research/bayesian/拒绝抽样补充/拒绝抽样补充",
               {
                 "group": "Textbook",
                 "expanded": false,
                 "pages": [
-                  "research/bayesian/textbook/bayesian_data_analysis_carlin,_john_b_dunson,_david_b_gelman_etc/Bayesian_Data_Analysis_Carlin,_John_B_Dunson,_David_B_Gelman_etc",
-                  "research/bayesian/textbook/bayesian_statistical_modelling_peter_congdon_z_library_sk,_1lib/Bayesian_statistical_modelling_Peter_Congdon_z_library_sk,_1lib",
-                  "research/bayesian/textbook/markov_chain_monte_carlo_in_practice_walter_r_gilks,_sylvia_richardson/Markov_Chain_Monte_Carlo_in_Practice_Walter_R_Gilks,_Sylvia_Richardson",
                   "research/bayesian/textbook/monte_carlo_statistical_methods_christian_robert_george_casella/Monte_Carlo_Statistical_Methods_Christian_Robert_George_Casella"
                 ]
               }
-            ]
-          },
-          {
-            "group": "Causal-Inference",
-            "expanded": false,
-            "pages": [
-              "research/causal-inference/a first course in causal inference - peng ding/A First Course in Causal Inference - Peng Ding"
             ]
           },
           {
@@ -363,20 +357,106 @@
             ]
           },
           {
-            "group": "Discrete-Mathematics",
-            "expanded": false,
-            "pages": [
-              "research/discrete-mathematics/离散数学_左孝凌_刘永才/离散数学_左孝凌_刘永才"
-            ]
-          },
-          {
             "group": "Information-Geometry",
             "expanded": false,
             "pages": [
+              {
+                "group": "Tang-Rong",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "tang-2021-eb-vae-colt",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2021-eb-vae-colt/tang-2021-eb-vae-colt",
+                      "research/information-geometry/tang-rong/tang-2021-eb-vae-colt/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2021-statistical-inference-etel-jrssb",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2021-statistical-inference-etel-jrssb/tang-2021-statistical-inference-etel-jrssb",
+                      "research/information-geometry/tang-rong/tang-2021-statistical-inference-etel-jrssb/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2022-minimax-submanifold-annals",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2022-minimax-submanifold-annals/tang-2022-minimax-submanifold-annals",
+                      "research/information-geometry/tang-rong/tang-2022-minimax-submanifold-annals/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2023-lowdim-mixtures",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2023-lowdim-mixtures/tang-2023-lowdim-mixtures",
+                      "research/information-geometry/tang-rong/tang-2023-lowdim-mixtures/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2023-minimax-twosample-aistats",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2023-minimax-twosample-aistats/tang-2023-minimax-twosample-aistats",
+                      "research/information-geometry/tang-rong/tang-2023-minimax-twosample-aistats/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2023-mixture-generative",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2023-mixture-generative/tang-2023-mixture-generative",
+                      "research/information-geometry/tang-rong/tang-2023-mixture-generative/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2023-robust-bayesian-riemannian",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2023-robust-bayesian-riemannian/tang-2023-robust-bayesian-riemannian",
+                      "research/information-geometry/tang-rong/tang-2023-robust-bayesian-riemannian/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2024-manifold-adaptivity-aistats",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2024-manifold-adaptivity-aistats/tang-2024-manifold-adaptivity-aistats",
+                      "research/information-geometry/tang-rong/tang-2024-manifold-adaptivity-aistats/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2024-metropolis-adjusted-langevin",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2024-metropolis-adjusted-langevin/tang-2024-metropolis-adjusted-langevin",
+                      "research/information-geometry/tang-rong/tang-2024-metropolis-adjusted-langevin/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2025-conditional-diffusion",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2025-conditional-diffusion/tang-2025-conditional-diffusion",
+                      "research/information-geometry/tang-rong/tang-2025-conditional-diffusion/review"
+                    ]
+                  },
+                  {
+                    "group": "tang-2025-regression-rates",
+                    "expanded": false,
+                    "pages": [
+                      "research/information-geometry/tang-rong/tang-2025-regression-rates/tang-2025-regression-rates",
+                      "research/information-geometry/tang-rong/tang-2025-regression-rates/review"
+                    ]
+                  }
+                ]
+              },
               "research/information-geometry/amari-information-geometry-and-its-applications/Amari-Information-Geometry-and-Its-Applications",
               "research/information-geometry/ay-jost-le-schwachhofer-information-geometry/Ay-Jost-Le-Schwachhofer-Information-Geometry",
               "research/information-geometry/ciaglia-category-foundation-information-geometry/Ciaglia-Category-Foundation-Information-Geometry",
-              "research/information-geometry/cover-thomas-信息论基础-中文版/Cover-Thomas-信息论基础-中文版",
               "research/information-geometry/cover-thomas-elements-information-theory-gtm134/Cover-Thomas-Elements-Information-Theory-GTM134",
               "research/information-geometry/crooks-thermodynamic-length/Crooks-Thermodynamic-Length",
               "research/information-geometry/dahl-finsler-geometry-introduction/Dahl-Finsler-Geometry-Introduction",
@@ -393,7 +473,6 @@
               "research/information-geometry/rao-ren-applications-of-orlicz-spaces/Rao-Ren-Applications-of-Orlicz-Spaces",
               "research/information-geometry/santacroce-mixture-exponential-models-orlicz/Santacroce-Mixture-Exponential-Models-Orlicz",
               "research/information-geometry/streater-quantum-orlicz-spaces-information-geometry/Streater-Quantum-Orlicz-Spaces-Information-Geometry",
-              "research/information-geometry/sun-logit-standardization-knowledge-distillation/Sun-Logit-Standardization-Knowledge-Distillation",
               "research/information-geometry/tsallis-generalized-boltzmann-gibbs-statistics/Tsallis-Generalized-Boltzmann-Gibbs-Statistics",
               "research/information-geometry/vigelis-phd-musielak-orlicz-function-spaces/Vigelis-PhD-Musielak-Orlicz-Function-Spaces",
               "research/information-geometry/zhang-hasto-statistical-manifold-affine-space/Zhang-Hasto-Statistical-Manifold-Affine-Space"
@@ -403,30 +482,18 @@
             "group": "Schubert",
             "expanded": false,
             "pages": [
-              "research/schubert/andersonfulton-equivariantcohomology/AndersonFulton-EquivariantCohomology",
-              "research/schubert/billeygaopawlowski-introductiontocohomologyflagvariety/BilleyGaoPawlowski-IntroductionToCohomologyFlagVariety",
               "research/schubert/buch-quantumcohomologygrassmannians/Buch-QuantumCohomologyGrassmannians",
               "research/schubert/fanguoxiong-2025-bumplesspipedreamspuzzles/FanGuoXiong-2025-BumplessPipeDreamsPuzzles",
-              "research/schubert/fultonpandharipande-1997-notesonstablemapsquantumcohomology/FultonPandharipande-1997-NotesOnStableMapsQuantumCohomology",
               "research/schubert/gaoxiong-tripleschubertpositivity/GaoXiong-TripleSchubertPositivity",
-              "research/schubert/harmansnowden-2024-oligomorphicgroupstensorcategories/HarmanSnowden-2024-OligomorphicGroupsTensorCategories",
-              "research/schubert/humphreys-1975-linearalgebraicgroups/Humphreys-1975-LinearAlgebraicGroups",
-              "research/schubert/kim-1996-onequivariantquantumcohomology/Kim-1996-OnEquivariantQuantumCohomology",
               "research/schubert/kirillovmaeno-quantumdoubleschubert/KirillovMaeno-QuantumDoubleSchubert",
-              "research/schubert/knutsonzinnjustin-2023-schubertpuzzlesintegrabilityiii-separateddescents/KnutsonZinnJustin-2023-SchubertPuzzlesIntegrabilityIII-SeparatedDescents",
-              "research/schubert/li-quantumschubertidentities/Li-QuantumSchubertIdentities",
-              "research/schubert/li-schubertcalculusintro/Li-SchubertCalculusIntro",
               "research/schubert/mihalcea-quantumschubertpositivity/Mihalcea-QuantumSchubertPositivity",
-              "research/schubert/molevsagan-formula-doubleschubert/MolevSagan-Formula-DoubleSchubert",
-              "research/schubert/samuel-2024-molevsagantypeformuladoubleschubertpolynomials/Samuel-2024-MolevSaganTypeFormulaDoubleSchubertPolynomials"
+              "research/schubert/molevsagan-formula-doubleschubert/MolevSagan-Formula-DoubleSchubert"
             ]
           },
           {
             "group": "Statistic",
             "expanded": false,
-            "pages": [
-              "research/statistic/hogg-mckean-craig-introduction-to-mathematical-statistics/Hogg-McKean-Craig-Introduction-to-Mathematical-Statistics"
-            ]
+            "pages": []
           }
         ]
       }

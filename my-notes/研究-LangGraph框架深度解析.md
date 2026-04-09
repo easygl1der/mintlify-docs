@@ -15,7 +15,7 @@ LangGraph 是 2026 年多 Agent 生态里最底层、最工程化、最能打的
 
 ### 1.1 StateGraph——图的本体
 
-StateGraph 是 LangGraph 的核心 API，底层逻辑是 Pregel/Apache Beam 的计算模型 + NetworkX 的接口风格。状态用 TypedDict 定义，每个节点是一个 `(State) -> Partial<State>` 签名的函数，返回对状态的增量更新。
+StateGraph 是 LangGraph 的核心 API，底层逻辑是 Pregel/Apache Beam 的计算模型 + NetworkX 的接口风格。状态用 TypedDict 定义，每个节点是一个 `(State) -> Partial\&lt;State\&gt;` 签名的函数，返回对状态的增量更新。
 
 ```python
 from langgraph.graph import START, StateGraph
@@ -38,7 +38,7 @@ result = compiled.invoke({"text": "", "turns": 0})
 # result → {'text': 'a', 'turns': 1}
 ```
 
-**为什么这样设计**：状态是共享的，所有节点都对同一个状态对象读写。返回值是 `dict`（Partial<State>），LangGraph 会自动把节点输出 merge 到主状态——这个 merge 逻辑叫 **ChannelWrite**，是 LangGraph 持久化的原子单元。
+**为什么这样设计**：状态是共享的，所有节点都对同一个状态对象读写。返回值是 `dict`（Partial\&lt;State\&gt;），LangGraph 会自动把节点输出 merge 到主状态——这个 merge 逻辑叫 **ChannelWrite**，是 LangGraph 持久化的原子单元。
 
 ### 1.2 Checkpointing——状态持久化的底层逻辑
 
