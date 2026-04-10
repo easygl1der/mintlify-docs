@@ -213,6 +213,23 @@
                   "trending/2026-04-08/GitNexus",
                   "trending/2026-04-08/ai-hedge-fund"
                 ]
+              },
+              {
+                "group": "2026-04-09",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-09/index",
+                  "trending/2026-04-09/hermes-agent",
+                  "trending/2026-04-09/DeepTutor",
+                  "trending/2026-04-09/andrej-karpathy-skills",
+                  "trending/2026-04-09/oh-my-claudecode",
+                  "trending/2026-04-09/opendataloader-pdf",
+                  "trending/2026-04-09/agency-agents",
+                  "trending/2026-04-09/rowboat",
+                  "trending/2026-04-09/claude-code-best-practice",
+                  "trending/2026-04-09/oh-my-codex",
+                  "trending/2026-04-09/openscreen"
+                ]
               }
             ]
           },
@@ -260,12 +277,6 @@
                   "trending/2026-03-31/index"
                 ]
               }
-            ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-10/index"
             ]
           }
         ]
