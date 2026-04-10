@@ -294,6 +294,55 @@
         "tab": "GitHub Research",
         "groups": [
           {
+            "group": "docs-hermine",
+            "expanded": false,
+            "pages": [
+              "github-research/docs-hermine/index"
+            ]
+          },
+          {
+            "group": "starter",
+            "expanded": false,
+            "pages": [
+              "github-research/starter/index"
+            ]
+          },
+          {
+            "group": "assistant-embed-example",
+            "expanded": false,
+            "pages": [
+              "github-research/assistant-embed-example/index"
+            ]
+          },
+          {
+            "group": "astro",
+            "expanded": false,
+            "pages": [
+              "github-research/astro/index"
+            ]
+          },
+          {
+            "group": "docs",
+            "expanded": false,
+            "pages": [
+              "github-research/docs/index"
+            ]
+          },
+          {
+            "group": "mdx",
+            "expanded": false,
+            "pages": [
+              "github-research/mdx/index"
+            ]
+          },
+          {
+            "group": "components",
+            "expanded": false,
+            "pages": [
+              "github-research/components/index"
+            ]
+          },
+          {
             "group": "DeepScientist",
             "expanded": false,
             "pages": [
@@ -319,11 +368,41 @@
             "group": "我的笔记",
             "pages": [
               "my-notes/index",
-              "my-notes/关于我",
-              "my-notes/想法",
-              "my-notes/工作",
-              "my-notes/学习",
-              "my-notes/会议",
+              {
+                "group": "关于我",
+                "expanded": false,
+                "pages": [
+                  "my-notes/关于我"
+                ]
+              },
+              {
+                "group": "想法",
+                "expanded": false,
+                "pages": [
+                  "my-notes/想法"
+                ]
+              },
+              {
+                "group": "工作",
+                "expanded": false,
+                "pages": [
+                  "my-notes/工作"
+                ]
+              },
+              {
+                "group": "学习",
+                "expanded": false,
+                "pages": [
+                  "my-notes/学习"
+                ]
+              },
+              {
+                "group": "会议",
+                "expanded": false,
+                "pages": [
+                  "my-notes/会议"
+                ]
+              },
               {
                 "group": "研究",
                 "expanded": false,
@@ -343,8 +422,20 @@
                   "my-notes/研究-react-resizable-panels组件库详解"
                 ]
               },
-              "my-notes/行政",
-              "my-notes/代码"
+              {
+                "group": "行政",
+                "expanded": false,
+                "pages": [
+                  "my-notes/行政"
+                ]
+              },
+              {
+                "group": "代码",
+                "expanded": false,
+                "pages": [
+                  "my-notes/代码"
+                ]
+              }
             ]
           }
         ]
