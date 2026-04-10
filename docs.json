@@ -261,6 +261,12 @@
                 ]
               }
             ]
+          },
+          {
+            "group": "2026年04月",
+            "pages": [
+              "trending/2026-04-10/index"
+            ]
           }
         ]
       },
@@ -269,13 +275,19 @@
         "groups": [
           {
             "group": "DeepScientist",
-            "expanded": true,
+            "expanded": false,
             "pages": [
               "github-research/DeepScientist/index",
-              "github-research/DeepScientist/findings_deepscientist",
-              "github-research/DeepScientist/findings_competitors",
-              "github-research/DeepScientist/findings_academic",
-              "github-research/DeepScientist/research_plan"
+              {
+                "group": "Findings",
+                "expanded": false,
+                "pages": [
+                  "github-research/DeepScientist/核心发现",
+                  "github-research/DeepScientist/竞品分析",
+                  "github-research/DeepScientist/学术反响",
+                  "github-research/DeepScientist/研究计划"
+                ]
+              }
             ]
           }
         ]
