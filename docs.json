@@ -294,6 +294,13 @@
         "tab": "GitHub Research",
         "groups": [
           {
+            "group": "themes",
+            "expanded": false,
+            "pages": [
+              "github-research/themes/index"
+            ]
+          },
+          {
             "group": "docs-hermine",
             "expanded": false,
             "pages": [
