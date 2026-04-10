@@ -1,3 +1,8 @@
+---
+title: opendataloader-pdf 技术调研报告
+description: GitHub Daily Rank 分析报告 · opendataloader-pdf 技术调研报告
+---
+
 
 
 # opendataloader-pdf 技术调研报告
@@ -439,7 +444,7 @@ opendataloader-pdf --input input.pdf --output output/ --format markdown
 
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │  简单页面   │────▶│  本地解析    │────▶│  快速输出   │
-│  (80%)      │     │  (Java)     │     │  <1秒/页    │
+│  (80%)      │     │  (Java)     │     │  &lt;1秒/页    │
 └─────────────┘     └─────────────┘     └─────────────┘
                            │
                            ▼

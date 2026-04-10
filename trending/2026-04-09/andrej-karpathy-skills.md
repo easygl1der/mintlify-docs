@@ -1,3 +1,8 @@
+---
+title: Unknown
+description: GitHub Daily Rank 分析报告 · Unknown
+---
+
 
 
 # andrej-karpathy-skills 技术调研报告
@@ -157,7 +162,7 @@ andrej-karpathy-skills/
 | `.py` | 15-25% | Python 脚本与模块 |
 | `.md` | 10-15% | 文档与说明文件 |
 | 数据文件 | 5-10% | 示例数据集或外部链接 |
-| 配置文件 | <5% | 环境配置、依赖声明 |
+| 配置文件 | &lt;5% | 环境配置、依赖声明 |
 
 ### 代码规模评估
 

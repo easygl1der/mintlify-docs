@@ -1,3 +1,8 @@
+---
+title: oh-my-codex 技术调研报告
+description: GitHub Daily Rank 分析报告 · oh-my-codex 技术调研报告
+---
+
 
 
 # oh-my-codex 技术调研报告
@@ -219,7 +224,7 @@ python main.py
 |----------|------|
 | **问题描述** | requirements.txt 中未锁定具体版本号 |
 | **潜在影响** | 依赖库更新可能导致 API 行为变化 |
-| **建议措施** | 建议锁定兼容版本，格式如 `openai>=1.0.0,<2.0.0` |
+| **建议措施** | 建议锁定兼容版本，格式如 `openai>=1.0.0,&lt;2.0.0` |
 
 ### 4. 文档完善度
 
