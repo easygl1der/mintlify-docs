@@ -49,6 +49,14 @@
             "group": "2026年4月",
             "pages": [
               {
+                "group": "2026-04-13",
+                "expanded": false,
+                "pages": [
+                  "social-media/2026-04-13/daily-summary",
+                  "social-media/2026-04-13/01:34"
+                ]
+              },
+              {
                 "group": "2026-04-10",
                 "expanded": false,
                 "pages": [
@@ -238,6 +246,40 @@
                   "trending/2026-04-09/claude-code-best-practice",
                   "trending/2026-04-09/oh-my-codex",
                   "trending/2026-04-09/openscreen"
+                ]
+              },
+              {
+                "group": "2026-04-10",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-10/index",
+                  "trending/2026-04-10/hermes-agent",
+                  "trending/2026-04-10/claude-code-best-practice",
+                  "trending/2026-04-10/andrej-karpathy-skills",
+                  "trending/2026-04-10/DeepTutor",
+                  "trending/2026-04-10/opendataloader-pdf",
+                  "trending/2026-04-10/Archon",
+                  "trending/2026-04-10/VoxCPM",
+                  "trending/2026-04-10/agency-agents",
+                  "trending/2026-04-10/claude-mem",
+                  "trending/2026-04-10/claude-howto"
+                ]
+              },
+              {
+                "group": "2026-04-11",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-11/index",
+                  "trending/2026-04-11/hermes-agent",
+                  "trending/2026-04-11/multica",
+                  "trending/2026-04-11/andrej-karpathy-skills",
+                  "trending/2026-04-11/claude-code-best-practice",
+                  "trending/2026-04-11/Kronos",
+                  "trending/2026-04-11/VoxCPM",
+                  "trending/2026-04-11/Archon",
+                  "trending/2026-04-11/opendataloader-pdf",
+                  "trending/2026-04-11/DeepTutor",
+                  "trending/2026-04-11/claude-mem"
                 ]
               }
             ]
