@@ -336,6 +336,13 @@
         "tab": "GitHub Research",
         "groups": [
           {
+            "group": "marimo",
+            "expanded": true,
+            "pages": [
+              "github-research/marimo/index"
+            ]
+          },
+          {
             "group": "themes",
             "expanded": false,
             "pages": [
