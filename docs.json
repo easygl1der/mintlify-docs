@@ -281,6 +281,30 @@
                   "trending/2026-04-11/DeepTutor",
                   "trending/2026-04-11/claude-mem"
                 ]
+              },
+              {
+                "group": "2026-04-13",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-13/index",
+                  "trending/2026-04-13/andrej-karpathy-skills",
+                  "trending/2026-04-13/claude-mem",
+                  "trending/2026-04-13/claude-code-best-practice",
+                  "trending/2026-04-13/multica",
+                  "trending/2026-04-13/Kronos",
+                  "trending/2026-04-13/VoxCPM",
+                  "trending/2026-04-13/ai-hedge-fund",
+                  "trending/2026-04-13/ChinaTextbook",
+                  "trending/2026-04-13/Archon",
+                  "trending/2026-04-13/oh-my-codex"
+                ]
+              },
+              {
+                "group": "2026-04-14",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-14/index"
+                ]
               }
             ]
           },
@@ -328,12 +352,6 @@
                   "trending/2026-03-31/index"
                 ]
               }
-            ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-14/index"
             ]
           }
         ]
