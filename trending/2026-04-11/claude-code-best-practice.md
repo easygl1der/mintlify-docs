@@ -86,10 +86,10 @@
 
 | 工具类别 | 配置文件 | 用途说明 |
 |----------|----------|----------|
-| **Claude CLI** | `.claude/commands.md`<br>`.claude/permissions.md`<br>`.claude/project_context.md`<br>`.claude/workspace.md` | Claude AI 助手上下文配置、自定义命令和权限管理 |
-| **OpenAI Codex** | `.codex/commands.md`<br>`.codex/settings.md` | Codex 编码助手配置 |
+| **Claude CLI** | `.claude/commands.md`\u003cbr /\u003e`.claude/permissions.md`\u003cbr /\u003e`.claude/project_context.md`\u003cbr /\u003e`.claude/workspace.md` | Claude AI 助手上下文配置、自定义命令和权限管理 |
+| **OpenAI Codex** | `.codex/commands.md`<br/>`.codex/settings.md` | Codex 编码助手配置 |
 | **MCP (Model Context Protocol)** | `.mcp.json` | 模型上下文协议服务器集成 |
-| **VS Code** | `.vscode/settings.json`<br>`.vscode/extensions.json` | 编辑器格式化规则、推荐扩展 |
+| **VS Code** | `.vscode/settings.json`<br/>`.vscode/extensions.json` | 编辑器格式化规则、推荐扩展 |
 | **Git** | `.gitignore` | 版本控制忽略规则 |
 
 ### 核心配置文件分析

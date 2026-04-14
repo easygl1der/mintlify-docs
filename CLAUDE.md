@@ -1,4 +1,16 @@
-# CLAUDE.md — Mintlify Documentation Project
+## Formatting & Error Handling Rules
+
+▎ 为确保 MDX 文件在 Mintlify 项目中能够正确解析，请遵循以下底层逻辑与顶层设计规范：
+
+- **标签安全**：任何出现 `<` 开头的内容（如版本号 `<2.0.0`）必须使用反引号包裹为行内代码 `` `<2.0.0` ``，防止被解析为 JSX 标签。
+- **换行标签**：所有 `<br>` 必须写成自闭合形式 `<br/>`，如需双换行请使用 `<br/><br/>`。
+- **表格闭合**：MDX 表格的每行必须以 `|` 开始并以 `|` 结束，列数保持一致。
+- **Frontmatter**：仅使用 `title` 与 `description`（禁止 `icon`），并使用 YAML 块标记 `---` 包裹。
+- **代码块**：使用三重反引号包裹，明确语言标记，如 `````md` 或 `````tsx`。
+- **组件使用**：仅使用 Mintlify 官方组件（Card、Callout、Tabs 等），禁止自定义未注册组件。
+
+> 通过上述抓手可以实现解析闭环，确保文档在 CI 中通过 MDX 校验。
+
 
 ## Project Context
 

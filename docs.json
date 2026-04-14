@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Yitwah Notes",
   "logo": {
-    "light": "/images/logo.svg",
-    "dark": "/images/logo.svg"
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   },
   "favicon": "/images/favicon.svg",
   "colors": {
@@ -336,6 +336,13 @@
         "tab": "GitHub Research",
         "groups": [
           {
+            "group": "onyx-foss",
+            "expanded": false,
+            "pages": [
+              "github-research/onyx-foss/index"
+            ]
+          },
+          {
             "group": "marimo",
             "expanded": true,
             "pages": [
@@ -343,59 +350,65 @@
             ]
           },
           {
-            "group": "themes",
-            "expanded": false,
+            "group": "mintlify",
+            "expanded": true,
             "pages": [
-              "github-research/themes/index"
-            ]
-          },
-          {
-            "group": "docs-hermine",
-            "expanded": false,
-            "pages": [
-              "github-research/docs-hermine/index"
-            ]
-          },
-          {
-            "group": "starter",
-            "expanded": false,
-            "pages": [
-              "github-research/starter/index"
-            ]
-          },
-          {
-            "group": "assistant-embed-example",
-            "expanded": false,
-            "pages": [
-              "github-research/assistant-embed-example/index"
-            ]
-          },
-          {
-            "group": "astro",
-            "expanded": false,
-            "pages": [
-              "github-research/astro/index"
-            ]
-          },
-          {
-            "group": "docs",
-            "expanded": false,
-            "pages": [
-              "github-research/docs/index"
-            ]
-          },
-          {
-            "group": "mdx",
-            "expanded": false,
-            "pages": [
-              "github-research/mdx/index"
-            ]
-          },
-          {
-            "group": "components",
-            "expanded": false,
-            "pages": [
-              "github-research/components/index"
+              {
+                "group": "docs-hermine",
+                "expanded": false,
+                "pages": [
+                  "github-research/docs-hermine/index"
+                ]
+              },
+              {
+                "group": "themes",
+                "expanded": false,
+                "pages": [
+                  "github-research/themes/index"
+                ]
+              },
+              {
+                "group": "starter",
+                "expanded": false,
+                "pages": [
+                  "github-research/starter/index"
+                ]
+              },
+              {
+                "group": "assistant-embed-example",
+                "expanded": false,
+                "pages": [
+                  "github-research/assistant-embed-example/index"
+                ]
+              },
+              {
+                "group": "astro",
+                "expanded": false,
+                "pages": [
+                  "github-research/astro/index"
+                ]
+              },
+              {
+                "group": "docs",
+                "expanded": false,
+                "pages": [
+                  "github-research/docs/index"
+                ]
+              },
+              {
+                "group": "mdx",
+                "expanded": false,
+                "pages": [
+                  "github-research/mdx/index"
+                ]
+              },
+              {
+                "group": "components",
+                "expanded": false,
+                "pages": [
+                  "github-research/components/index"
+                ]
+              }
             ]
           },
           {
