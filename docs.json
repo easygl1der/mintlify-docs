@@ -57,6 +57,14 @@
                 ]
               },
               {
+                "group": "2026-04-15",
+                "expanded": false,
+                "pages": [
+                  "social-media/2026-04-15/daily-summary",
+                  "social-media/2026-04-15/23:56"
+                ]
+              }
+              {
                 "group": "2026-04-10",
                 "expanded": false,
                 "pages": [
@@ -300,6 +308,13 @@
                 ]
               },
               {
+                "group": "2026-04-15",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-15/index"
+                ]
+              }
+              {
                 "group": "2026-04-14",
                 "expanded": false,
                 "pages": [
@@ -353,18 +368,21 @@
                 ]
               }
             ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-14/index"
-            ]
           }
         ]
       },
       {
         "tab": "GitHub Research",
         "groups": [
+          {
+            "group": "Prismer",
+            "expanded": true,
+            "pages": [
+              "github-research/Prismer/index",
+              "github-research/Prismer/findings_core",
+              "github-research/Prismer/research_plan"
+            ]
+          },
           {
             "group": "onyx-foss",
             "expanded": false,
