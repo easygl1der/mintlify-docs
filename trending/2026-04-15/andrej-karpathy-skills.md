@@ -1,6 +1,6 @@
 # andrej-karpathy-skills 技术调研报告
 
-> 作者: @forrestchang | 今日新增: ⭐+0 | 总计: ⭐0
+> 作者: @forrestchang | 今日新增: ⭐+9754 | 总计: 41.9k
 
 ## 基本信息
 - 仓库名：andrej-karpathy-skills

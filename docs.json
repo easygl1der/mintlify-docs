@@ -130,7 +130,17 @@
                 "group": "2026-04-15",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-15/index"
+                  "trending/2026-04-15/index",
+                  "trending/2026-04-15/andrej-karpathy-skills",
+                  "trending/2026-04-15/hermes-agent",
+                  "trending/2026-04-15/claude-mem",
+                  "trending/2026-04-15/claude-code-best-practice",
+                  "trending/2026-04-15/editor",
+                  "trending/2026-04-15/multica",
+                  "trending/2026-04-15/ai-hedge-fund",
+                  "trending/2026-04-15/voicebox",
+                  "trending/2026-04-15/hello-agents",
+                  "trending/2026-04-15/get-shit-done"
                 ]
               },
               {
@@ -393,14 +403,6 @@
                 ]
               }
             ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-16/index"
-            ]
-          }
-        ]
       },
       {
         "tab": "GitHub Research",
