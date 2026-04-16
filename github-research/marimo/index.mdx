@@ -3,8 +3,6 @@ title: marimo — 响应式 Python 笔记本深度技术分析
 description: marimo-team/marimo GitHub 仓库技术架构、代码结构、依赖分析和开发洞察
 ---
 
-import { Card, CardGroup } from 'nextra/components';
-
 # marimo — 响应式 Python 笔记本深度技术分析
 
 > **数据来源**: [marimo-team/marimo](https://github.com/marimo-team/marimo) · `b95d26d` (2026-04-13) · v0.23.1
@@ -19,7 +17,7 @@ import { Card, CardGroup } from 'nextra/components';
 | **最新版本** | v0.23.1 (2026-04-10) |
 | **许可证** | Apache-2.0 |
 | **主要语言** | Python 90%+ · TypeScript/JavaScript |
-| **Python 版本** | >= 3.10 (支持 3.10-3.14) |
+| **Python 版本** | `>= 3.10` (支持 3.10-3.14) |
 | **架构类型** | Monorepo (Python + TypeScript) |
 | **构建工具** | `uv` (Python) · `pnpm` (前端) · `turbo` (Monorepo) |
 | **官方文档** | [docs.marimo.io](https://docs.marimo.io) |
@@ -436,7 +434,7 @@ marimo 使用 **Loro** (一个专为代码编辑优化的 CRDT 实现) 支持多
 
 ```python
 # pyproject.toml
-"narwhals>=2.0.0"
+"`narwhals>=2.0.0`"
 
 # 用户代码 — 自动兼容 Polars 和 Pandas
 import narwhals as nw

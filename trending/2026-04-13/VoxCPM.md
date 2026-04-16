@@ -222,7 +222,7 @@ accelerate
 safetensors
 soundfile
 librosa
-`numpy<2.0.0`
+numpy`<2.0.0`
 ```
 
 ### 可选开发依赖
@@ -248,7 +248,7 @@ ruff
 
 ```python
 # requirements.txt 中明确限制
-`numpy<2.0.0`
+numpy`<2.0.0`
 ```
 
 **问题分析：**

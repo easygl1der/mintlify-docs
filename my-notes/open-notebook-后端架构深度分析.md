@@ -117,10 +117,10 @@ commands/
 - `fastapi>=0.104.0`, `uvicorn>=0.24.0`
 - `langchain>=1.2.0`, `langgraph>=1.0.5`
 - `surrealdb>=1.0.4` — 异步 DB driver
-- `esperanto>=2.19.7,<3` — 自研的统一 AI provider 库（lfnovo）
-- `content-core>=1.14.1,<2` — 内容提取（PDF/URL/音视频）
-- `podcast-creator>=0.12.0,<1` — 播客生成
-- `surreal-commands>=1.3.1,<2` — 异步任务队列
+- `esperanto>=2.19.7`, `<3` — 自研的统一 AI provider 库（lfnovo）
+- `content-core>=1.14.1`, `<2` — 内容提取（PDF/URL/音视频）
+- `podcast-creator>=0.12.0`, `<1` — 播客生成
+- `surreal-commands>=1.3.1`, `<2` — 异步任务队列
 - `tiktoken>=0.12.0` — OpenAI tokenizer（用于 token 计数和 context 管理）
 
 ---
