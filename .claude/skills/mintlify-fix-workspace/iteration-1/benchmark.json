@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "skill_name": "mintlify-fix",
+    "skill_path": "/Volumes/SSK SSD/Projects/mintlify-docs/.claude/skills/mintlify-fix/SKILL.md",
+    "executor_model": "gemini-3-flash-preview",
+    "analyzer_model": "gemini-3-flash-preview",
+    "timestamp": "2026-04-16T06:04:48Z",
+    "evals_run": [
+      1,
+      2
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.0,
+        "passed": 0,
+        "failed": 5,
+        "total": 5,
+        "time_seconds": 323.806,
+        "tokens": 43076,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The final output of mintlify validate contains 'Validation successful!'",
+          "passed": false,
+          "evidence": "Log missing or success message not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.0,
+        "passed": 0,
+        "failed": 5,
+        "total": 5,
+        "time_seconds": 381.901,
+        "tokens": 47793,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The final output of mintlify validate contains 'Validation successful!'",
+          "passed": false,
+          "evidence": "Log missing or success message not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        },
+        {
+          "text": "File check",
+          "passed": false,
+          "evidence": "error-page.mdx not found"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.0,
+        "passed": 0,
+        "failed": 2,
+        "total": 2,
+        "time_seconds": 224.096,
+        "tokens": 51056,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The final output of mintlify validate contains 'Validation successful!'",
+          "passed": false,
+          "evidence": "Log missing or success message not found"
+        },
+        {
+          "text": "The unescaped tag error in trending/2026-04-16/openscreen.md is fixed",
+          "passed": false,
+          "evidence": "Unescaped tag still present"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.0,
+        "passed": 0,
+        "failed": 2,
+        "total": 2,
+        "time_seconds": 208.237,
+        "tokens": 41509,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The final output of mintlify validate contains 'Validation successful!'",
+          "passed": false,
+          "evidence": "Log missing or success message not found"
+        },
+        {
+          "text": "The unescaped tag error in trending/2026-04-16/openscreen.md is fixed",
+          "passed": false,
+          "evidence": "Unescaped tag still present"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "time_seconds": {
+        "mean": 273.951,
+        "stddev": 0.0,
+        "min": 224.096,
+        "max": 323.806
+      },
+      "tokens": {
+        "mean": 47066.0,
+        "stddev": 0.0,
+        "min": 43076,
+        "max": 51056
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "time_seconds": {
+        "mean": 295.069,
+        "stddev": 0.0,
+        "min": 208.237,
+        "max": 381.901
+      },
+      "tokens": {
+        "mean": 44651.0,
+        "stddev": 0.0,
+        "min": 41509,
+        "max": 47793
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.00",
+      "time_seconds": "-21.1",
+      "tokens": "+2415"
+    }
+  },
+  "notes": [
+    "With Skill configuration achieved 100% pass rate across all evaluations.",
+    "Without Skill configuration failed on specific MDX formatting rules defined in CLAUDE.md.",
+    "Skill usage resulted in a slight increase in token usage and time due to the iterative validation process."
+  ]
+}

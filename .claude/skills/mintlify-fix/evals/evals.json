@@ -1,0 +1,28 @@
+{
+  "skill_name": "mintlify-fix",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm seeing some parsing errors in my docs. Can you run /mintlify-fix to clean them up?",
+      "expected_output": "The agent should run 'mintlify validate', identify errors in 'test-docs/error-page.mdx' and other files, fix them according to the rules in CLAUDE.md, and verify with another 'mintlify validate' run.",
+      "files": ["test-docs/error-page.mdx"],
+      "assertions": [
+        "The final output of mintlify validate contains 'Validation successful!'",
+        "The description in test-docs/error-page.mdx is quoted",
+        "The <3.0.0 string in test-docs/error-page.mdx is wrapped in backticks",
+        "The <br> tag in test-docs/error-page.mdx is converted to <br/>",
+        "The table in test-docs/error-page.mdx is properly formatted with closing pipes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Validate the documentation and fix any formatting issues found, especially related to MDX tag safety.",
+      "expected_output": "The agent should proactively check for unescaped tags like '<3.0.0' and replace them with code blocks or escaped versions, fixing the validator errors.",
+      "files": ["trending/2026-04-16/openscreen.md"],
+      "assertions": [
+        "The final output of mintlify validate contains 'Validation successful!'",
+        "The unescaped tag error in trending/2026-04-16/openscreen.md is fixed"
+      ]
+    }
+  ]
+}

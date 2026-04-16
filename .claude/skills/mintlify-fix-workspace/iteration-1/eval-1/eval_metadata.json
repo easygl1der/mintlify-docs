@@ -1,0 +1,12 @@
+{
+  "eval_id": 1,
+  "eval_name": "basic-fixes",
+  "prompt": "I'm seeing some parsing errors in my docs. Can you run /mintlify-fix to clean them up?",
+  "assertions": [
+    "The final output of mintlify validate contains 'Validation successful!'",
+    "The description in test-docs/error-page.mdx is quoted",
+    "The <3.0.0 string in test-docs/error-page.mdx is wrapped in backticks",
+    "The <br> tag in test-docs/error-page.mdx is converted to <br/>",
+    "The table in test-docs/error-page.mdx is properly formatted with closing pipes"
+  ]
+}

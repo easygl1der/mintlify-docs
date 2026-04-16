@@ -1,0 +1,14 @@
+{
+  "expectations": [
+    {
+      "text": "The final output of mintlify validate contains 'Validation successful!'",
+      "passed": false,
+      "evidence": "Log missing or success message not found"
+    },
+    {
+      "text": "The unescaped tag error in trending/2026-04-16/openscreen.md is fixed",
+      "passed": false,
+      "evidence": "Unescaped tag still present"
+    }
+  ]
+}

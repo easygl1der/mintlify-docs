@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "The final output of mintlify validate contains 'Validation successful!'",
+      "passed": false,
+      "evidence": "Log missing or success message not found"
+    },
+    {
+      "text": "File check",
+      "passed": false,
+      "evidence": "error-page.mdx not found"
+    },
+    {
+      "text": "File check",
+      "passed": false,
+      "evidence": "error-page.mdx not found"
+    },
+    {
+      "text": "File check",
+      "passed": false,
+      "evidence": "error-page.mdx not found"
+    },
+    {
+      "text": "File check",
+      "passed": false,
+      "evidence": "error-page.mdx not found"
+    }
+  ]
+}

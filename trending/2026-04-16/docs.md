@@ -335,7 +335,7 @@ npm run dev
 
 ### MDX 组件使用示例
 
-```mdx
+````md
 import { Callout, Tabs, Tab } from '/components/mdx';
 
 # 示例文档
@@ -350,17 +350,21 @@ import { Callout, Tabs, Tab } from '/components/mdx';
 
 <Tabs>
   <Tab title="npm">
+
   ```bash
   npm install mintlify
   ```
+
   </Tab>
   <Tab title="yarn">
+
   ```bash
   yarn add mintlify
   ```
+
   </Tab>
 </Tabs>
-```
+````
 
 ### 配置文件示例
 
