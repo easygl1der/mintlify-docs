@@ -63,7 +63,7 @@
                   "social-media/2026-04-15/daily-summary",
                   "social-media/2026-04-15/23:56"
                 ]
-              }
+              },
               {
                 "group": "2026-04-10",
                 "expanded": false,
@@ -313,7 +313,24 @@
                 "pages": [
                   "trending/2026-04-15/index"
                 ]
-              }
+              },
+              {
+                "group": "2026-04-16",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-16/index",
+                  "trending/2026-04-16/andrej-karpathy-skills",
+                  "trending/2026-04-16/editor",
+                  "trending/2026-04-16/claude-mem",
+                  "trending/2026-04-16/dive-into-llms",
+                  "trending/2026-04-16/ai-hedge-fund",
+                  "trending/2026-04-16/Apollo-11",
+                  "trending/2026-04-16/superpowers",
+                  "trending/2026-04-16/voicebox",
+                  "trending/2026-04-16/public-apis",
+                  "trending/2026-04-16/open-agents"
+                ]
+              },
               {
                 "group": "2026-04-14",
                 "expanded": false,
