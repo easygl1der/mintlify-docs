@@ -1,0 +1,542 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - navigation "Main" [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Perplexity" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Perplexity" [ref=e14]
+          - button [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+        - generic [ref=e21]:
+          - generic [ref=e24]:
+            - link "New" [ref=e25] [cursor=pointer]:
+              - /url: /
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - generic: New
+                  - generic: ⌘K
+          - generic [ref=e26]:
+            - generic [ref=e28]:
+              - link "Computer" [ref=e29] [cursor=pointer]:
+                - /url: /computer/tasks
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic: Computer
+            - generic [ref=e31]: No pinned tasks
+          - generic [ref=e32]:
+            - generic [ref=e34]:
+              - link "Spaces" [ref=e35] [cursor=pointer]:
+                - /url: /spaces
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic: Spaces
+            - generic [ref=e37]: No pinned spaces
+          - generic [ref=e38]:
+            - generic [ref=e40]:
+              - link "Customize" [ref=e41] [cursor=pointer]:
+                - /url: /computer/connectors
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic: Customize
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - link "Connectors" [ref=e44] [cursor=pointer]:
+                  - /url: /computer/connectors
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Connectors
+              - generic [ref=e45]:
+                - link "Skills" [ref=e46] [cursor=pointer]:
+                  - /url: /computer/skills
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Skills
+          - generic [ref=e47]:
+            - generic [ref=e49]:
+              - link "History" [ref=e50] [cursor=pointer]:
+                - /url: /library
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic: History
+            - generic [ref=e53]: No recent threads
+    - main [ref=e57]:
+      - generic [ref=e60]:
+        - generic:
+          - generic:
+            - generic [ref=e64] [cursor=pointer]:
+              - img [ref=e70]
+              - img [ref=e72]
+            - tablist "Answer mode tabs" [ref=e75]:
+              - tab "Answer" [selected] [ref=e76] [cursor=pointer]:
+                - img [ref=e77]
+                - text: Answer
+              - tab "Links" [ref=e79] [cursor=pointer]:
+                - img [ref=e80]
+                - text: Links
+              - tab "Images" [ref=e82] [cursor=pointer]:
+                - img [ref=e83]
+                - text: Images
+            - generic [ref=e85]:
+              - button "Thread actions" [ref=e87] [cursor=pointer]:
+                - img [ref=e88]
+              - button "Share" [ref=e92] [cursor=pointer]:
+                - img [ref=e94]
+                - generic [ref=e96]: Share
+        - generic [ref=e99]:
+          - generic [ref=e103]:
+            - tabpanel "Answer" [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e113]:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                  - heading "what is the best practice of hermes agent?" [level=1] [ref=e119]:
+                    - generic [ref=e121]: what is the best practice of hermes agent?
+                - generic [ref=e122]:
+                  - button "Completed 3 steps" [ref=e126] [cursor=pointer]:
+                    - text: Completed 3 steps
+                    - img [ref=e127]
+                  - generic [ref=e136]:
+                    - paragraph [ref=e137]:
+                      - text: Hermes Agent, developed by Nous Research, is a self-improving AI agent with a closed learning loop that builds skills and memory over time. Best practices focus on leveraging its persistent memory, security, and deployment for optimal performance.
+                      - generic [ref=e142] [cursor=pointer]:
+                        - generic [ref=e143]: linkedin
+                        - generic [ref=e144]: "+2"
+                    - heading "Setup Basics" [level=2] [ref=e145]
+                    - paragraph [ref=e146]:
+                      - text: Install Hermes via the quickstart on Linux, macOS, or WSL2, using an LLM provider like OpenRouter for access to models such as Hermes 3. Configure API keys and optional messaging gateways like Telegram during the interactive wizard.
+                      - generic [ref=e151] [cursor=pointer]:
+                        - generic [ref=e152]: datacamp
+                        - generic [ref=e153]: "+1"
+                    - heading "Memory Management" [level=2] [ref=e154]
+                    - paragraph [ref=e155]:
+                      - text: "Utilize the three-level memory: session for current chats, persistent for facts/preferences, and skill memory for reusable patterns stored as markdown files. Enable FTS5 search and LLM summarization to recall context from long histories without token limits."
+                      - generic [ref=e160] [cursor=pointer]:
+                        - generic [ref=e161]: hermes-agent.nousresearch
+                        - generic [ref=e162]: "+1"
+                    - heading "Security Practices" [level=2] [ref=e163]
+                    - paragraph [ref=e164]:
+                      - text: Deploy with Docker backend, read-only root, and dropped capabilities for production. Activate prompt injection scanning, review tool permissions, apply credential filtering, and monitor logs regularly.
+                      - 'generic "Hermes Agent Developer Guide: Setup & Self-Improving AI" [ref=e166]':
+                        - link "lushbinary" [ref=e168] [cursor=pointer]:
+                          - /url: https://lushbinary.com/blog/hermes-agent-developer-guide-setup-skills-self-improving-ai/
+                          - generic [ref=e171]: lushbinary
+                    - heading "Task Optimization" [level=2] [ref=e172]
+                    - paragraph [ref=e173]:
+                      - text: Delegate complex tasks to subagents for parallel execution and use natural language to schedule automations like daily summaries. After multi-tool tasks, let it auto-create and improve skills for future reuse.
+                      - generic [ref=e178] [cursor=pointer]:
+                        - generic [ref=e179]: dev
+                        - generic [ref=e180]: "+2"
+                  - generic [ref=e181]:
+                    - generic [ref=e182]:
+                      - button "Share" [ref=e183] [cursor=pointer]:
+                        - img [ref=e186]
+                      - button "Download" [ref=e189] [cursor=pointer]:
+                        - img [ref=e190]
+                      - button "Copy" [ref=e192] [cursor=pointer]:
+                        - img [ref=e195]
+                      - button "10 sources" [ref=e199] [cursor=pointer]:
+                        - generic [ref=e201]:
+                          - img [ref=e202]
+                          - img [ref=e203]
+                          - generic [ref=e205]:
+                            - img [ref=e208]
+                            - img [ref=e212]
+                            - img [ref=e216]
+                          - text: 10 sources
+                    - generic [ref=e219]:
+                      - generic [ref=e221]:
+                        - button "Helpful" [ref=e222] [cursor=pointer]:
+                          - img [ref=e225]
+                        - button "Not helpful" [ref=e228] [cursor=pointer]:
+                          - img [ref=e231]
+                      - button "More actions" [ref=e235] [cursor=pointer]:
+                        - img [ref=e236]
+            - tabpanel "Answer" [ref=e241]:
+              - generic [ref=e242]:
+                - generic [ref=e247]:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                  - generic [ref=e255]: what is the best practice of hermes agent?
+                - generic [ref=e256]:
+                  - button "Completed 2 steps" [ref=e260] [cursor=pointer]:
+                    - text: Completed 2 steps
+                    - img [ref=e261]
+                  - generic [ref=e270]:
+                    - paragraph [ref=e271]:
+                      - text: Hermes Agent is a self-improving AI agent from Nous Research that learns skills, manages memory across layers, and automates tasks via tools like file editing and cron jobs. Best practices emphasize specific prompting, memory utilization, security hardening, and delegation for efficiency.
+                      - generic [ref=e276] [cursor=pointer]:
+                        - generic [ref=e277]: hermes-agent.nousresearch
+                        - generic [ref=e278]: "+2"
+                    - heading "Prompting Tips" [level=2] [ref=e279]
+                    - paragraph [ref=e280]:
+                      - text: Be specific with context upfront, like including file paths and error messages, to minimize iterations. Use context files such as AGENTS.md for recurring instructions like coding styles, which the agent reads automatically each session. Let the agent leverage its tools freely instead of micromanaging steps.
+                      - generic "Tips & Best Practices | Hermes Agent - nous research" [ref=e282]:
+                        - link "hermes-agent.nousresearch" [ref=e284] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/guides/tips
+                          - generic [ref=e287]: hermes-agent.nousresearch
+                    - heading "Memory and Skills" [level=2] [ref=e288]
+                    - paragraph [ref=e289]:
+                      - text: Explicitly tell the agent to "remember this" or save procedures as skills after complex tasks for reuse via /skill commands. Employ three memory layers—session, persistent facts, and procedural skills—with FTS5 search for quick recall from long histories.
+                      - generic [ref=e294] [cursor=pointer]:
+                        - generic [ref=e295]: lushbinary
+                        - generic [ref=e296]: "+2"
+                    - heading "Security Measures" [level=2] [ref=e297]
+                    - paragraph [ref=e298]:
+                      - text: Run in Docker with read-only root and dropped capabilities; enable prompt injection scanning and credential filtering. Use allowlists or DM pairing for messaging bots, review "always" approvals cautiously, and monitor logs regularly.
+                      - generic [ref=e303] [cursor=pointer]:
+                        - generic [ref=e304]: lushbinary
+                        - generic [ref=e305]: "+1"
+                    - heading "Task Execution" [level=2] [ref=e306]
+                    - paragraph [ref=e307]:
+                      - text: Delegate parallel subtasks to subagents for efficiency, use execute_code for batch operations, and switch models (/model) based on task complexity. Schedule automations naturally, like "check news daily at 9am," and set a home channel for proactive updates.
+                      - generic [ref=e312] [cursor=pointer]:
+                        - generic [ref=e313]: linkedin
+                        - generic [ref=e314]: "+1"
+                  - generic [ref=e315]:
+                    - generic [ref=e316]:
+                      - button "Share" [ref=e317] [cursor=pointer]:
+                        - img [ref=e320]
+                      - button "Download" [ref=e323] [cursor=pointer]:
+                        - img [ref=e324]
+                      - button "Copy" [ref=e326] [cursor=pointer]:
+                        - img [ref=e329]
+                      - button "10 sources" [ref=e333] [cursor=pointer]:
+                        - generic [ref=e335]:
+                          - img [ref=e336]
+                          - img [ref=e337]
+                          - generic [ref=e339]:
+                            - img [ref=e342]
+                            - img [ref=e346]
+                            - img [ref=e350]
+                          - text: 10 sources
+                    - generic [ref=e353]:
+                      - generic [ref=e355]:
+                        - button "Helpful" [ref=e356] [cursor=pointer]:
+                          - img [ref=e359]
+                        - button "Not helpful" [ref=e362] [cursor=pointer]:
+                          - img [ref=e365]
+                      - button "More actions" [ref=e369] [cursor=pointer]:
+                        - img [ref=e370]
+            - tabpanel "Answer" [ref=e375]:
+              - generic [ref=e376]:
+                - generic [ref=e381]:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                  - generic [ref=e389]: How does Hermes Agent self-improving learning loop work
+                - generic [ref=e390]:
+                  - generic [ref=e398]:
+                    - paragraph [ref=e399]:
+                      - text: Hermes Agent's self-improving learning loop is a closed feedback cycle that operates continuously during and across sessions, enabling the agent to autonomously curate memory, create skills, and refine its capabilities without human intervention.
+                      - generic [ref=e404] [cursor=pointer]:
+                        - generic [ref=e405]: mranand.substack
+                        - generic [ref=e406]: "+1"
+                    - heading "Core Components" [level=2] [ref=e407]
+                    - paragraph [ref=e408]:
+                      - text: "The loop comprises four interconnected parts: agent-curated memory with periodic nudges, autonomous skill creation, skill self-improvement, and FTS5 cross-session recall enhanced by LLM summarization. Periodic nudges prompt the agent at intervals to evaluate recent activity and persist useful facts to memory files, keeping storage curated rather than exhaustive."
+                      - generic [ref=e413] [cursor=pointer]:
+                        - generic [ref=e414]: hermes-agent.nousresearch
+                        - generic [ref=e415]: "+1"
+                    - heading "Skill Lifecycle" [level=2] [ref=e416]
+                    - paragraph [ref=e417]:
+                      - text: Upon task completion—triggered by conditions like 5+ tool calls, error recovery, or user corrections—the agent generates a reusable Markdown skill file detailing steps, tools, and context per the agentskills.io standard. During future uses, it refines skills incrementally via targeted edits (e.g., edit_skill tool), favoring precise replacements over full rewrites.
+                      - generic [ref=e422] [cursor=pointer]:
+                        - generic [ref=e423]: yuv
+                        - generic [ref=e424]: "+1"
+                    - heading "Memory Layers" [level=2] [ref=e425]
+                    - paragraph [ref=e426]:
+                      - text: Session memory logs interactions for immediate recall; persistent memory stores facts and episodic details; skills handle procedures. An optional Honcho layer models user preferences dialectically across sessions, while the Gateway ensures always-on access, feeding refined context into each new task via preflight compression.
+                      - generic [ref=e431] [cursor=pointer]:
+                        - generic [ref=e432]: linkedin
+                        - generic [ref=e433]: "+1"
+                  - generic [ref=e434]:
+                    - generic [ref=e435]:
+                      - button "Share" [ref=e436] [cursor=pointer]:
+                        - img [ref=e439]
+                      - button "Download" [ref=e442] [cursor=pointer]:
+                        - img [ref=e443]
+                      - button "Copy" [ref=e445] [cursor=pointer]:
+                        - img [ref=e448]
+                      - button "11 sources" [ref=e452] [cursor=pointer]:
+                        - generic [ref=e454]:
+                          - img [ref=e455]
+                          - img [ref=e456]
+                          - generic [ref=e458]:
+                            - img [ref=e461]
+                            - img [ref=e465]
+                            - img [ref=e469]
+                          - text: 11 sources
+                    - generic [ref=e472]:
+                      - generic [ref=e474]:
+                        - button "Helpful" [ref=e475] [cursor=pointer]:
+                          - img [ref=e478]
+                        - button "Not helpful" [ref=e481] [cursor=pointer]:
+                          - img [ref=e484]
+                      - button "More actions" [ref=e488] [cursor=pointer]:
+                        - img [ref=e489]
+            - tabpanel "Answer" [ref=e494]:
+              - generic [ref=e495]:
+                - generic [ref=e500]:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                  - generic [ref=e508]: is there any one to analysis this is better than claude code or gemini cli??
+                - generic [ref=e509]:
+                  - button "Completed 2 steps" [ref=e513] [cursor=pointer]:
+                    - text: Completed 2 steps
+                    - img [ref=e514]
+                  - generic [ref=e523]:
+                    - paragraph [ref=e524]:
+                      - text: "No single tool definitively proves Hermes Agent is universally better than Claude Code or Gemini CLI, as comparisons depend on use cases like coding maturity, cost, or self-improvement. Analyses highlight trade-offs: Hermes excels in long-term adaptation via its learning loop, while Claude leads in reasoning quality and Gemini in free access/large context."
+                      - generic [ref=e529] [cursor=pointer]:
+                        - generic [ref=e530]: colombani
+                        - generic [ref=e531]: "+2"
+                    - heading "Key Comparison Table" [level=2] [ref=e532]
+                    - table [ref=e535]:
+                      - rowgroup [ref=e536]:
+                        - 'row "Feature Hermes Agent CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ... Claude Code CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ... Gemini CLI CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e537]':
+                          - columnheader "Feature" [ref=e538]
+                          - 'columnheader "Hermes Agent CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e539]':
+                            - text: Hermes Agent
+                            - 'generic "CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e541]':
+                              - link "colombani" [ref=e543] [cursor=pointer]:
+                                - /url: https://colombani.ai/en/blog/cli-agents-comparison-2026/
+                                - generic [ref=e546]: colombani
+                          - 'columnheader "Claude Code CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e547]':
+                            - text: Claude Code
+                            - 'generic "CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e549]':
+                              - link "colombani" [ref=e551] [cursor=pointer]:
+                                - /url: https://colombani.ai/en/blog/cli-agents-comparison-2026/
+                                - generic [ref=e554]: colombani
+                          - 'columnheader "Gemini CLI CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e555]':
+                            - text: Gemini CLI
+                            - 'generic "CLI Agents in 2026: Claude Code, Gemini CLI, Codex, Hermes ..." [ref=e557]':
+                              - link "colombani" [ref=e559] [cursor=pointer]:
+                                - /url: https://colombani.ai/en/blog/cli-agents-comparison-2026/
+                                - generic [ref=e562]: colombani
+                      - rowgroup [ref=e563]:
+                        - row "Maker Nous Research Anthropic Google" [ref=e564]:
+                          - cell "Maker" [ref=e565]
+                          - cell "Nous Research" [ref=e566]
+                          - cell "Anthropic" [ref=e567]
+                          - cell "Google" [ref=e568]
+                        - row "Model Support Multi (OpenRouter) Opus/Sonnet Gemini 2.5 Pro" [ref=e569]:
+                          - cell "Model Support" [ref=e570]
+                          - cell "Multi (OpenRouter)" [ref=e571]
+                          - cell "Opus/Sonnet" [ref=e572]
+                          - cell "Gemini 2.5 Pro" [ref=e573]
+                        - row "Context Window Model-dependent 200K tokens 1M tokens" [ref=e574]:
+                          - cell "Context Window" [ref=e575]
+                          - cell "Model-dependent" [ref=e576]
+                          - cell "200K tokens" [ref=e577]
+                          - cell "1M tokens" [ref=e578]
+                        - row "Cost API fees $20-100/mo Free (Google acct)" [ref=e579]:
+                          - cell "Cost" [ref=e580]
+                          - cell "API fees" [ref=e581]
+                          - cell "$20-100/mo" [ref=e582]
+                          - cell "Free (Google acct)" [ref=e583]
+                        - row "Open Source Yes (Apache 2.0) No Yes (Apache 2.0)" [ref=e584]:
+                          - cell "Open Source" [ref=e585]
+                          - cell "Yes (Apache 2.0)" [ref=e586]
+                          - cell "No" [ref=e587]
+                          - cell "Yes (Apache 2.0)" [ref=e588]
+                        - row "Self-Improvement Autonomous skills Hooks/Skills Basic config" [ref=e589]:
+                          - cell "Self-Improvement" [ref=e590]
+                          - cell "Autonomous skills" [ref=e591]
+                          - cell "Hooks/Skills" [ref=e592]
+                          - cell "Basic config" [ref=e593]
+                        - row "Maturity/Stability Emerging (fast iter) Most polished Less mature" [ref=e594]:
+                          - cell "Maturity/Stability" [ref=e595]
+                          - cell "Emerging (fast iter)" [ref=e596]
+                          - cell "Most polished" [ref=e597]
+                          - cell "Less mature" [ref=e598]
+                        - row "Best For Autonomous tasks Complex refactoring Code exploration" [ref=e599]:
+                          - cell "Best For" [ref=e600]
+                          - cell "Autonomous tasks" [ref=e601]
+                          - cell "Complex refactoring" [ref=e602]
+                          - cell "Code exploration" [ref=e603]
+                    - heading "Strengths by Scenario" [level=2] [ref=e604]
+                    - paragraph [ref=e605]:
+                      - text: Hermes shines for power users needing compounding intelligence over months through Honcho modeling and auto-skills, outperforming in some agentic benchmarks. Claude Code dominates deep engineering/debugging due to superior Opus reasoning. Gemini CLI offers rapid, free iteration on large codebases but lags in code quality/complexity.
+                      - generic [ref=e610] [cursor=pointer]:
+                        - generic [ref=e611]: utilo
+                        - generic [ref=e612]: "+3"
+                    - heading "Limitations Noted" [level=2] [ref=e613]
+                    - paragraph [ref=e614]:
+                      - text: Hermes is newer with stability risks and potential incorrect learning; Claude lacks scheduling/messaging; Gemini has weaker customization/ecosystem. For coding specifically, Claude often edges out in quality, but Hermes competes as a versatile harness.
+                      - generic [ref=e619] [cursor=pointer]:
+                        - generic [ref=e620]: facebook
+                        - generic [ref=e621]: "+2"
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - button "Share" [ref=e624] [cursor=pointer]:
+                        - img [ref=e627]
+                      - button "Download" [ref=e630] [cursor=pointer]:
+                        - img [ref=e631]
+                      - button "Copy" [ref=e633] [cursor=pointer]:
+                        - img [ref=e636]
+                      - button "10 sources" [ref=e640] [cursor=pointer]:
+                        - generic [ref=e642]:
+                          - img [ref=e643]
+                          - img [ref=e644]
+                          - generic [ref=e646]:
+                            - img [ref=e649]
+                            - img [ref=e653]
+                            - img [ref=e658]
+                          - text: 10 sources
+                    - generic [ref=e661]:
+                      - generic [ref=e663]:
+                        - button "Helpful" [ref=e664] [cursor=pointer]:
+                          - img [ref=e667]
+                        - button "Not helpful" [ref=e670] [cursor=pointer]:
+                          - img [ref=e673]
+                      - button "More actions" [ref=e677] [cursor=pointer]:
+                        - img [ref=e678]
+                  - generic [ref=e681]:
+                    - generic [ref=e686]: Follow-ups
+                    - generic [ref=e687]:
+                      - button "Why Hermes Agent laps Claude Code in agentic benchmarks — interactive comparison dashboard Computer" [ref=e688] [cursor=pointer]:
+                        - img [ref=e690]
+                        - generic [ref=e692]:
+                          - generic [ref=e693]: Why Hermes Agent laps Claude Code in agentic benchmarks — interactive comparison dashboard
+                          - generic [ref=e695]:
+                            - img [ref=e696]
+                            - text: Computer
+                      - button "How to install and set up Hermes Agent vs Claude Code" [ref=e698] [cursor=pointer]:
+                        - img [ref=e700]
+                        - generic [ref=e703]: How to install and set up Hermes Agent vs Claude Code
+                      - button "What benchmarks show Hermes Agent outperforming others" [ref=e704] [cursor=pointer]:
+                        - img [ref=e706]
+                        - generic [ref=e709]: What benchmarks show Hermes Agent outperforming others
+                      - button "Best models to use with Hermes Agent in 2026" [ref=e710] [cursor=pointer]:
+                        - img [ref=e712]
+                        - generic [ref=e715]: Best models to use with Hermes Agent in 2026
+                      - button "Hermes Agent vs OpenClaw comparison details" [ref=e716] [cursor=pointer]:
+                        - img [ref=e718]
+                        - generic [ref=e721]: Hermes Agent vs OpenClaw comparison details
+          - generic [ref=e727]:
+            - status [ref=e728]:
+              - generic [ref=e729]:
+                - img [ref=e730]
+                - generic [ref=e732]: Viewing a shared thread. Your follow-ups will be private to you.
+            - generic [ref=e738]:
+              - generic [ref=e740]:
+                - textbox [ref=e741]:
+                  - paragraph [ref=e742]
+                - generic: Ask a follow-up
+              - button "Add files or tools" [ref=e745] [cursor=pointer]:
+                - img [ref=e748]
+              - generic [ref=e751]:
+                - button "Model" [ref=e753] [cursor=pointer]:
+                  - generic [ref=e754]: Model
+                  - img [ref=e756]
+                - button "Dictation" [ref=e760] [cursor=pointer]:
+                  - img [ref=e763]
+                - button "Submit" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+  - generic [ref=e768]:
+    - heading "Cookie Policy" [level=2] [ref=e769]
+    - paragraph [ref=e770]: This website uses third party cookies to serve you relevant ads and provide personalization.
+  - dialog "Cookie Policy":
+    - generic [ref=e771]:
+      - generic [ref=e772]:
+        - img [ref=e773]
+        - generic [ref=e775]: Cookie Policy
+      - generic [ref=e776]:
+        - text: This website uses third party cookies to serve you relevant ads and provide personalization by remembering your location. You may opt out from these cookies by selecting the "Opt out" button below. If you have a Perplexity account, you may opt out of the "sale" or "sharing" of your data
+        - link "here" [ref=e777] [cursor=pointer]:
+          - /url: https://www.perplexity.ai/hub/legal/privacy-policy
+        - text: .
+      - generic [ref=e778]:
+        - button "Opt out" [ref=e779] [cursor=pointer]:
+          - generic [ref=e781]: Opt out
+        - button "Got it" [ref=e782] [cursor=pointer]:
+          - generic [ref=e784]: Got it
+  - dialog [ref=e790]:
+    - generic [ref=e791]:
+      - button "Close" [ref=e794] [cursor=pointer]:
+        - img [ref=e797]
+      - generic [ref=e801]:
+        - generic [ref=e802]:
+          - generic [ref=e803]: Instant answers at your fingertips
+          - generic [ref=e804]:
+            - text: By continuing, you agree to our
+            - link "privacy policy" [ref=e805] [cursor=pointer]:
+              - /url: https://www.perplexity.com/hub/legal/privacy-policy
+            - text: .
+        - generic [ref=e807]:
+          - generic [ref=e808]:
+            - button "Continue with Google" [ref=e809] [cursor=pointer]:
+              - img [ref=e811]
+              - generic [ref=e813]: Continue with Google
+            - button "Continue with Apple" [ref=e815] [cursor=pointer]:
+              - img [ref=e817]
+              - generic [ref=e819]: Continue with Apple
+          - generic [ref=e822]:
+            - generic [ref=e824]:
+              - textbox "Enter your email" [active] [ref=e829]
+              - generic [ref=e830]:
+                - button "Continue with email" [disabled]:
+                  - generic: Continue with email
+            - button "Single sign-on (SSO)" [ref=e832] [cursor=pointer]:
+              - generic [ref=e833]: Single sign-on (SSO)
+            - button "Close" [ref=e835] [cursor=pointer]:
+              - generic [ref=e837]: Close
