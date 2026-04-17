@@ -1,5 +1,5 @@
 ---
-title: Onyx 整体架构分析
+title: 整体架构分析
 description: Onyx (原 Danswer) 开源 Gen-AI 企业搜索平台的整体架构分析
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Onyx MinerU 集成可行性分析
+title: MinerU 集成可行性分析
 description: 在 Onyx 中集成 MinerU 进行 PDF 到 Markdown 转换的可行性评估和实施方案
 ---
 

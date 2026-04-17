@@ -1,5 +1,5 @@
 ---
-title: Onyx 笔记生成功能可行性分析
+title: 笔记生成功能可行性分析
 description: 在 Onyx 中实现问答时自动生成笔记的功能设计方案
 ---
 

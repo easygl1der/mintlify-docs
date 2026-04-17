@@ -1,5 +1,5 @@
 ---
-title: Onyx LaTeX 编译器可行性分析
+title: LaTeX 编译器可行性分析
 description: 在 Onyx 中添加 LaTeX 编译器支持（如 Overleaf、Prismer）的可行性评估
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Onyx Groups 管理机制
+title: Groups 管理机制
 description: Onyx 中用户组（UserGroup）的数据库模型、API 接口和管理机制深度分析
 ---
 

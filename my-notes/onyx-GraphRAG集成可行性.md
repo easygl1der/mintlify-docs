@@ -1,5 +1,5 @@
 ---
-title: Onyx GraphRAG 集成可行性分析
+title: GraphRAG 集成可行性分析
 description: 在 Onyx 中实现 GraphRAG（知识图谱增强检索）的可行性评估和实施方案
 ---
 

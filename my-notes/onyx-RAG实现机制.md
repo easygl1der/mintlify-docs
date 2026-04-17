@@ -1,5 +1,5 @@
 ---
-title: Onyx RAG 实现机制
+title: RAG 实现机制
 description: Onyx 中 Retrieval-Augmented Generation 的检索和生成机制深度分析
 ---
 

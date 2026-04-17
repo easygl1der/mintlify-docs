@@ -1,5 +1,5 @@
 ---
-title: Onyx Projects 管理机制
+title: Projects 管理机制
 description: Onyx 中个人项目（UserProject）的数据库模型、API 接口和生命周期管理
 ---
 

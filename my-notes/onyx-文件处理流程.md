@@ -1,5 +1,5 @@
 ---
-title: Onyx 文件处理流程
+title: 文件处理流程
 description: Onyx 中 PDF、PPTX 等文件从上传到索引的完整处理流程深度分析
 ---
 
