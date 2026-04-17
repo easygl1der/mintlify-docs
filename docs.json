@@ -418,6 +418,20 @@
         "tab": "GitHub Research",
         "groups": [
           {
+            "group": "subagent-driven-development",
+            "expanded": false,
+            "pages": [
+              "github-research/subagent-driven-development/index"
+            ]
+          },
+          {
+            "group": "openui",
+            "expanded": false,
+            "pages": [
+              "github-research/openui/index"
+            ]
+          },
+          {
             "group": "open-agents",
             "expanded": false,
             "pages": [
@@ -603,6 +617,20 @@
                     "expanded": false,
                     "pages": [
                       "my-notes/研究-CrewAI框架深度解析"
+                    ]
+                  },
+                  {
+                    "group": "Prismer",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/Prismer/index",
+                      "my-notes/Prismer/Prismer-整体架构",
+                      "my-notes/Prismer/Prismer-前端架构",
+                      "my-notes/Prismer/Prismer-后端架构",
+                      "my-notes/Prismer/Prismer-LaTeX编译",
+                      "my-notes/Prismer/Prismer-Agent编排",
+                      "my-notes/Prismer/Prismer-协作功能",
+                      "my-notes/Prismer/Prismer-AI功能"
                     ]
                   },
                   {
