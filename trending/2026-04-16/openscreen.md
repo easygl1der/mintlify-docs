@@ -70,24 +70,27 @@ recorder.stop(filename='recording.mp4')
 
 openscreen 采用分层架构设计，自上而下分为三层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     用户代码层                              │
-│         from openscreen import Screen, Recorder            │
-├─────────────────────────────────────────────────────────────┤
-│                   openscreen.py 核心层                       │
-│    ┌─────────────────┐         ┌──────────────────┐         │
-│    │    Screen       │         │    Recorder      │         │
-│    │     Class       │         │     Class        │         │
-│    │  (截图功能)      │         │   (录制功能)      │         │
-│    └────────┬────────┘         └────────┬─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                      依赖库层                                │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │   mss   │  │  opencv    │  │ numpy  │  │   Pillow     │  │
-│  │屏幕截图 │  │  视频编码   │  │ 数组   │  │   图像处理   │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph UserLayer["用户代码层"]
+        A1["from openscreen import Screen, Recorder"]
+    end
+
+    subgraph CoreLayer["openscreen.py 核心层"]
+        B1["Screen Class<br/>(截图功能)"]
+        B2["Recorder Class<br/>(录制功能)"]
+    end
+
+    subgraph DepsLayer["依赖库层"]
+        C1["mss<br/>屏幕截图"]
+        C2["opencv<br/>视频编码"]
+        C3["numpy<br/>数组"]
+        C4["Pillow<br/>图像处理"]
+    end
+
+    UserLayer --> CoreLayer
+    CoreLayer --> DepsLayer
 ```
 
 ### 技术选型分析

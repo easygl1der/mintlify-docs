@@ -77,14 +77,15 @@ pip install -e .
 
 ### 技术选型评估
 
-```
-技术选型评分：
-┌─────────────────────────────────────────────────────────┐
-│ PyTorch + Transformers:        ★★★★★ 业界标准，生态完善  │
-│ PyTorch Lightning:             ★★★★☆ 降低训练代码复杂度  │
-│ DeepSpeed ZeRO:                ★★★★★ 大模型训练必备     │
-│ Hugging Face 生态:             ★★★★★ 复用预训练模型     │
-└─────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 40, "nodeSpacing": 30}}}%%
+flowchart LR
+    subgraph TechRatings["技术选型评分"]
+        A1["PyTorch + Transformers<br/>★★★★★ 业界标准，生态完善"]
+        A2["PyTorch Lightning<br/>★★★★☆ 降低训练代码复杂度"]
+        A3["DeepSpeed ZeRO<br/>★★★★★ 大模型训练必备"]
+        A4["Hugging Face 生态<br/>★★★★★ 复用预训练模型"]
+    end
 ```
 
 **技术选型优势**：

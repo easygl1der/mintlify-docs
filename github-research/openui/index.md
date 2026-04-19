@@ -69,30 +69,40 @@ description: GitHub 仓库深度技术调研 · @thesysdev
 
 ### 技术栈复杂度全景图
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        技术栈全景图                              │
-├─────────────────────────────────────────────────────────────────┤
-│  前端层 (Browser)                                                │
-│  ├── React 18 + TypeScript + Vite                              │
-│  ├── AssemblyScript → WASM (frontend-wasm)                      │
-│  └── Tailwind CSS (推测)                                        │
-├─────────────────────────────────────────────────────────────────┤
-│  通信层                                                         │
-│  ├── REST API (Actix-web)                                       │
-│  ├── WebSocket (可能用于实时预览)                                │
-│  └── LLM API (OpenAI/Groq/Ollama)                               │
-├─────────────────────────────────────────────────────────────────┤
-│  后端层 (Server/Docker)                                          │
-│  ├── Rust + Actix-web                                           │
-│  ├── Rust WASM (html5ever-detach)                               │
-│  └── AI Agent 模块                                              │
-├─────────────────────────────────────────────────────────────────┤
-│  编译层                                                         │
-│  ├── Cargo (Rust 包管理 + workspaces)                           │
-│  ├── npm workspaces (JS 包管理)                                │
-│  └── wasm-pack + wasm-bindgen                                  │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph FE["前端层 (Browser)"]
+        direction TB
+        FE1["React 18 + TypeScript + Vite"]
+        FE2["AssemblyScript → WASM (frontend-wasm)"]
+        FE3["Tailwind CSS (推测)"]
+    end
+
+    subgraph COM["通信层"]
+        direction TB
+        COM1["REST API (Actix-web)"]
+        COM2["WebSocket (可能用于实时预览)"]
+        COM3["LLM API (OpenAI/Groq/Ollama)"]
+    end
+
+    subgraph BE["后端层 (Server/Docker)"]
+        direction TB
+        BE1["Rust + Actix-web"]
+        BE2["Rust WASM (html5ever-detach)"]
+        BE3["AI Agent 模块"]
+    end
+
+    subgraph BUILD["编译层"]
+        direction TB
+        BUILD1["Cargo (Rust 包管理 + workspaces)"]
+        BUILD2["npm workspaces (JS 包管理)"]
+        BUILD3["wasm-pack + wasm-bindgen"]
+    end
+
+    FE --> COM
+    COM --> BE
+    BE --> BUILD
 ```
 
 ## 代码结构
@@ -335,48 +345,62 @@ services:
 
 ### 本地开发环境要求
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    本地开发依赖清单                           │
-├─────────────────────────────────────────────────────────────┤
-│  Rust 工具链                                                 │
-│  ├── rustc >= 1.75 (stable)                                 │
-│  ├── cargo                                                  │
-│  ├── wasm-pack                                              │
-│  └── wasm32 target                                          │
-├─────────────────────────────────────────────────────────────┤
-│  Node.js 环境                                                │
-│  ├── node >= 18.x                                           │
-│  └── npm >= 9.x 或 pnpm >= 8.x                              │
-├─────────────────────────────────────────────────────────────┤
-│  其他工具                                                    │
-│  ├── git                                                    │
-│  └── Docker Desktop (可选，用于容器化开发)                   │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph RUST["Rust 工具链"]
+        direction TB
+        R1["rustc >= 1.75 (stable)"]
+        R2["cargo"]
+        R3["wasm-pack"]
+        R4["wasm32 target"]
+    end
+
+    subgraph NODE["Node.js 环境"]
+        direction TB
+        N1["node >= 18.x"]
+        N2["npm >= 9.x 或 pnpm >= 8.x"]
+    end
+
+    subgraph OTHER["其他工具"]
+        direction TB
+        O1["git"]
+        O2["Docker Desktop (可选，用于容器化开发)"]
+    end
 ```
 
 ### 构建流程分析
 
-```
-┌────────────────────────────────────────────────────────────────┐
-│                     构建流程图                                  │
-├────────────────────────────────────────────────────────────────┤
-│  1. Rust WASM 编译                                             │
-│     cargo build --target wasm32-unknown-unknown                │
-│     wasm-pack build --target web                               │
-│                        ↓                                       │
-│  2. Rust 后端编译                                               │
-│     cargo build --release                                      │
-│                        ↓                                       │
-│  3. 前端依赖安装                                                │
-│     npm install 或 pnpm install                               │
-│                        ↓                                       │
-│  4. 前端构建                                                    │
-│     vite build                                                 │
-│                        ↓                                       │
-│  5. Docker 镜像打包                                             │
-│     docker build -t openui .                                   │
-└────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart LR
+    subgraph STEP1["1. Rust WASM 编译"]
+        direction TB
+        S1["cargo build --target wasm32-unknown-unknown"]
+        S2["wasm-pack build --target web"]
+    end
+
+    subgraph STEP2["2. Rust 后端编译"]
+        direction TB
+        S3["cargo build --release"]
+    end
+
+    subgraph STEP3["3. 前端依赖安装"]
+        direction TB
+        S4["npm install 或 pnpm install"]
+    end
+
+    subgraph STEP4["4. 前端构建"]
+        direction TB
+        S5["vite build"]
+    end
+
+    subgraph STEP5["5. Docker 镜像打包"]
+        direction TB
+        S6["docker build -t openui ."]
+    end
+
+    STEP1 --> STEP2 --> STEP3 --> STEP4 --> STEP5
 ```
 
 ### 快速启动命令

@@ -85,26 +85,36 @@ synth.stop()
 
 voicebox 采用分层架构设计，自上而下分为四层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     应用层                                │
-│         from voicebox import Voicebox, AudioProcessor      │
-├─────────────────────────────────────────────────────────────┤
-│                   voicebox 框架层                           │
-│    ┌─────────────┐         ┌──────────────────┐         │
-│    │ Synthesizer │         │  AudioProcessor  │         │
-│    │   合成器     │         │   音频处理器     │         │
-│    │    Class    │         │     Class        │         │
-│    └────────┬────────┘         └────────┬─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                   后端支持层                                │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │ CoquiTTS  │  │  ElevenLabs│  │ Azure TTS│  │  自定义引擎  │  │
-│  │   引擎    │  │   引擎     │  │  引擎    │  │   引擎       │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┤
-                    辅助与工具层
-                    (音频处理、格式转换、工具等)
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph APP["应用层"]
+        direction TB
+        APP1["from voicebox import Voicebox, AudioProcessor"]
+    end
+
+    subgraph FRAMEWORK["voicebox 框架层"]
+        direction TB
+        FW1["Synthesizer 合成器"]
+        FW2["AudioProcessor 音频处理器"]
+    end
+
+    subgraph BACKEND["后端支持层"]
+        direction TB
+        BE1["CoquiTTS 引擎"]
+        BE2["ElevenLabs 引擎"]
+        BE3["Azure TTS 引擎"]
+        BE4["自定义引擎"]
+    end
+
+    subgraph UTILS["辅助与工具层"]
+        direction TB
+        UT1["音频处理、格式转换、工具等"]
+    end
+
+    APP --> FRAMEWORK
+    FRAMEWORK --> BACKEND
+    BACKEND --> UTILS
 ```
 
 ### 技术选型分析

@@ -15,42 +15,43 @@ description: Prismer 系统架构总览与组件关系
 
 ## 系统架构总览
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        Frontend (Next.js 16)                     │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐  │
-│  │  LaTeX Editor │  │ Jupyter Cell │  │  PDF Viewer / Notes   │  │
-│  └──────┬──────┘  └──────┬──────┘  └───────────┬─────────────┘  │
-│         │                │                      │                 │
-│         └────────────────┼──────────────────────┘                 │
-│                          │                                        │
-│                   ┌──────▼──────┐                                 │
-│                   │  DirectiveQueue │ (EventEmitter)              │
-│                   │  / SyncLayer  │                               │
-│                   └──────┬──────┘                                 │
-└──────────────────────────┼────────────────────────────────────────┘
-                           │ SSE + WebSocket
-┌──────────────────────────▼────────────────────────────────────────┐
-│                    Bridge API Layer                               │
-│              /api/v2/im/bridge/[workspaceId]                      │
-└──────────────────────────┬────────────────────────────────────────┘
-                           │ WebSocket
-┌──────────────────────────▼────────────────────────────────────────┐
-│               Container Gateway (:16888)                           │
-│                   Node.js 反向代理                                  │
-│  ┌────────────┬────────────┬────────────┬────────────┐           │
-│  │ LaTeX :8080 │Jupyter:8888 │Prover:8081│ arXiv:8082│           │
-│  └────────────┴────────────┴────────────┴────────────┘           │
-└──────────────────────────────────────────────────────────────────┘
-                           │
-┌──────────────────────────▼────────────────────────────────────────┐
-│                    OpenClaw Agent                                  │
-│         (Kimi K2.5 / Claude Sonnet 4 providers)                  │
-│  ┌─────────────────┐  ┌─────────────────┐                        │
-│  │   prismer-im    │  │ prismer-workspace│ (26 tools)            │
-│  │   (v0.2.0)     │  │    (v0.5.0)      │                        │
-│  └─────────────────┘  └─────────────────┘                        │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 80, "nodeSpacing": 65}}}%%
+flowchart TB
+  subgraph FE["Frontend · Next.js 16"]
+    direction LR
+    A["LaTeX Editor"] --> D["DirectiveQueue<br/>EventEmitter"]
+    B["Jupyter Cell"] --> D
+    C["PDF Viewer / Notes"] --> D
+    D --> E["SyncMatrixEngine"]
+  end
+
+  subgraph API["Bridge API Layer"]
+    F["/api/v2/im/bridge/[workspaceId]"]
+  end
+
+  subgraph GW["Container Gateway · :16888"]
+    direction LR
+    G["LaTeX<br/>:8080"]
+    H["Jupyter<br/>:8888"]
+    I["Prover<br/>:8081"]
+    J["arXiv<br/>:8082"]
+  end
+
+  subgraph AG["OpenClaw Agent"]
+    direction LR
+    K["prismer-im<br/>v0.2.0"] --> L["prismer-workspace<br/>v0.5.0"] --> M["26 tools<br/>LaTeX / Jupyter / PDF / Data"]
+    N["Providers<br/>Kimi K2.5 / Claude Sonnet 4"] -.-> K
+  end
+
+  FE -->|"SSE + WebSocket"| API
+  API -->|"WebSocket"| GW
+  GW --> AG
+
+  classDef FE fill:#E0F2FE,stroke:#0284C7,color:#0F172A,stroke-width:1.5px,rx:10,ry:10
+  classDef API fill:#F5F3FF,stroke:#7C3AED,color:#111827,stroke-width:1.5px,rx:10,ry:10
+  classDef GW fill:#ECFDF5,stroke:#10B981,color:#111827,stroke-width:1.5px,rx:10,ry:10
+  classDef AG fill:#FFF7ED,stroke:#F97316,color:#111827,stroke-width:1.5px,rx:10,ry:10
 ```
 
 ## 核心组件详解

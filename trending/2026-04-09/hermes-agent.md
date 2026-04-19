@@ -41,29 +41,35 @@ description: GitHub Daily Rank 分析报告 · hermes-agent 技术调研报告
 
 ### 核心技术栈总览
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    Hermes Agent 技术栈                       │
-├─────────────────────────────────────────────────────────────┤
-│  编程语言层                                                    │
-│  ├── Python 3.10+                                           │
-│  └── 类型提示 (Type Hints) - 代码质量和 IDE 支持              │
-├─────────────────────────────────────────────────────────────┤
-│  包管理层                                                      │
-│  ├── uv - 现代高性能包管理器                                   │
-│  ├── pyproject.toml - PEP 621 项目配置标准                    │
-│  └── uv.lock - 依赖版本锁定                                   │
-├─────────────────────────────────────────────────────────────┤
-│  核心框架层                                                    │
-│  ├── asyncio - 异步优先架构                                   │
-│  ├── Pydantic - 数据验证与配置管理                            │
-│  └── Transformers - 模型加载与推理                           │
-├─────────────────────────────────────────────────────────────┤
-│  应用框架层                                                    │
-│  ├── 自定义 Agent 核心引擎                                    │
-│  ├── 工具调用系统                                             │
-│  └── 内存管理与检查点系统                                      │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 50, "nodeSpacing": 40}}}%%
+flowchart TB
+    subgraph LanguageLayer["编程语言层"]
+        A1["Python 3.10+"]
+        A2["类型提示 (Type Hints)<br/>代码质量和 IDE 支持"]
+    end
+
+    subgraph PackageLayer["包管理层"]
+        B1["uv - 现代高性能包管理器"]
+        B2["pyproject.toml - PEP 621 项目配置标准"]
+        B3["uv.lock - 依赖版本锁定"]
+    end
+
+    subgraph CoreLayer["核心框架层"]
+        C1["asyncio - 异步优先架构"]
+        C2["Pydantic - 数据验证与配置管理"]
+        C3["Transformers - 模型加载与推理"]
+    end
+
+    subgraph AppLayer["应用框架层"]
+        D1["自定义 Agent 核心引擎"]
+        D2["工具调用系统"]
+        D3["内存管理与检查点系统"]
+    end
+
+    LanguageLayer --> PackageLayer
+    PackageLayer --> CoreLayer
+    CoreLayer --> AppLayer
 ```
 
 ### 技术选型分析

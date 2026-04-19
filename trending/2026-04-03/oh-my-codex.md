@@ -50,24 +50,34 @@
 
 ### 完整技术栈矩阵
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     项目结构层                               │
-├─────────────────────────────────────────────────────────────┤
-│  src/hooks/  │  src/teams/  │  src/hud/  │  src/utils/     │
-├─────────────────────────────────────────────────────────────┤
-│                     类型系统层                               │
-├─────────────────────────────────────────────────────────────┤
-│  TypeScript 5.7  │  Zod 3.23 (运行时验证)                   │
-├─────────────────────────────────────────────────────────────┤
-│                     测试层                                   │
-├─────────────────────────────────────────────────────────────┤
-│  Vitest 3.0.9 (开发模式)  │  ESLint 9.x  │  Prettier       │
-├─────────────────────────────────────────────────────────────┤
-│                     集成层                                   │
-├─────────────────────────────────────────────────────────────┤
-│  Claude Code (workspace:* 依赖)                             │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 50, "nodeSpacing": 40}}}%%
+flowchart TB
+    subgraph StructureLayer["项目结构层"]
+        A1["src/hooks/"]
+        A2["src/teams/"]
+        A3["src/hud/"]
+        A4["src/utils/"]
+    end
+
+    subgraph TypeLayer["类型系统层"]
+        B1["TypeScript 5.7"]
+        B2["Zod 3.23<br/>(运行时验证)"]
+    end
+
+    subgraph TestLayer["测试层"]
+        C1["Vitest 3.0.9<br/>(开发模式)"]
+        C2["ESLint 9.x"]
+        C3["Prettier"]
+    end
+
+    subgraph IntegrationLayer["集成层"]
+        D1["Claude Code<br/>(workspace:* 依赖)"]
+    end
+
+    StructureLayer --> TypeLayer
+    TypeLayer --> TestLayer
+    TestLayer --> IntegrationLayer
 ```
 
 ### 依赖版本策略

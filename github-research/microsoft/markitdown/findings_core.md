@@ -82,27 +82,36 @@ result = converter.convert("complex_document.pptx")
 
 markitdown 采用分层架构设计，自上而下分为四层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     应用层                                │
-│         from markitdown import MarkItDown, convert_file    │
-├─────────────────────────────────────────────────────────────┤
-│                   markitdown 框架层                         │
-│    ┌─────────────┐         ┌──────────────────┐         │
-│    │  Converter  │         │  FormatHandlers  │         │
-│    │   主控制器   │         │   格式处理器     │         │
-│    │    Class    │         │     Class        │         │
-│    └────────┬────────┘         └────────┬─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                   格式支持层                                │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │   PDF    │  │  Word DOCX   │  │  Excel   │  │  PowerPoint  │  │
-│  │  处理器   │  │    处理器    │  │ 处理器   │  │   处理器     │  │
-│  │    Class   │  │     Class    │  │ Class    │  │    Class     │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┤
-                    辅助与工具层
-                    (文本处理、图像提取、表格转换等)
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph APP["应用层"]
+        direction TB
+        APP1["from markitdown import MarkItDown, convert_file"]
+    end
+
+    subgraph FRAMEWORK["markitdown 框架层"]
+        direction TB
+        FW1["Converter 主控制器"]
+        FW2["FormatHandlers 格式处理器"]
+    end
+
+    subgraph FORMAT["格式支持层"]
+        direction TB
+        F1["PDF 处理器"]
+        F2["Word DOCX 处理器"]
+        F3["Excel 处理器"]
+        F4["PowerPoint 处理器"]
+    end
+
+    subgraph UTILS["辅助与工具层"]
+        direction TB
+        U1["文本处理、图像提取、表格转换等"]
+    end
+
+    APP --> FRAMEWORK
+    FRAMEWORK --> FORMAT
+    FORMAT --> UTILS
 ```
 
 ### 技术选型分析

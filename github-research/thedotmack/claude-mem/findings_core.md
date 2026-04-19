@@ -75,26 +75,36 @@ relevant_chunks = mem.search("关于Python的特征描述")
 
 claude-mem 采用分层架构设计，自上而下分为四层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     应用层                                │
-│         from claude_mem import MemoryManager, ...          │
-├─────────────────────────────────────────────────────────────┤
-│                   claude_mem 框架层                         │
-│    ┌─────────────┐         ┌──────────────────┐         │
-│    │  MemoryBase │         │  CompressedMem   │         │
-│    │   基类      │         │   压缩内存       │         │
-│    │    Class    │         │     Class        │         │
-│    └────────┬────────┘         └────────┬─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                   存储与检索层                              │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │  ShortTerm  │  │  VectorDB    │  │  LongTerm  │  │  Cache    │  │
-│  │   存储     │  │    检索引擎   │  │   存储     │  │   缓存     │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┤
-                    算法与工具层
-                    (压缩、嵌入、聚类等)
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph APP["应用层"]
+        direction TB
+        APP1["from claude_mem import MemoryManager, ..."]
+    end
+
+    subgraph FRAMEWORK["claude_mem 框架层"]
+        direction TB
+        FW1["MemoryBase 基类"]
+        FW2["CompressedMem 压缩内存"]
+    end
+
+    subgraph STORAGE["存储与检索层"]
+        direction TB
+        S1["ShortTerm 存储"]
+        S2["VectorDB 检索引擎"]
+        S3["LongTerm 存储"]
+        S4["Cache 缓存"]
+    end
+
+    subgraph ALGO["算法与工具层"]
+        direction TB
+        A1["压缩、嵌入、聚类等"]
+    end
+
+    APP --> FRAMEWORK
+    FRAMEWORK --> STORAGE
+    STORAGE --> ALGO
 ```
 
 ### 技术选型分析

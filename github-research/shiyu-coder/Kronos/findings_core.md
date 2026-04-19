@@ -122,31 +122,37 @@ print(f"80%预测区间: [{lower_bound.values}, {upper_bound.values}]")
 
 Kronos 采用分层架构设计，自上而下分为五层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     应用层                                │
-│         from kronos import KronosForecaster, ...           │
-├─────────────────────────────────────────────────────────────┤
-│                   Kronos 框架层                             │
-│    ┌─────────────┐         ┌──────────────────┐         │
-│    │  Forecaster │         │  Adapter/Quantifier│         │
-│    │   预测器     │         │   适配器/量化器  │         │
-│    │    Class    │         │     Class        │         │
-│    ├────────┼────────┤         ├────────┼─────────┤         │
-│    │  Processor  │         │  Uncertainty     │         │
-│    │   预处理器    │         │   不确定性模块   │         │
-│    │    Class    │         │     Class        │         │
-│    └────────┬────────┘         └────────┴─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                   模型与接口层                              │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │  LLM API  │  │  时间序列   │  │  统计模型  │  │  特征工程    │  │
-│  │    接口   │  │    模型     │  │    模型    │  │    引擎      │  │
-│  │    Class  │  │     Class    │  │ Class    │  │    Class     │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┤
-                    辅助与工具层
-                    (数据处理、文本分析、工具等)
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph APP["应用层"]
+        direction TB
+        APP1["from kronos import KronosForecaster, ..."]
+    end
+
+    subgraph KRONOS["Kronos 框架层"]
+        direction TB
+        K1["Forecaster 预测器"]
+        K2["Adapter/Quantifier 适配器/量化器"]
+        K1 -->|"Processor 预处理器"| K2
+    end
+
+    subgraph MODEL["模型与接口层"]
+        direction TB
+        M1["LLM API 接口"]
+        M2["时间序列模型"]
+        M3["统计模型"]
+        M4["特征工程引擎"]
+    end
+
+    subgraph UTILS["辅助与工具层"]
+        direction TB
+        U1["数据处理、文本分析、工具等"]
+    end
+
+    APP --> KRONOS
+    KRONOS --> MODEL
+    MODEL --> UTILS
 ```
 
 ### 技术选型分析

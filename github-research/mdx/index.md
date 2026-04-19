@@ -64,22 +64,22 @@ description: GitHub 仓库深度技术调研 · @mintlify
 
 项目基于 unified 生态系统构建，核心处理流程如下：
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Unified 生态架构                               │
-├─────────────────────────────────────────────────────────────────┤
-│  remark-parse (^11.0.0)  ── 解析 Markdown                       │
-│       ↓                                                          │
-│  [自定义 Remark 插件: remarkMdxExport]  ── 核心转换逻辑          │
-│       ↓                                                          │
-│  remark-rehype (^11.0.0)  ── Markdown → HTML AST                │
-│       ↓                                                          │
-│  mdast-util-to-hast (^12.3.0)  ── MDAST → HAST                 │
-│       ↓                                                          │
-│  hast-util-to-estree (^3.1.0)  ── HAST → ESTree                │
-│       ↓                                                          │
-│  [输出 MDX 导出语句]  ── 生成最终代码                            │
-└─────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    P1["remark-parse (^11.0.0) - 解析 Markdown"]
+
+    P2["自定义 Remark 插件: remarkMdxExport - 核心转换逻辑"]
+
+    P3["remark-rehype (^11.0.0) - Markdown → HTML AST"]
+
+    P4["mdast-util-to-hast (^12.3.0) - MDAST → HAST"]
+
+    P5["hast-util-to-estree (^3.1.0) - HAST → ESTree"]
+
+    P6["输出 MDX 导出语句 - 生成最终代码"]
+
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6
 ```
 
 **核心依赖版本分析**：

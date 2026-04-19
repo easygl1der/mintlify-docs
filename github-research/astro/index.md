@@ -60,14 +60,15 @@ export default defineConfig({
 
 ### 构建工具链
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                        构建工具层                          │
-├─────────────────────────────────────────────────────────┤
-│  tsup          │ TypeScript 构建工具，生成 ESM/CJS 产物    │
-│  api-extractor │ Microsoft API 文档提取器                 │
-│  Vitest        │ Vite 原生测试框架                        │
-└─────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart LR
+    subgraph BUILD["构建工具层"]
+        direction TB
+        B1["tsup - TypeScript 构建工具，生成 ESM/CJS 产物"]
+        B2["api-extractor - Microsoft API 文档提取器"]
+        B3["Vitest - Vite 原生测试框架"]
+    end
 ```
 
 | 工具 | 用途 | 评价 |
@@ -161,21 +162,25 @@ mintlify/astro/
 
 ### 架构设计图
 
-```
-mintlify/astro 架构设计：
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart LR
+    subgraph ASTRO["Astro 项目"]
+        direction TB
+        A1["astro.config"]
+        A2[".md / .mdx"]
+        A3["页面路由"]
+    end
 
-    Astro 项目                      生成的 npm 包
-┌─────────────────┐            ┌─────────────────────┐
-│  astro.config   │ ────────> │  @mintlify/astro    │
-│  .md / .mdx     │            │  ├── useMintlify()  │
-│  页面路由       │            │  ├── 类型定义        │
-└─────────────────┘            │  └── 文档生成逻辑   │
-        │                      └─────────────────────┘
-        ▼                               ▲
-┌─────────────────┐                      │
-│  useMintlify()  │ ────────────────────┘
-│  Integration    │
-└─────────────────┘
+    subgraph NPM["生成的 npm 包"]
+        direction TB
+        N1["@mintlify/astro"]
+        N2["useMintlify()"]
+        N3["类型定义"]
+        N4["文档生成逻辑"]
+    end
+
+    ASTRO -->|"useMintlify()"| NPM
 ```
 
 ## 依赖分析
@@ -231,12 +236,15 @@ mintlify/astro 架构设计：
 
 ### 构建流程
 
-```
-构建流程：
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│  TypeScript │ -> │    tsup     │ -> │  API Extract │ -> │   npm 包    │
-│   源码      │    │   打包      │    │   文档生成   │    │   发布      │
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart LR
+    BUILD1["TypeScript 源码"]
+    BUILD2["tsup 打包"]
+    BUILD3["API Extractor 文档生成"]
+    BUILD4["npm 包发布"]
+
+    BUILD1 --> BUILD2 --> BUILD3 --> BUILD4
 ```
 
 ### package.json 脚本分析

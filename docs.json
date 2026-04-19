@@ -418,12 +418,25 @@
                 ]
               }
             ]
+          },
+          {
+            "group": "2026年04月",
+            "pages": [
+              "trending/2026-04-20/index"
+            ]
           }
         ]
       },
       {
         "tab": "GitHub Research",
         "groups": [
+          {
+            "group": "scientific-agent-skills",
+            "expanded": false,
+            "pages": [
+              "github-research/scientific-agent-skills/index"
+            ]
+          },
           {
             "group": "subagent-driven-development",
             "expanded": false,

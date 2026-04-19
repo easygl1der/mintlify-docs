@@ -77,25 +77,36 @@ workflow.add_step("report", agent_writer)
 
 hermes-agent 采用分层架构设计，自上而下分为四层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     应用层                                │
-│         from hermes import Agent, Workflow, Tool           │
-├─────────────────────────────────────────────────────────────┤
-│                   hermes 框架层                             │
-│    ┌─────────────┐         ┌──────────────────┐         │
-│    │    Agent    │         │    Workflow      │         │
-│    │     Class   │         │     Class        │         │
-│    │  (智能体核心) │         │   (工作流编排)    │         │
-│    └────────┬────────┘         └────────┬─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                   后端适配层                                │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │  OpenAI  │  │  Anthropic │  │ HuggingFace │  │ 自定义LLM  │  │
-│  │  适配器  │  │   适配器   │  │   适配器   │  │   适配器   │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┘
-                    工具与插件层
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph APP["应用层"]
+        direction TB
+        APP1["from hermes import Agent, Workflow, Tool"]
+    end
+
+    subgraph FRAMEWORK["hermes 框架层"]
+        direction TB
+        FW1["Agent 智能体核心"]
+        FW2["Workflow 工作流编排"]
+    end
+
+    subgraph ADAPTER["后端适配层"]
+        direction TB
+        A1["OpenAI 适配器"]
+        A2["Anthropic 适配器"]
+        A3["HuggingFace 适配器"]
+        A4["自定义LLM 适配器"]
+    end
+
+    subgraph TOOLS["工具与插件层"]
+        direction TB
+        T1["Tools 工具系统"]
+    end
+
+    APP --> FRAMEWORK
+    FRAMEWORK --> ADAPTER
+    ADAPTER --> TOOLS
 ```
 
 ### 技术选型分析

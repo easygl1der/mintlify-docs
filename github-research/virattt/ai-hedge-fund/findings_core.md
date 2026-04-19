@@ -120,31 +120,41 @@ position_sizes = risk_manager.calculate_position_sizes(
 
 ai-hedge-fund 采用分层架构设计，自上而下分为五层：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     应用层                                │
-│         from ai_hedge_fund import StrategyResearcher, ...  │
-├─────────────────────────────────────────────────────────────┤
-│                   ai-hedge-fund 框架层                      │
-│    ┌─────────────┐         ┌──────────────────┐         │
-│    │ Researcher  │         │  BacktestEngine  │         │
-│    │   研究器     │         │   回测引擎       │         │
-│    │    Class    │         │     Class        │         │
-│    ├────────┼────────┤         ├────────┼─────────┤         │
-│    │ Models    │         │  RiskManager     │         │
-│    │   模型库    │         │   风险管理器     │         │
-│    │    Class    │         │     Class        │         │
-│    └────────┬────────┘         └────────┴─────────┘         │
-├─────────────┴───────────────────────────┴───────────────────┤
-│                   数据与模型层                              │
-│  ┌─────────┐  ┌────────────┐  ┌────────┐  ┌──────────────┐  │
-│  │  数据处理  │  │ 特征工程   │  │  模型训练  │  │  模型服务    │  │
-│  │    引擎    │  │    引擎    │  │    引擎    │  │    引擎    │  │
-│  │    Class   │  │     Class    │  │ Class    │  │    Class     │  │
-│  └─────────┘  └────────────┘  └────────┘  └──────────────┘  │
-└─────────────────────────────────────────────────────────────┤
-                    基础设施层
-                    (数据存储、消息队列、配置等)
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 60, "nodeSpacing": 50}}}%%
+flowchart TB
+    subgraph APP["应用层"]
+        direction TB
+        APP1["from ai_hedge_fund import StrategyResearcher, ..."]
+    end
+
+    subgraph FRAMEWORK["ai-hedge-fund 框架层"]
+        direction TB
+        F1["Researcher 研究器"]
+        F2["BacktestEngine 回测引擎"]
+        F3["Models 模型库"]
+        F4["RiskManager 风险管理器"]
+        F1 --> F2
+        F2 --> F3
+        F3 --> F4
+    end
+
+    subgraph DATA["数据与模型层"]
+        direction TB
+        D1["数据处理引擎"]
+        D2["特征工程引擎"]
+        D3["模型训练引擎"]
+        D4["模型服务引擎"]
+    end
+
+    subgraph INFRA["基础设施层"]
+        direction TB
+        I1["数据存储、消息队列、配置等"]
+    end
+
+    APP --> FRAMEWORK
+    FRAMEWORK --> DATA
+    DATA --> INFRA
 ```
 
 ### 技术选型分析
