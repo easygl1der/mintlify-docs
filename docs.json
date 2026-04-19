@@ -125,6 +125,23 @@
             "group": "2026年4月",
             "pages": [
               {
+                "group": "2026-04-20",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-20/index",
+                  "trending/2026-04-20/andrej-karpathy-skills",
+                  "trending/2026-04-20/hermes-agent",
+                  "trending/2026-04-20/claude-mem",
+                  "trending/2026-04-20/agency-agents",
+                  "trending/2026-04-20/evolver",
+                  "trending/2026-04-20/Claude-Code-Game-Studios",
+                  "trending/2026-04-20/multica",
+                  "trending/2026-04-20/voicebox",
+                  "trending/2026-04-20/GenericAgent",
+                  "trending/2026-04-20/DeepTutor"
+                ]
+              },
+              {
                 "group": "2026-04-16",
                 "expanded": false,
                 "pages": [
@@ -417,12 +434,6 @@
                   "trending/2026-03-29/get-shit-done"
                 ]
               }
-            ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-20/index"
             ]
           }
         ]
