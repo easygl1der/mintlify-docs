@@ -133,6 +133,23 @@
             "group": "2026年4月",
             "pages": [
               {
+                "group": "2026-04-21",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-21/index",
+                  "trending/2026-04-21/andrej-karpathy-skills",
+                  "trending/2026-04-21/FinceptTerminal",
+                  "trending/2026-04-21/Claude-Code-Game-Studios",
+                  "trending/2026-04-21/claude-mem",
+                  "trending/2026-04-21/multica",
+                  "trending/2026-04-21/voicebox",
+                  "trending/2026-04-21/uvl",
+                  "trending/2026-04-21/DeepEP",
+                  "trending/2026-04-21/DeepSeek-V3",
+                  "trending/2026-04-21/quivr"
+                ]
+              },
+              {
                 "group": "2026-04-20",
                 "expanded": false,
                 "pages": [
@@ -395,13 +412,6 @@
                   "trending/2026-04-01/deer-flow",
                   "trending/2026-04-01/agency-agents"
                 ]
-              },
-              {
-                "group": "2026-04-21",
-                "expanded": false,
-                "pages": [
-                  "trending/2026-04-21/index"
-                ]
               }
             ]
           },
@@ -449,12 +459,6 @@
                   "trending/2026-03-29/get-shit-done"
                 ]
               }
-            ]
-          },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-21/index"
             ]
           }
         ]
