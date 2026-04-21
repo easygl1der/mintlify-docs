@@ -335,32 +335,29 @@ npm run dev
 
 ### MDX 组件使用示例
 
-```mdx
-import { Callout, Tabs, Tab } from '/components/mdx';
+以下示例展示如何在 MDX 中使用 Mintlify 组件：
 
-# 示例文档
+**Callout 组件：**
 
-## 使用 Callout 组件
-
+```
 <Callout type="info" title="提示">
 这是一个信息提示框，用于强调重要信息。
 </Callout>
+```
 
-## 使用 Tabs 组件
+**Tabs 组件：**
 
+```
 <Tabs>
 <Tab title="npm">
-```bash
 npm install mintlify
-```
 </Tab>
 <Tab title="yarn">
-```bash
 yarn add mintlify
-```
 </Tab>
 </Tabs>
 ```
+
 ### 配置文件示例
 
 **mint.json 示例结构：**
