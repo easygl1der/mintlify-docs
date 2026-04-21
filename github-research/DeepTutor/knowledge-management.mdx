@@ -1,0 +1,88 @@
+---
+title: 知识库管理
+description: DeepTutor 知识库和 RAG 功能
+---
+
+# 知识库管理指南
+
+## 访问 Knowledge 页面
+
+访问 `/knowledge`，有 4 个标签页：
+- **Knowledge Bases** - 知识库管理
+- **Notebooks** - 笔记本
+- **Question Bank** - 题库
+- **Skills** - 技能
+
+## Knowledge Bases
+
+### 创建知识库
+
+1. 点击 **"Create Knowledge Base"**
+2. 填写名称和 RAG Provider
+3. 上传文件或选择已有文件
+
+### 支持的文件格式
+
+| 格式 | 支持 |
+|------|------|
+| PDF | ✅ |
+| TXT | ✅ |
+| Markdown | ✅ |
+| DOCX | ✅ |
+| PPTX | ✅ |
+
+### 上传文件
+
+1. 进入知识库
+2. 点击 **"Upload"** 或拖拽
+3. 等待处理完成
+
+### 知识库状态
+
+- **Raw Documents**: 文档数量
+- **Status**: ready/rebuilding
+- **Last Updated**: 更新时间
+- **Default**: 是否为默认知识库
+
+### 重新索引
+
+如显示 **"needs_reindex"** 警告：
+1. 点击知识库
+2. 选择 **"Rebuild Index"**
+3. 等待完成
+
+## RAG 工作流程
+
+```
+用户问题
+    ↓
+Embedding 模型 (向量化问题)
+    ↓
+向量数据库检索 (找相关文档)
+    ↓
+LLM 生成回答 (基于检索结果)
+```
+
+## Notebooks
+
+笔记本用于：
+- 整理学习笔记
+- Markdown 格式编写
+- 引用知识库内容
+
+## Question Bank
+
+题库用于：
+- 管理练习题
+- 生成测验
+- AI 自动出题
+
+## API 端点
+
+| 操作 | API | 方法 |
+|------|-----|------|
+| 创建知识库 | `/api/v1/knowledge/create` | POST |
+| 上传文件 | `/api/v1/knowledge/{kb_name}/upload` | POST |
+| 删除知识库 | `/api/v1/knowledge/{kb_name}` | DELETE |
+| 设置默认 | `/api/v1/knowledge/default/{kb_name}` | PUT |
+| 查看进度 | `/api/v1/knowledge/tasks/{task_id}/stream` | GET |

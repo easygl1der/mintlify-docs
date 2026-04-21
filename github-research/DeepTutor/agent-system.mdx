@@ -1,0 +1,108 @@
+---
+title: Agent 系统
+description: DeepTutor TutorBot Agent 管理
+---
+
+# TutorBot Agents 指南
+
+## 访问 Agents 页面
+
+访问 `/agents`，有 4 个标签页：
+- **Bots** - 机器人实例管理
+- **Profiles** - 配置文件编辑
+- **Channels** - 渠道集成
+- **Souls** - 灵魂模板管理
+
+## Bots 机器人管理
+
+### 创建机器人
+
+1. 点击 **"Create Bot"**
+2. 填写：
+   - **Name**: 机器人名称
+   - **Description**: 描述
+   - **Soul**: 机器人人格
+   - **Model**: 可选的模型覆盖
+
+### 机器人状态
+
+| 状态 | 含义 |
+|------|------|
+| 🟢 Running | 正在运行 |
+| ⚪ Stopped | 已停止 |
+| 🔴 Error | 运行错误 |
+
+## Profiles 配置管理
+
+每个机器人有多个配置文件：
+
+| 文件 | 用途 |
+|------|------|
+| **SOUL.md** | 机器人人格、价值观 |
+| **USER.md** | 用户信息、偏好 |
+| **TOOLS.md** | 可用工具配置 |
+| **AGENTS.md** | 子智能体协调 |
+| **HEARTBEAT.md** | 健康检查配置 |
+
+### SOUL.md 示例
+
+```markdown
+# Soul
+
+你是一个耐心、鼓励人心的数学 tutor。
+
+## 价值观
+- 循序渐进
+- 鼓励探索
+- 即时反馈
+
+## 行为准则
+- 用简洁易懂的语言解释
+- 提供具体例子
+- 鼓励学生自己思考
+```
+
+## Channels 渠道集成
+
+| 渠道 | 配置方式 |
+|------|---------|
+| **Discord** | Webhook |
+| **Telegram** | Bot Token |
+| **Feishu** | App ID/Secret |
+| **Matrix** | 房间配置 |
+| **MoChat** | API 配置 |
+
+### Telegram 配置
+
+1. 在 Telegram 搜索 @BotFather
+2. 发送 `/newbot`
+3. 获取 Bot Token
+
+## Souls 灵魂模板
+
+Soul 定义机器人的性格和价值观，可复用。
+
+预设 Souls：
+- **Math Tutor** - 数学教学
+- **Research Assistant** - 研究助手
+- **Code Helper** - 编程助手
+
+## 可用 Agent 模块
+
+| 模块 | 功能 |
+|------|------|
+| **solve** | 数学问题求解 |
+| **research** | 深度研究 |
+| **question** | 题目生成 |
+| **chat** | 对话 |
+| **vision_solver** | 图片数学求解 |
+
+## API 端点
+
+| 操作 | API |
+|------|-----|
+| 列出机器人 | `/api/v1/tutorbot/bots` |
+| 创建机器人 | POST `/api/v1/tutorbot/bots` |
+| 启动机器人 | POST `/api/v1/tutorbot/bots/{id}/start` |
+| 停止机器人 | POST `/api/v1/tutorbot/bots/{id}/stop` |
+| 删除机器人 | DELETE `/api/v1/tutorbot/bots/{id}` |

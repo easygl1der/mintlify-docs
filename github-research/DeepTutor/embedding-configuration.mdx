@@ -1,0 +1,108 @@
+---
+title: Embedding 配置
+description: DeepTutor Embedding 模型配置
+---
+
+# Embedding 配置指南
+
+## 支持的 Provider
+
+| Provider | 本地? | 默认模型 | 维度 | API Key |
+|----------|-------|---------|------|---------|
+| **OpenAI** | ❌ | text-embedding-3-large | 3072 | OPENAI_API_KEY |
+| **Cohere** | ❌ | embed-v4.0 | 1024 | COHERE_API_KEY |
+| **Jina** | ❌ | jina-embeddings-v3 | 1024 | JINA_API_KEY |
+| **Ollama** | ✅ | nomic-embed-text | 768 | 不需要 |
+| **vLLM** | ✅ | - | - | HOSTED_VLLM_API_KEY |
+
+## Ollama Embedding（推荐本地）
+
+### 模型对比
+
+| 模型 | 参数量 | 文件大小 | 内存占用 | 维度 |
+|------|--------|---------|---------|------|
+| all-MiniLM-L6-v2 | 22M | ~80MB | ~0.5GB | 384 |
+| **nomic-embed-text** | 137M | ~274MB | ~1-1.5GB | 768 |
+| all-mpnet-base-v2 | 110M | ~220MB | ~1GB | 768 |
+| mxbai-embed-large | 1.3B | ~2.6GB | ~3-4GB | 1024 |
+
+### 安装
+
+```bash
+# 启动 Ollama
+ollama serve
+
+# 下载模型
+ollama pull nomic-embed-text
+```
+
+### DeepTutor 配置
+
+```
+Provider: ollama
+API Host: http://localhost:11434
+API Key: (留空)
+Model: nomic-embed-text
+Dimension: 768
+```
+
+## OpenAI Embedding
+
+```
+Provider: openai
+Base URL: https://api.openai.com/v1
+API Key: sk-...
+Model: text-embedding-3-large
+Dimension: 3072
+```
+
+## Cohere Embedding
+
+```
+Provider: cohere
+Base URL: https://api.cohere.ai
+API Key: ...
+Model: embed-v4.0
+Dimension: 1024
+```
+
+## Jina Embedding
+
+```
+Provider: jina
+Base URL: https://api.jina.ai/v1
+API Key: ...
+Model: jina-embeddings-v3
+Dimension: 1024
+```
+
+## 验证 Ollama
+
+```bash
+curl -X POST http://localhost:11434/api/embed \
+  -H "Content-Type: application/json" \
+  -d '{"model":"nomic-embed-text","input":"Hello world"}'
+```
+
+响应示例：
+```json
+{
+  "model": "nomic-embed-text",
+  "embeddings": [[0.123, -0.456, ...]]
+}
+```
+
+向量长度应为 **768**（nomic-embed-text）。
+
+## 常见问题
+
+### 维度不匹配
+确保配置的 **Dimension** 与实际模型匹配：
+- nomic-embed-text: 768
+- text-embedding-3-large: 3072
+- embed-v4.0: 1024
+
+### Ollama 连接失败
+1. 确认 `ollama serve` 正在运行
+2. 检查 `http://localhost:11434` 是否正确
+3. 验证：`ollama list`

@@ -1,0 +1,104 @@
+---
+title: Search 配置
+description: DeepTutor 搜索服务配置
+---
+
+# Search 搜索配置指南
+
+## 支持的 Provider
+
+### 推荐
+
+| Provider | 特点 | API Key |
+|----------|------|---------|
+| **Brave** | 隐私搜索 | ✅ 需要 |
+| **Tavily** | 研究导向、LLM 总结 | ✅ 需要 |
+| **Jina** | AI 优化 | ✅ 需要 |
+| **SearXNG** | 自托管、免费 | ❌ 不需要 |
+| **DuckDuckGo** | 经典 | ❌ 不需要 |
+| **Perplexity** | AI 搜索 | ✅ 需要 |
+
+### 已废弃
+
+- ~~Exa~~ → 使用 Brave/Tavily/Jina
+- ~~Serper~~ → 使用 Brave
+- ~~Baidu~~ → 使用 DuckDuckGo/Jina
+
+## SearXNG 配置（推荐免费方案）
+
+### Docker 部署
+
+```bash
+docker run -d \
+  --name searxng \
+  -p 8080:8080 \
+  -v ./searxng:/etc/searxng \
+  -e SEARXNG_BASE_URL=http://localhost:8080/ \
+  searxng/searxng
+```
+
+### DeepTutor 配置
+
+**重要**：API Host **不要** 包含 `/search` 后缀！
+
+```
+Provider: searxng
+API Host: http://172.24.66.5:8080
+API Key: (留空)
+```
+
+系统会自动拼接 `/search` 端点。
+
+❌ 错误：`http://172.24.66.5:8080/search`
+✅ 正确：`http://172.24.66.5:8080`
+
+## Brave 配置
+
+```
+Provider: brave
+API Host: https://api.search.brave.com
+API Key: your-brave-api-key
+```
+
+获取 API Key: https://brave.com/search/api/
+
+## Tavily 配置
+
+```
+Provider: tavily
+API Host: https://api.tavily.com
+API Key: your-tavily-api-key
+```
+
+获取 API Key: https://app.tavily.com/
+
+## DuckDuckGo 配置
+
+最简单，无需 API Key：
+
+```
+Provider: duckduckgo
+API Host: (留空)
+API Key: (留空)
+```
+
+## Perplexity 配置
+
+```
+Provider: perplexity
+API Host: https://api.perplexity.ai
+API Key: your-perplexity-api-key
+```
+
+## Proxy 配置
+
+如需要代理：
+
+```
+Proxy: http://127.0.0.1:7890
+```
+
+支持的格式：
+- `http://host:port`
+- `https://host:port`
+- `socks5://host:port`

@@ -618,6 +618,19 @@
                 ]
               }
             ]
+          },
+          {
+            "group": "DeepTutor",
+            "expanded": true,
+            "pages": [
+              "github-research/DeepTutor/index",
+              "github-research/DeepTutor/overview",
+              "github-research/DeepTutor/llm-configuration",
+              "github-research/DeepTutor/embedding-configuration",
+              "github-research/DeepTutor/search-configuration",
+              "github-research/DeepTutor/knowledge-management",
+              "github-research/DeepTutor/agent-system"
+            ]
           }
         ]
       },

@@ -1,0 +1,100 @@
+---
+title: DeepTutor 项目概述
+description: DeepTutor 项目整体架构分析
+---
+
+# DeepTutor 项目概述
+
+## 项目结构
+
+```
+DeepTutor/
+├── web/                    # Next.js 前端
+│   ├── app/              # 页面路由
+│   │   ├── (utility)/    # 工具页面 (settings, knowledge, memory)
+│   │   └── (workspace)/  # 工作区页面 (chat, agents, notebook)
+│   ├── lib/              # 工具库
+│   ├── components/       # React 组件
+│   └── locales/          # 国际化
+├── deeptutor/            # Python 后端
+│   ├── services/         # 服务层
+│   │   ├── llm/         # LLM 服务
+│   │   ├── embedding/    # Embedding 服务
+│   │   ├── search/       # 搜索服务
+│   │   ├── rag/          # RAG 服务
+│   │   └── tutorbot/     # TutorBot 服务
+│   ├── agents/           # Agent 实现
+│   ├── api/              # API 路由
+│   └── tools/            # 工具函数
+├── deeptutor_cli/        # CLI 工具
+└── docs/                 # 文档
+```
+
+## 核心服务
+
+### 1. LLM 服务 (`deeptutor/services/llm/`)
+
+支持多种 Provider：
+- **云端**: OpenAI, Anthropic, Azure, DeepSeek, Gemini, Moonshot, MiniMax
+- **本地**: Ollama, vLLM, LM Studio, llama.cpp
+- **网关**: OpenRouter, AihubMix, SiliconFlow
+
+### 2. Embedding 服务 (`deeptutor/services/embedding/`)
+
+支持多种 Embedding 模型：
+- **OpenAI**: text-embedding-3-large
+- **Cohere**: embed-v4.0
+- **Jina**: jina-embeddings-v3
+- **Ollama**: nomic-embed-text (本地)
+
+### 3. 搜索服务 (`deeptutor/services/search/`)
+
+支持多种搜索 Provider：
+- **Brave**: 隐私搜索
+- **Tavily**: 研究导向
+- **Jina**: AI 优化
+- **SearXNG**: 自托管聚合
+- **DuckDuckGo**: 无需 API Key
+
+### 4. RAG 服务 (`deeptutor/services/rag/`)
+
+基于 LlamaIndex 实现：
+- 文档处理和分块
+- 向量存储和检索
+- 生成增强
+
+## 前端页面
+
+| 路由 | 功能 |
+|------|------|
+| `/settings` | LLM、Embedding、Search 配置 |
+| `/knowledge` | 知识库、笔记本、题库 |
+| `/memory` | 用户记忆和 Profile |
+| `/agents` | TutorBot Agent 管理 |
+| `/chat` | 主聊天界面 |
+
+## 配置系统
+
+配置通过 Catalog 系统管理：
+
+```
+catalog.json
+├── version
+└── services
+    ├── llm
+    │   ├── active_profile_id
+    │   ├── active_model_id
+    │   └── profiles[]
+    ├── embedding
+    │   ├── active_profile_id
+    │   ├── active_model_id
+    │   └── profiles[]
+    └── search
+        ├── active_profile_id
+        └── profiles[]
+```
+
+## 部署方式
+
+- **Docker Compose**: 生产部署
+- **本地开发**: pip install + npm run dev

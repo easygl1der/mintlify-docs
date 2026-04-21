@@ -1,0 +1,112 @@
+---
+title: LLM 配置
+description: DeepTutor LLM 配置详解
+---
+
+# LLM 配置指南
+
+## 支持的 LLM Provider
+
+### 云端 Provider
+
+| Provider | 模型示例 | API Key 前缀 | 特点 |
+|----------|---------|-------------|------|
+| **OpenAI** | GPT-4o, o1 | `sk-` | 最广泛支持 |
+| **Anthropic** | Claude 3.5, Claude 4 | `sk-ant-` | 支持 Prompt Caching |
+| **Azure OpenAI** | GPT-4o | Azure 订阅 | 企业级 |
+| **DeepSeek** | DeepSeek V3 | `sk-` | 高性价比 |
+| **Gemini** | Gemini 2.0 | Google API Key | Google 生态 |
+| **Moonshot** | Kimi | `sk-` | 中文优化 |
+| **Groq** | Llama, Mixtral | `gsk_` | 极低延迟 |
+
+### 本地 Provider
+
+| Provider | 默认地址 | 特点 |
+|----------|---------|------|
+| **Ollama** | `localhost:11434` | 免费、本地运行 |
+| **vLLM** | 自定义 | 高性能推理 |
+| **LM Studio** | `localhost:1234` | 桌面应用 |
+
+### Gateway Provider
+
+| Provider | 特点 |
+|----------|------|
+| **OpenRouter** | 路由任意模型 |
+| **AihubMix** | 聚合多个源 |
+| **SiliconFlow** | 国内镜像 |
+
+## 配置字段
+
+### Profile 级别
+
+```typescript
+interface CatalogProfile {
+  id: string;           // Profile 标识符
+  name: string;          // 显示名称
+  binding: string;       // Provider 名称
+  base_url: string;      // API 端点
+  api_key: string;       // API 密钥
+  api_version?: string;  // API 版本
+  extra_headers?: object; // 自定义请求头
+  models: CatalogModel[]; // 模型列表
+}
+```
+
+### Model 级别
+
+```typescript
+interface CatalogModel {
+  id: string;           // 模型标识符
+  name: string;        // 显示标签
+  model: string;       // 模型 ID (如 gpt-4o)
+  dimension?: string;  // Embedding 维度
+  reasoning_effort?: string; // 推理努力程度
+}
+```
+
+## Ollama 本地配置
+
+```bash
+# 1. 安装 Ollama
+brew install ollama
+
+# 2. 启动服务
+ollama serve
+
+# 3. 下载模型
+ollama pull llama3.2
+ollama pull deepseek-r1:7b
+```
+
+### DeepTutor 配置
+
+```
+Provider: ollama
+Base URL: http://localhost:11434
+API Key: (留空)
+Model ID: llama3.2
+```
+
+## Anthropic Claude 配置
+
+```
+Provider: anthropic
+Base URL: https://api.anthropic.com
+API Key: sk-ant-...
+API Version: 2023-06-01
+Extra Headers: {"anthropic-version": "2023-06-01"}
+```
+
+## 配置保存流程
+
+| 按钮 | 效果 |
+|------|------|
+| **Save Draft** | 保存到 `catalog.json` |
+| **Apply** | 写入 `.env` 文件 |
+
+## 诊断测试
+
+在 Settings 页面底部 **Diagnostics** 区域：
+1. 选择要测试的服务 (LLM/Embedding/Search)
+2. 点击 **"Run test"**
+3. 查看实时日志输出
