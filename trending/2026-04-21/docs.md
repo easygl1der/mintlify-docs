@@ -348,14 +348,18 @@ import { Callout, Tabs, Tab } from '/components/mdx';
 
 ## 使用 Tabs 组件
 
-**npm:**
-```bash
-npm install mintlify
-```
-
-**yarn:**
-```bash
-yarn add mintlify
+<Tabs>
+  <Tab title="npm">
+  ```bash
+  npm install mintlify
+  ```
+  </Tab>
+  <Tab title="yarn">
+  ```bash
+  yarn add mintlify
+  ```
+  </Tab>
+</Tabs>
 ```
 
 ### 配置文件示例
