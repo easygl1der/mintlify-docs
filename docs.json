@@ -134,6 +134,23 @@
             "group": "2026年4月",
             "pages": [
               {
+                "group": "20260420",
+                "expanded": false,
+                "pages": [
+                  "trending/20260420/index",
+                  "trending/20260420/andrej-karpathy-skills",
+                  "trending/20260420/FinceptTerminal",
+                  "trending/20260420/Claude-Code-Game-Studios",
+                  "trending/20260420/claude-mem",
+                  "trending/20260420/multica",
+                  "trending/20260420/wifi-densepose",
+                  "trending/20260420/thunderbolt",
+                  "trending/20260420/voicebox",
+                  "trending/20260420/worldmonitor",
+                  "trending/20260420/omi"
+                ]
+              },
+              {
                 "group": "2026-04-21",
                 "expanded": false,
                 "pages": [
@@ -458,6 +475,28 @@
                   "trending/2026-03-29/learn-claude-code",
                   "trending/2026-03-29/agency-agents",
                   "trending/2026-03-29/get-shit-done"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "2026年0月",
+            "pages": [
+              {
+                "group": "2026-04-20",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-20/index",
+                  "trending/2026-04-20/andrej-karpathy-skills",
+                  "trending/2026-04-20/FinceptTerminal",
+                  "trending/2026-04-20/Claude-Code-Game-Studios",
+                  "trending/2026-04-20/claude-mem",
+                  "trending/2026-04-20/multica",
+                  "trending/2026-04-20/wifi-densepose",
+                  "trending/2026-04-20/thunderbolt",
+                  "trending/2026-04-20/voicebox",
+                  "trending/2026-04-20/worldmonitor",
+                  "trending/2026-04-20/omi"
                 ]
               }
             ]
