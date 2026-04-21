@@ -49,6 +49,14 @@
             "group": "2026年4月",
             "pages": [
               {
+                "group": "2026-04-21",
+                "expanded": false,
+                "pages": [
+                  "social-media/2026-04-21/11:41",
+                  "social-media/2026-04-21/11:46"
+                ]
+              },
+              {
                 "group": "2026-04-20",
                 "expanded": false,
                 "pages": [
@@ -130,15 +138,15 @@
                 "pages": [
                   "trending/2026-04-20/index",
                   "trending/2026-04-20/andrej-karpathy-skills",
-                  "trending/2026-04-20/hermes-agent",
-                  "trending/2026-04-20/claude-mem",
-                  "trending/2026-04-20/agency-agents",
-                  "trending/2026-04-20/evolver",
+                  "trending/2026-04-20/FinceptTerminal",
                   "trending/2026-04-20/Claude-Code-Game-Studios",
+                  "trending/2026-04-20/claude-mem",
                   "trending/2026-04-20/multica",
+                  "trending/2026-04-20/wifi-densepose",
+                  "trending/2026-04-20/thunderbolt",
                   "trending/2026-04-20/voicebox",
-                  "trending/2026-04-20/GenericAgent",
-                  "trending/2026-04-20/DeepTutor"
+                  "trending/2026-04-20/worldmonitor",
+                  "trending/2026-04-20/omi"
                 ]
               },
               {
@@ -387,6 +395,13 @@
                   "trending/2026-04-01/deer-flow",
                   "trending/2026-04-01/agency-agents"
                 ]
+              },
+              {
+                "group": "2026-04-21",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-21/index"
+                ]
               }
             ]
           },
@@ -436,12 +451,6 @@
               }
             ]
           },
-          {
-            "group": "2026年04月",
-            "pages": [
-              "trending/2026-04-21/index"
-            ]
-          }
         ]
       },
       {
