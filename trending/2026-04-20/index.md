@@ -11,16 +11,16 @@ description: GitHub 每日飙升榜 · 2026-04-20
 
 | 项目 | 今日新增 | 总 Stars | 分析报告 |
 |------|----------|----------|----------|
-| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | ⭐+3238 | 57.5k | [📄 查看报告](/trending/2026-04-20/andrej-karpathy-skills) |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | ⭐+2586 | 99.1k | [📄 查看报告](/trending/2026-04-20/hermes-agent) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | ⭐+1025 | 62.3k | [📄 查看报告](/trending/2026-04-20/claude-mem) |
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | ⭐+896 | 82.5k | [📄 查看报告](/trending/2026-04-20/agency-agents) |
-| [EvoMap/evolver](https://github.com/EvoMap/evolver) | ⭐+882 | 4.9k | [📄 查看报告](/trending/2026-04-20/evolver) |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | ⭐+868 | 12.5k | [📄 查看报告](/trending/2026-04-20/Claude-Code-Game-Studios) |
-| [multica-ai/multica](https://github.com/multica-ai/multica) | ⭐+757 | 16.1k | [📄 查看报告](/trending/2026-04-20/multica) |
-| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | ⭐+739 | 20.4k | [📄 查看报告](/trending/2026-04-20/voicebox) |
-| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | ⭐+717 | 4.2k | [📄 查看报告](/trending/2026-04-20/GenericAgent) |
-| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | ⭐+647 | 19.6k | [📄 查看报告](/trending/2026-04-20/DeepTutor) |
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | ⭐+4942 | 65.8k | [📄 查看报告](/trending/2026-04-20/andrej-karpathy-skills) |
+| [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | ⭐+2882 | 9.2k | [📄 查看报告](/trending/2026-04-20/FinceptTerminal) |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | ⭐+1074 | 14.3k | [📄 查看报告](/trending/2026-04-20/Claude-Code-Game-Studios) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | ⭐+1005 | 64.2k | [📄 查看报告](/trending/2026-04-20/claude-mem) |
+| [multica-ai/multica](https://github.com/multica-ai/multica) | ⭐+835 | 17.5k | [📄 查看报告](/trending/2026-04-20/multica) |
+| [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | ⭐+683 | 48.1k | [📄 查看报告](/trending/2026-04-20/wifi-densepose) |
+| [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | ⭐+623 | 2.7k | [📄 查看报告](/trending/2026-04-20/thunderbolt) |
+| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | ⭐+593 | 21.6k | [📄 查看报告](/trending/2026-04-20/voicebox) |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | ⭐+586 | 49.9k | [📄 查看报告](/trending/2026-04-20/worldmonitor) |
+| [BasedHardware/omi](https://github.com/BasedHardware/omi) | ⭐+571 | 11.6k | [📄 查看报告](/trending/2026-04-20/omi) |
 
 ---
 *数据来源: [github-daily-rank](https://github.com/OpenGithubs/github-daily-rank) · 每日早上 8:30 更新*
