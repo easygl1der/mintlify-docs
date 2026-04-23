@@ -1,49 +1,23 @@
 # agent-skills 技术调研报告
 
-> 作者: @addyosmani | 今日新增: ⭐+1,571 | 总计: ⭐21,000
-> 生成时间: 2026-04-23 17:52:14
-> 分析引擎: MiniMax-M2.7-highspeed (降级模式 - CrewAI 分析超时)
+> 生成时间: 2026-04-24 02:03:15
+> 作者: @addyosmani | 今日新增: ⭐+0 | 总计: ⭐0
+> 分析引擎: CrewAI Multi-Agent
 
 ## 基本信息
 
-| 属性 | 值 |
-|------|-----|
-| 仓库名称 | agent-skills |
-| 项目名称 | addyosmani/agent-skills |
-| GitHub URL | https://github.com/addyosmani/agent-skills |
-| 描述 | 暂无描述 |
-| 作者 | @addyosmani |
-| 主要语言 | 未知 |
-| 星标数 | ⭐21,000 |
-| 今日新增 | ⭐+1,571 |
-| 许可证 | 未知 |
+- **仓库名称**: agent-skills
+- **作者**: @addyosmani
+- **描述**: GitHub 仓库 addyosmani/agent-skills
+- **语言**: Unknown
+- **总 Stars**: 0
+- **今日新增**: ⭐+0
+- **URL**: https://github.com/addyosmani/agent-skills
 
-## 项目简介
+## 分析说明
 
-暂无描述
-
-> 注：由于 CrewAI 分析超时，此报告基于仓库元数据自动生成。详细技术分析请参阅项目 README 或等待下次分析重试。
-
-## 技术栈分析
-
-| 维度 | 评估 |
-|------|------|
-| 主要语言 | 未知 |
-| 技术栈深度 | 需人工评估 |
-
-## 总结与建议
-
-| 维度 | 评分 | 说明 |
-|------|------|------|
-| 项目热度 | ★★★ | 今日 +1,571 stars，增长强劲 |
-| 开源价值 | ★★★★ | 总计 21.0k stars，社区活跃度高 |
-| 可运行性 | ⭐⭐⭐ | 需参考项目 README 了解运行方式 |
-
-### 推荐行动项
-
-1. 阅读项目 README 了解项目定位和运行方式
-2. 查看 `package.json` / `requirements.txt` 等依赖文件
-3. 关注项目的 Star 增长趋势和社区活跃度
+此报告由 CrewAI 多智能体系统自动生成。
+Explorer Agent 负责分析仓库结构，Analyst Agent 负责技术深度分析，Writer Agent 负责撰写报告。
 
 ---
-*由 GitHub Daily Rank Pipeline 自动生成 · 2026-04-23 17:52:14*
+*由 GitHub Trend Analyzer + CrewAI 自动生成*
