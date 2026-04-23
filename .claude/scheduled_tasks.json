@@ -5,8 +5,15 @@
       "cron": "0 */4 * * *",
       "prompt": "执行社交热点采集发布工作流：\n\n```bash\ncd ~/Projects/mintlify-docs && \\\ngit stash && \\\npython3 ~/.claude/skills/social-trends-mintlify/scripts/publish_workflow.py && \\\ngit stash pop\n```\n\n如果执行失败，发送 Telegram 通知：\n- Bot Token: 8200186511:AAHhta6zzH4h3P89pQqPl26ttBPTMI374J0\n- Chat ID: 8021896102\n- 通知内容格式：⚠️ 社交热点采集失败\\n\\n错误信息：{error}",
       "createdAt": 1776773514482,
-      "recurring": true,
-      "lastFiredAt": 1776911407181
+      "lastFiredAt": 1776911407181,
+      "recurring": true
+    },
+    {
+      "id": "fb8e53c4",
+      "cron": "0 */4 * * *",
+      "prompt": "执行社交热点采集发布工作流：采集微博/知乎/抖音/B站/头条/豆瓣/BBC/什么值得买/纽约时报的全平台热点，输出到 social-media/{YYYY-MM-DD}/{HH:MM}.mdx，并更新 docs.json 导航。数据源：各平台实时热点。",
+      "createdAt": 1776932705623,
+      "recurring": true
     }
   ]
 }
