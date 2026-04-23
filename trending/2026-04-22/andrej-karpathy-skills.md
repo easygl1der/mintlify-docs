@@ -1,7 +1,7 @@
 # andrej-karpathy-skills 技术调研报告
 
 > 作者: @forrestchang | 今日新增: ⭐+4,180 | 总计: ⭐75,700
-> 生成时间: 2026-04-23 16:26:39
+> 生成时间: 2026-04-23 17:43:06
 > 分析引擎: MiniMax-M2.7-highspeed (降级模式 - CrewAI 分析超时)
 
 ## 基本信息
@@ -46,4 +46,4 @@
 3. 关注项目的 Star 增长趋势和社区活跃度
 
 ---
-*由 GitHub Daily Rank Pipeline 自动生成 · 2026-04-23 16:26:39*
+*由 GitHub Daily Rank Pipeline 自动生成 · 2026-04-23 17:43:06*
