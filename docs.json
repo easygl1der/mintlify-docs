@@ -434,6 +434,23 @@
                   "trending/2026-04-01/deer-flow",
                   "trending/2026-04-01/agency-agents"
                 ]
+              },
+              {
+                "group": "2026-04-22",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-22/index",
+                  "trending/2026-04-22/andrej-karpathy-skills",
+                  "trending/2026-04-22/FinceptTerminal",
+                  "trending/2026-04-22/agent-skills",
+                  "trending/2026-04-22/multica",
+                  "trending/2026-04-22/claude-context",
+                  "trending/2026-04-22/TrendRadar",
+                  "trending/2026-04-22/ai-agents-for-beginners",
+                  "trending/2026-04-22/hackingtool",
+                  "trending/2026-04-22/RAG-Anything",
+                  "trending/2026-04-22/claude-mem"
+                ]
               }
             ]
           },
