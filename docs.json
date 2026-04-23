@@ -163,6 +163,23 @@
             "group": "2026年4月",
             "pages": [
               {
+                "group": "2026-04-22",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-22/index",
+                  "trending/2026-04-22/andrej-karpathy-skills",
+                  "trending/2026-04-22/FinceptTerminal",
+                  "trending/2026-04-22/agent-skills",
+                  "trending/2026-04-22/multica",
+                  "trending/2026-04-22/claude-context",
+                  "trending/2026-04-22/TrendRadar",
+                  "trending/2026-04-22/ai-agents-for-beginners",
+                  "trending/2026-04-22/hackingtool",
+                  "trending/2026-04-22/RAG-Anything",
+                  "trending/2026-04-22/claude-mem"
+                ]
+              },
+              {
                 "group": "2026-04-21",
                 "expanded": false,
                 "pages": [
@@ -783,6 +800,13 @@
                       "my-notes/研究-生产级Agent_Harness架构",
                       "my-notes/研究-Multi-Agent框架对比_gurusup",
                       "my-notes/研究-Minimax_M2.7复刻Grok_4Agent方案"
+                    ]
+                  },
+                  {
+                    "group": "中科院数学与系统科学研究院",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/中科院数学与系统科学研究院-导师信息"
                     ]
                   },
                   "my-notes/研究-react-resizable-panels组件库详解"
