@@ -5,7 +5,8 @@
       "cron": "0 */4 * * *",
       "prompt": "执行社交热点采集发布工作流：\n\n```bash\ncd ~/Projects/mintlify-docs && \\\ngit stash && \\\npython3 ~/.claude/skills/social-trends-mintlify/scripts/publish_workflow.py && \\\ngit stash pop\n```\n\n如果执行失败，发送 Telegram 通知：\n- Bot Token: 8200186511:AAHhta6zzH4h3P89pQqPl26ttBPTMI374J0\n- Chat ID: 8021896102\n- 通知内容格式：⚠️ 社交热点采集失败\\n\\n错误信息：{error}",
       "createdAt": 1776773514482,
-      "recurring": true
+      "recurring": true,
+      "lastFiredAt": 1776911407181
     }
   ]
 }
