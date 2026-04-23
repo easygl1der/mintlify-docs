@@ -792,6 +792,13 @@
                       "my-notes/中科院数学与系统科学研究院-导师信息"
                     ]
                   },
+                  {
+                    "group": "香港科技大学数学系",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/香港科技大学数学系-Faculty档案"
+                    ]
+                  },
                   "my-notes/研究-react-resizable-panels组件库详解"
                 ]
               },
