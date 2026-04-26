@@ -514,6 +514,23 @@
                   "trending/2026-04-01/deer-flow",
                   "trending/2026-04-01/agency-agents"
                 ]
+              },
+              {
+                "group": "2026-04-25",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-25/index",
+                  "trending/2026-04-25/andrej-karpathy-skills",
+                  "trending/2026-04-25/free-claude-code",
+                  "trending/2026-04-25/skills",
+                  "trending/2026-04-25/hackingtool",
+                  "trending/2026-04-25/ml-intern",
+                  "trending/2026-04-25/rtk",
+                  "trending/2026-04-25/Open-Generative-AI",
+                  "trending/2026-04-25/FinceptTerminal",
+                  "trending/2026-04-25/pi-mono",
+                  "trending/2026-04-25/claude-mem"
+                ]
               }
             ]
           },
