@@ -531,6 +531,23 @@
                   "trending/2026-04-25/pi-mono",
                   "trending/2026-04-25/claude-mem"
                 ]
+              },
+              {
+                "group": "2026-04-24",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-24/index",
+                  "trending/2026-04-24/andrej-karpathy-skills",
+                  "trending/2026-04-24/free-claude-code",
+                  "trending/2026-04-24/ml-intern",
+                  "trending/2026-04-24/hackingtool",
+                  "trending/2026-04-24/rtk",
+                  "trending/2026-04-24/agent-skills",
+                  "trending/2026-04-24/marketingskills",
+                  "trending/2026-04-24/skills",
+                  "trending/2026-04-24/Open-Generative-AI",
+                  "trending/2026-04-24/awesome-agent-skills"
+                ]
               }
             ]
           },
