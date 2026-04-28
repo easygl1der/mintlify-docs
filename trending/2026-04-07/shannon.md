@@ -2,7 +2,7 @@
 
 # shannon 技术调研报告
 
-> 作者: @KeygraphHQ | 今日新增: ⭐+0 | 总计: ⭐0
+> 作者: @KeygraphHQ | 今日新增: ⭐+0 | 总计: ⭐37.6k
 
 ## 基本信息
 
@@ -12,7 +12,7 @@
 | **所有者** | KeygraphHQ |
 | **编程语言** | Python |
 | **GitHub 地址** | https://github.com/KeygraphHQ/shannon |
-| **Star 总数** | 0 |
+| **Star 总数** | 37,577 |
 | **今日新增** | 0 |
 | **仓库状态** | 新建/初期阶段 |
 

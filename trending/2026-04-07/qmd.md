@@ -2,7 +2,7 @@
 
 # qmd 技术调研报告
 
-> 作者: @tobi | 今日新增: ⭐+0 | 总计: ⭐0
+> 作者: @tobi | 今日新增: ⭐+0 | 总计: ⭐19.9k
 
 ## 基本信息
 
@@ -12,7 +12,7 @@
 | 仓库地址 | https://github.com/tobi/qmd |
 | 仓库所有者 | @tobi |
 | 主要语言 | Python |
-| 总 Stars | 0 |
+| 总 Stars | 19,910 |
 | 今日新增 Stars | 0 |
 
 **仓库简介**：qmd（Quick Markdown）是由 @tobi 开发的 Python 项目，从项目命名来看，该项目旨在提供快速、便捷的 Markdown 处理能力。

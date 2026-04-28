@@ -7,7 +7,7 @@ description: GitHub Daily Rank · 2026-03-29
 
 # VibeVoice 技术调研报告
 
-> 作者: @microsoft | 今日新增: ⭐+0 | 总计: ⭐2,842
+> 作者: @microsoft | 今日新增: ⭐+0 | 总计: ⭐37.5k
 
 ---
 
@@ -18,7 +18,7 @@ description: GitHub Daily Rank · 2026-03-29
 | **仓库全名** | microsoft/VibeVoice |
 | **开源协议** | MIT License |
 | **主要语言** | Python (>= 3.10) |
-| **Stars** | 2,842 |
+| **Stars** | 37,486 |
 | **Forks** | 312 |
 | **创建时间** | 2025-10-10 |
 | **最后更新** | 2025-12-30 |
