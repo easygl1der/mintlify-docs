@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Yitwah Notes",
   "logo": {
-    "light": "/images/logo.svg",
-    "dark": "/images/logo.svg"
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   },
   "favicon": "/images/favicon.svg",
   "colors": {
@@ -49,22 +49,9 @@
             "group": "2026年4月",
             "pages": [
               {
-                "group": "2026-04-30",
-                "expanded": false,
-                "pages": [
-                  "social-media/2026-04-30/16:30",
-                  "social-media/2026-04-30/12:30",
-                  "social-media/2026-04-30/11:15"
-                ]
-              },
-              {
                 "group": "2026-04-29",
                 "expanded": false,
                 "pages": [
-                  "social-media/2026-04-29/20:30",
-                  "social-media/2026-04-29/16:30",
-                  "social-media/2026-04-29/12:30",
-                  "social-media/2026-04-29/08:30",
                   "social-media/2026-04-29/04:30",
                   "social-media/2026-04-29/00:30"
                 ]
@@ -244,52 +231,587 @@
             "group": "2026年4月",
             "pages": [
               {
-                "group": "2026-04-01",
+                "group": "2026-04-25",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-01/index",
-                  "trending/2026-04-01/claude-howto",
-                  "trending/2026-04-01/claude-code-best-practice",
-                  "trending/2026-04-01/oh-my-claudecode",
-                  "trending/2026-04-01/VibeVoice",
-                  "trending/2026-04-01/hermes-agent",
-                  "trending/2026-04-01/learn-claude-code",
-                  "trending/2026-04-01/sherlock",
-                  "trending/2026-04-01/deer-flow",
-                  "trending/2026-04-01/agency-agents"
+                  "trending/2026-04-25/index",
+                  "trending/2026-04-25/FinceptTerminal",
+                  "trending/2026-04-25/Open-Generative-AI",
+                  "trending/2026-04-25/andrej-karpathy-skills",
+                  "trending/2026-04-25/claude-mem",
+                  "trending/2026-04-25/free-claude-code",
+                  "trending/2026-04-25/hackingtool",
+                  "trending/2026-04-25/ml-intern",
+                  "trending/2026-04-25/pi-mono",
+                  "trending/2026-04-25/rtk",
+                  "trending/2026-04-25/skills"
                 ]
               },
               {
-                "group": "2026-04-02",
+                "group": "2026-04-24",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-02/index",
-                  "trending/2026-04-02/claude-howto",
-                  "trending/2026-04-02/oh-my-claudecode",
-                  "trending/2026-04-02/timesfm",
-                  "trending/2026-04-02/onyx",
-                  "trending/2026-04-02/hermes-agent",
-                  "trending/2026-04-02/codex",
-                  "trending/2026-04-02/VibeVoice",
-                  "trending/2026-04-02/learn-claude-code",
-                  "trending/2026-04-02/agency-agents"
+                  "trending/2026-04-24/index",
+                  "trending/2026-04-24/Open-Generative-AI",
+                  "trending/2026-04-24/agent-skills",
+                  "trending/2026-04-24/andrej-karpathy-skills",
+                  "trending/2026-04-24/awesome-agent-skills",
+                  "trending/2026-04-24/free-claude-code",
+                  "trending/2026-04-24/hackingtool",
+                  "trending/2026-04-24/marketingskills",
+                  "trending/2026-04-24/ml-intern",
+                  "trending/2026-04-24/rtk",
+                  "trending/2026-04-24/skills"
                 ]
               },
               {
-                "group": "2026-04-03",
+                "group": "2026-04-23",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-03/index",
-                  "trending/2026-04-03/oh-my-codex",
-                  "trending/2026-04-03/openscreen",
-                  "trending/2026-04-03/onyx",
-                  "trending/2026-04-03/sherlock",
-                  "trending/2026-04-03/hermes-agent",
-                  "trending/2026-04-03/oh-my-claudecode",
-                  "trending/2026-04-03/agency-agents",
-                  "trending/2026-04-03/timesfm",
-                  "trending/2026-04-03/claude-howto",
-                  "trending/2026-04-03/learn-claude-code"
+                  "trending/2026-04-23/index",
+                  "trending/2026-04-23/FinceptTerminal",
+                  "trending/2026-04-23/OpenMetadata",
+                  "trending/2026-04-23/Pixelle-Video",
+                  "trending/2026-04-23/agent-skills",
+                  "trending/2026-04-23/andrej-karpathy-skills",
+                  "trending/2026-04-23/claude-context",
+                  "trending/2026-04-23/claude-mem",
+                  "trending/2026-04-23/hackingtool",
+                  "trending/2026-04-23/multica",
+                  "trending/2026-04-23/worldmonitor"
+                ]
+              },
+              {
+                "group": "2026-04-22",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-22/index",
+                  "trending/2026-04-22/FinceptTerminal",
+                  "trending/2026-04-22/RAG-Anything",
+                  "trending/2026-04-22/TrendRadar",
+                  "trending/2026-04-22/agent-skills",
+                  "trending/2026-04-22/ai-agents-for-beginners",
+                  "trending/2026-04-22/andrej-karpathy-skills",
+                  "trending/2026-04-22/claude-context",
+                  "trending/2026-04-22/claude-mem",
+                  "trending/2026-04-22/hackingtool",
+                  "trending/2026-04-22/multica"
+                ]
+              },
+              {
+                "group": "2026-04-21",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-21/index",
+                  "trending/2026-04-21/3x-ui",
+                  "trending/2026-04-21/AgentGuide",
+                  "trending/2026-04-21/AppFlowy",
+                  "trending/2026-04-21/Archon",
+                  "trending/2026-04-21/ChinaTextbook",
+                  "trending/2026-04-21/Claude-Code-Game-Studios",
+                  "trending/2026-04-21/CloudflareSpeedTest",
+                  "trending/2026-04-21/CodexBar",
+                  "trending/2026-04-21/Deep-Live-Cam",
+                  "trending/2026-04-21/DeepEP",
+                  "trending/2026-04-21/DeepSeek-V3",
+                  "trending/2026-04-21/DeepTutor",
+                  "trending/2026-04-21/FinceptTerminal",
+                  "trending/2026-04-21/FreeDomain",
+                  "trending/2026-04-21/GenericAgent",
+                  "trending/2026-04-21/Hands-On-Large-Language-Models",
+                  "trending/2026-04-21/JavaGuide",
+                  "trending/2026-04-21/Kazumi",
+                  "trending/2026-04-21/Kronos",
+                  "trending/2026-04-21/LLMs-from-scratch",
+                  "trending/2026-04-21/OmniRoute",
+                  "trending/2026-04-21/Prismer",
+                  "trending/2026-04-21/Python-100-Days",
+                  "trending/2026-04-21/Skill_Seekers",
+                  "trending/2026-04-21/Spider_XHS",
+                  "trending/2026-04-21/TradingAgents-CN",
+                  "trending/2026-04-21/VibeVoice",
+                  "trending/2026-04-21/VoxCPM",
+                  "trending/2026-04-21/agency-agents",
+                  "trending/2026-04-21/agent-browser",
+                  "trending/2026-04-21/agent-skills",
+                  "trending/2026-04-21/ai-hedge-fund",
+                  "trending/2026-04-21/airllm",
+                  "trending/2026-04-21/andrej-karpathy-skills",
+                  "trending/2026-04-21/android-reverse-engineering-skill",
+                  "trending/2026-04-21/assistant-embed-example",
+                  "trending/2026-04-21/astro",
+                  "trending/2026-04-21/awesome-claude-plugins",
+                  "trending/2026-04-21/awesome-system-design-resources",
+                  "trending/2026-04-21/blender-mcp",
+                  "trending/2026-04-21/camofox-browser",
+                  "trending/2026-04-21/cc-switch",
+                  "trending/2026-04-21/claude-code",
+                  "trending/2026-04-21/claude-code-best-practice",
+                  "trending/2026-04-21/claude-cookbooks",
+                  "trending/2026-04-21/claude-howto",
+                  "trending/2026-04-21/claude-mem",
+                  "trending/2026-04-21/codex",
+                  "trending/2026-04-21/cognee",
+                  "trending/2026-04-21/components",
+                  "trending/2026-04-21/container",
+                  "trending/2026-04-21/data-engineering-zoomcamp",
+                  "trending/2026-04-21/deer-flow",
+                  "trending/2026-04-21/desktop",
+                  "trending/2026-04-21/dive-into-llms",
+                  "trending/2026-04-21/docs",
+                  "trending/2026-04-21/docs-hermine",
+                  "trending/2026-04-21/easy-vibe",
+                  "trending/2026-04-21/editor",
+                  "trending/2026-04-21/everything-claude-code",
+                  "trending/2026-04-21/evolver",
+                  "trending/2026-04-21/fff.nvim",
+                  "trending/2026-04-21/flux-markdown",
+                  "trending/2026-04-21/frontend-slides",
+                  "trending/2026-04-21/gallery",
+                  "trending/2026-04-21/get-shit-done",
+                  "trending/2026-04-21/github-chinese",
+                  "trending/2026-04-21/goose",
+                  "trending/2026-04-21/harness",
+                  "trending/2026-04-21/helium",
+                  "trending/2026-04-21/hello-agents",
+                  "trending/2026-04-21/hermes-agent",
+                  "trending/2026-04-21/impeccable",
+                  "trending/2026-04-21/last30days-skill",
+                  "trending/2026-04-21/learn-claude-code",
+                  "trending/2026-04-21/llama.cpp",
+                  "trending/2026-04-21/localsend",
+                  "trending/2026-04-21/marimo",
+                  "trending/2026-04-21/marketingskills",
+                  "trending/2026-04-21/mdx",
+                  "trending/2026-04-21/mlx-vlm",
+                  "trending/2026-04-21/multica",
+                  "trending/2026-04-21/obsidian-skills",
+                  "trending/2026-04-21/oh-my-claudecode",
+                  "trending/2026-04-21/oh-my-codex",
+                  "trending/2026-04-21/omi",
+                  "trending/2026-04-21/onyx",
+                  "trending/2026-04-21/onyx-foss",
+                  "trending/2026-04-21/open-agents",
+                  "trending/2026-04-21/openclaw",
+                  "trending/2026-04-21/opendataloader-pdf",
+                  "trending/2026-04-21/openscreen",
+                  "trending/2026-04-21/openui",
+                  "trending/2026-04-21/pandoc",
+                  "trending/2026-04-21/pdf-inspector",
+                  "trending/2026-04-21/prompts.chat",
+                  "trending/2026-04-21/qmd",
+                  "trending/2026-04-21/quivr",
+                  "trending/2026-04-21/ralph",
+                  "trending/2026-04-21/remotion",
+                  "trending/2026-04-21/rowboat",
+                  "trending/2026-04-21/rustfs",
+                  "trending/2026-04-21/shannon",
+                  "trending/2026-04-21/sherlock",
+                  "trending/2026-04-21/skills",
+                  "trending/2026-04-21/starter",
+                  "trending/2026-04-21/subagent-driven-development",
+                  "trending/2026-04-21/superpowers",
+                  "trending/2026-04-21/tailscale",
+                  "trending/2026-04-21/tart",
+                  "trending/2026-04-21/termux-app",
+                  "trending/2026-04-21/themes",
+                  "trending/2026-04-21/thunderbolt",
+                  "trending/2026-04-21/timesfm",
+                  "trending/2026-04-21/twenty",
+                  "trending/2026-04-21/uvl",
+                  "trending/2026-04-21/v2rayNG",
+                  "trending/2026-04-21/vaultwarden",
+                  "trending/2026-04-21/voicebox",
+                  "trending/2026-04-21/wifi-densepose",
+                  "trending/2026-04-21/worldmonitor"
+                ]
+              },
+              {
+                "group": "2026-04-20",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-20/index",
+                  "trending/2026-04-20/Claude-Code-Game-Studios",
+                  "trending/2026-04-20/DeepTutor",
+                  "trending/2026-04-20/FinceptTerminal",
+                  "trending/2026-04-20/GenericAgent",
+                  "trending/2026-04-20/agency-agents",
+                  "trending/2026-04-20/andrej-karpathy-skills",
+                  "trending/2026-04-20/claude-mem",
+                  "trending/2026-04-20/evolver",
+                  "trending/2026-04-20/hermes-agent",
+                  "trending/2026-04-20/multica",
+                  "trending/2026-04-20/omi",
+                  "trending/2026-04-20/thunderbolt",
+                  "trending/2026-04-20/voicebox",
+                  "trending/2026-04-20/wifi-densepose",
+                  "trending/2026-04-20/worldmonitor"
+                ]
+              },
+              {
+                "group": "2026-04-16",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-16/index",
+                  "trending/2026-04-16/3x-ui",
+                  "trending/2026-04-16/AgentGuide",
+                  "trending/2026-04-16/Apollo-11",
+                  "trending/2026-04-16/AppFlowy",
+                  "trending/2026-04-16/Archon",
+                  "trending/2026-04-16/ChinaTextbook",
+                  "trending/2026-04-16/Claude-Code-Game-Studios",
+                  "trending/2026-04-16/CloudflareSpeedTest",
+                  "trending/2026-04-16/CodexBar",
+                  "trending/2026-04-16/Deep-Live-Cam",
+                  "trending/2026-04-16/DeepTutor",
+                  "trending/2026-04-16/FreeDomain",
+                  "trending/2026-04-16/Hands-On-Large-Language-Models",
+                  "trending/2026-04-16/JavaGuide",
+                  "trending/2026-04-16/Kazumi",
+                  "trending/2026-04-16/Kronos",
+                  "trending/2026-04-16/LLMs-from-scratch",
+                  "trending/2026-04-16/OmniRoute",
+                  "trending/2026-04-16/Prismer",
+                  "trending/2026-04-16/Python-100-Days",
+                  "trending/2026-04-16/Skill_Seekers",
+                  "trending/2026-04-16/Spider_XHS",
+                  "trending/2026-04-16/TradingAgents-CN",
+                  "trending/2026-04-16/VibeVoice",
+                  "trending/2026-04-16/VoxCPM",
+                  "trending/2026-04-16/agency-agents",
+                  "trending/2026-04-16/agent-browser",
+                  "trending/2026-04-16/ai-hedge-fund",
+                  "trending/2026-04-16/airllm",
+                  "trending/2026-04-16/andrej-karpathy-skills",
+                  "trending/2026-04-16/assistant-embed-example",
+                  "trending/2026-04-16/astro",
+                  "trending/2026-04-16/awesome-claude-plugins",
+                  "trending/2026-04-16/awesome-system-design-resources",
+                  "trending/2026-04-16/blender-mcp",
+                  "trending/2026-04-16/camofox-browser",
+                  "trending/2026-04-16/cc-switch",
+                  "trending/2026-04-16/claude-code-best-practice",
+                  "trending/2026-04-16/claude-cookbooks",
+                  "trending/2026-04-16/claude-howto",
+                  "trending/2026-04-16/claude-mem",
+                  "trending/2026-04-16/codex",
+                  "trending/2026-04-16/components",
+                  "trending/2026-04-16/container",
+                  "trending/2026-04-16/data-engineering-zoomcamp",
+                  "trending/2026-04-16/deer-flow",
+                  "trending/2026-04-16/desktop",
+                  "trending/2026-04-16/dive-into-llms",
+                  "trending/2026-04-16/docs",
+                  "trending/2026-04-16/docs-hermine",
+                  "trending/2026-04-16/easy-vibe",
+                  "trending/2026-04-16/editor",
+                  "trending/2026-04-16/everything-claude-code",
+                  "trending/2026-04-16/fff.nvim",
+                  "trending/2026-04-16/flux-markdown",
+                  "trending/2026-04-16/frontend-slides",
+                  "trending/2026-04-16/gallery",
+                  "trending/2026-04-16/get-shit-done",
+                  "trending/2026-04-16/github-chinese",
+                  "trending/2026-04-16/goose",
+                  "trending/2026-04-16/harness",
+                  "trending/2026-04-16/helium",
+                  "trending/2026-04-16/hello-agents",
+                  "trending/2026-04-16/hermes-agent",
+                  "trending/2026-04-16/last30days-skill",
+                  "trending/2026-04-16/learn-claude-code",
+                  "trending/2026-04-16/llama.cpp",
+                  "trending/2026-04-16/localsend",
+                  "trending/2026-04-16/marimo",
+                  "trending/2026-04-16/marketingskills",
+                  "trending/2026-04-16/mdx",
+                  "trending/2026-04-16/mlx-vlm",
+                  "trending/2026-04-16/multica",
+                  "trending/2026-04-16/obsidian-skills",
+                  "trending/2026-04-16/oh-my-claudecode",
+                  "trending/2026-04-16/oh-my-codex",
+                  "trending/2026-04-16/onyx",
+                  "trending/2026-04-16/onyx-foss",
+                  "trending/2026-04-16/open-agents",
+                  "trending/2026-04-16/openclaw",
+                  "trending/2026-04-16/opendataloader-pdf",
+                  "trending/2026-04-16/openscreen",
+                  "trending/2026-04-16/pandoc",
+                  "trending/2026-04-16/prompts.chat",
+                  "trending/2026-04-16/public-apis",
+                  "trending/2026-04-16/qmd",
+                  "trending/2026-04-16/ralph",
+                  "trending/2026-04-16/remotion",
+                  "trending/2026-04-16/rowboat",
+                  "trending/2026-04-16/rustfs",
+                  "trending/2026-04-16/shannon",
+                  "trending/2026-04-16/sherlock",
+                  "trending/2026-04-16/starter",
+                  "trending/2026-04-16/superpowers",
+                  "trending/2026-04-16/tailscale",
+                  "trending/2026-04-16/tart",
+                  "trending/2026-04-16/termux-app",
+                  "trending/2026-04-16/themes",
+                  "trending/2026-04-16/timesfm",
+                  "trending/2026-04-16/twenty",
+                  "trending/2026-04-16/v2rayNG",
+                  "trending/2026-04-16/vaultwarden",
+                  "trending/2026-04-16/voicebox"
+                ]
+              },
+              {
+                "group": "2026-04-15",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-15/index",
+                  "trending/2026-04-15/ai-hedge-fund",
+                  "trending/2026-04-15/andrej-karpathy-skills",
+                  "trending/2026-04-15/claude-code-best-practice",
+                  "trending/2026-04-15/claude-mem",
+                  "trending/2026-04-15/editor",
+                  "trending/2026-04-15/get-shit-done",
+                  "trending/2026-04-15/hello-agents",
+                  "trending/2026-04-15/hermes-agent",
+                  "trending/2026-04-15/multica",
+                  "trending/2026-04-15/voicebox"
+                ]
+              },
+              {
+                "group": "2026-04-14",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-14/index",
+                  "trending/2026-04-14/3x-ui",
+                  "trending/2026-04-14/AgentGuide",
+                  "trending/2026-04-14/AppFlowy",
+                  "trending/2026-04-14/Archon",
+                  "trending/2026-04-14/ChinaTextbook",
+                  "trending/2026-04-14/Claude-Code-Game-Studios",
+                  "trending/2026-04-14/CloudflareSpeedTest",
+                  "trending/2026-04-14/CodexBar",
+                  "trending/2026-04-14/Deep-Live-Cam",
+                  "trending/2026-04-14/DeepTutor",
+                  "trending/2026-04-14/FreeDomain",
+                  "trending/2026-04-14/Hands-On-Large-Language-Models",
+                  "trending/2026-04-14/JavaGuide",
+                  "trending/2026-04-14/Kazumi",
+                  "trending/2026-04-14/Kronos",
+                  "trending/2026-04-14/LLMs-from-scratch",
+                  "trending/2026-04-14/OmniRoute",
+                  "trending/2026-04-14/Python-100-Days",
+                  "trending/2026-04-14/Skill_Seekers",
+                  "trending/2026-04-14/Spider_XHS",
+                  "trending/2026-04-14/TradingAgents-CN",
+                  "trending/2026-04-14/VibeVoice",
+                  "trending/2026-04-14/VoxCPM",
+                  "trending/2026-04-14/agency-agents",
+                  "trending/2026-04-14/agent-browser",
+                  "trending/2026-04-14/ai-hedge-fund",
+                  "trending/2026-04-14/airllm",
+                  "trending/2026-04-14/andrej-karpathy-skills",
+                  "trending/2026-04-14/assistant-embed-example",
+                  "trending/2026-04-14/astro",
+                  "trending/2026-04-14/awesome-claude-plugins",
+                  "trending/2026-04-14/awesome-system-design-resources",
+                  "trending/2026-04-14/blender-mcp",
+                  "trending/2026-04-14/camofox-browser",
+                  "trending/2026-04-14/cc-switch",
+                  "trending/2026-04-14/claude-code-best-practice",
+                  "trending/2026-04-14/claude-cookbooks",
+                  "trending/2026-04-14/claude-howto",
+                  "trending/2026-04-14/claude-mem",
+                  "trending/2026-04-14/codex",
+                  "trending/2026-04-14/components",
+                  "trending/2026-04-14/container",
+                  "trending/2026-04-14/data-engineering-zoomcamp",
+                  "trending/2026-04-14/deer-flow",
+                  "trending/2026-04-14/desktop",
+                  "trending/2026-04-14/dive-into-llms",
+                  "trending/2026-04-14/docs",
+                  "trending/2026-04-14/docs-hermine",
+                  "trending/2026-04-14/easy-vibe",
+                  "trending/2026-04-14/fff.nvim",
+                  "trending/2026-04-14/flux-markdown",
+                  "trending/2026-04-14/frontend-slides",
+                  "trending/2026-04-14/gallery",
+                  "trending/2026-04-14/get-shit-done",
+                  "trending/2026-04-14/github-chinese",
+                  "trending/2026-04-14/goose",
+                  "trending/2026-04-14/harness",
+                  "trending/2026-04-14/helium",
+                  "trending/2026-04-14/hermes-agent",
+                  "trending/2026-04-14/last30days-skill",
+                  "trending/2026-04-14/learn-claude-code",
+                  "trending/2026-04-14/llama.cpp",
+                  "trending/2026-04-14/localsend",
+                  "trending/2026-04-14/marimo",
+                  "trending/2026-04-14/marketingskills",
+                  "trending/2026-04-14/mdx",
+                  "trending/2026-04-14/mlx-vlm",
+                  "trending/2026-04-14/multica",
+                  "trending/2026-04-14/obsidian-skills",
+                  "trending/2026-04-14/oh-my-claudecode",
+                  "trending/2026-04-14/oh-my-codex",
+                  "trending/2026-04-14/onyx",
+                  "trending/2026-04-14/onyx-foss",
+                  "trending/2026-04-14/openclaw",
+                  "trending/2026-04-14/opendataloader-pdf",
+                  "trending/2026-04-14/openscreen",
+                  "trending/2026-04-14/pandoc",
+                  "trending/2026-04-14/prompts.chat",
+                  "trending/2026-04-14/qmd",
+                  "trending/2026-04-14/ralph",
+                  "trending/2026-04-14/remotion",
+                  "trending/2026-04-14/rowboat",
+                  "trending/2026-04-14/rustfs",
+                  "trending/2026-04-14/shannon",
+                  "trending/2026-04-14/sherlock",
+                  "trending/2026-04-14/starter",
+                  "trending/2026-04-14/superpowers",
+                  "trending/2026-04-14/tailscale",
+                  "trending/2026-04-14/tart",
+                  "trending/2026-04-14/termux-app",
+                  "trending/2026-04-14/themes",
+                  "trending/2026-04-14/timesfm",
+                  "trending/2026-04-14/twenty",
+                  "trending/2026-04-14/v2rayNG",
+                  "trending/2026-04-14/vaultwarden",
+                  "trending/2026-04-14/voicebox"
+                ]
+              },
+              {
+                "group": "2026-04-13",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-13/index",
+                  "trending/2026-04-13/Archon",
+                  "trending/2026-04-13/ChinaTextbook",
+                  "trending/2026-04-13/Kronos",
+                  "trending/2026-04-13/VoxCPM",
+                  "trending/2026-04-13/ai-hedge-fund",
+                  "trending/2026-04-13/andrej-karpathy-skills",
+                  "trending/2026-04-13/claude-code-best-practice",
+                  "trending/2026-04-13/claude-mem",
+                  "trending/2026-04-13/multica",
+                  "trending/2026-04-13/oh-my-codex"
+                ]
+              },
+              {
+                "group": "2026-04-11",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-11/index",
+                  "trending/2026-04-11/Archon",
+                  "trending/2026-04-11/DeepTutor",
+                  "trending/2026-04-11/Kronos",
+                  "trending/2026-04-11/VoxCPM",
+                  "trending/2026-04-11/andrej-karpathy-skills",
+                  "trending/2026-04-11/claude-code-best-practice",
+                  "trending/2026-04-11/claude-mem",
+                  "trending/2026-04-11/hermes-agent",
+                  "trending/2026-04-11/multica",
+                  "trending/2026-04-11/opendataloader-pdf"
+                ]
+              },
+              {
+                "group": "2026-04-10",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-10/index",
+                  "trending/2026-04-10/Archon",
+                  "trending/2026-04-10/DeepTutor",
+                  "trending/2026-04-10/VoxCPM",
+                  "trending/2026-04-10/agency-agents",
+                  "trending/2026-04-10/andrej-karpathy-skills",
+                  "trending/2026-04-10/claude-code-best-practice",
+                  "trending/2026-04-10/claude-howto",
+                  "trending/2026-04-10/claude-mem",
+                  "trending/2026-04-10/hermes-agent",
+                  "trending/2026-04-10/opendataloader-pdf"
+                ]
+              },
+              {
+                "group": "2026-04-09",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-09/index",
+                  "trending/2026-04-09/DeepTutor",
+                  "trending/2026-04-09/agency-agents",
+                  "trending/2026-04-09/andrej-karpathy-skills",
+                  "trending/2026-04-09/claude-code-best-practice",
+                  "trending/2026-04-09/hermes-agent",
+                  "trending/2026-04-09/oh-my-claudecode",
+                  "trending/2026-04-09/oh-my-codex",
+                  "trending/2026-04-09/opendataloader-pdf",
+                  "trending/2026-04-09/openscreen",
+                  "trending/2026-04-09/rowboat"
+                ]
+              },
+              {
+                "group": "2026-04-08",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-08/index",
+                  "trending/2026-04-08/GitNexus",
+                  "trending/2026-04-08/LiteRT-LM",
+                  "trending/2026-04-08/RedditVideoMakerBot",
+                  "trending/2026-04-08/ai-hedge-fund",
+                  "trending/2026-04-08/andrej-karpathy-skills",
+                  "trending/2026-04-08/gallery",
+                  "trending/2026-04-08/newton",
+                  "trending/2026-04-08/personaplex",
+                  "trending/2026-04-08/seomachine",
+                  "trending/2026-04-08/superpowers"
+                ]
+              },
+              {
+                "group": "2026-04-07",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-07/index",
+                  "trending/2026-04-07/agency-agents",
+                  "trending/2026-04-07/cc-switch",
+                  "trending/2026-04-07/claude-howto",
+                  "trending/2026-04-07/gallery",
+                  "trending/2026-04-07/goose",
+                  "trending/2026-04-07/obsidian-skills",
+                  "trending/2026-04-07/oh-my-codex",
+                  "trending/2026-04-07/openscreen",
+                  "trending/2026-04-07/qmd",
+                  "trending/2026-04-07/shannon"
+                ]
+              },
+              {
+                "group": "2026-04-06",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-06/index",
+                  "trending/2026-04-06/Deep-Live-Cam",
+                  "trending/2026-04-06/VibeVoice",
+                  "trending/2026-04-06/agency-agents",
+                  "trending/2026-04-06/claude-code-best-practice",
+                  "trending/2026-04-06/deer-flow",
+                  "trending/2026-04-06/get-shit-done",
+                  "trending/2026-04-06/hermes-agent",
+                  "trending/2026-04-06/last30days-skill",
+                  "trending/2026-04-06/learn-claude-code",
+                  "trending/2026-04-06/oh-my-claudecode"
+                ]
+              },
+              {
+                "group": "2026-04-05",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-04-05/index",
+                  "trending/2026-04-05/MiroFish",
+                  "trending/2026-04-05/agency-agents",
+                  "trending/2026-04-05/claude-howto",
+                  "trending/2026-04-05/goose",
+                  "trending/2026-04-05/hermes-agent",
+                  "trending/2026-04-05/oh-my-claudecode",
+                  "trending/2026-04-05/oh-my-codex",
+                  "trending/2026-04-05/onyx",
+                  "trending/2026-04-05/openscreen",
+                  "trending/2026-04-05/sherlock"
                 ]
               },
               {
@@ -297,6 +819,8 @@
                 "expanded": false,
                 "pages": [
                   "trending/2026-04-04/index",
+                  "trending/2026-04-04/Skill_Seekers",
+                  "trending/2026-04-04/TradingAgents-CN",
                   "trending/2026-04-04/agent-browser",
                   "trending/2026-04-04/fff.nvim",
                   "trending/2026-04-04/frontend-slides",
@@ -307,68 +831,57 @@
                   "trending/2026-04-04/onyx",
                   "trending/2026-04-04/openscreen",
                   "trending/2026-04-04/sherlock",
-                  "trending/2026-04-04/Skill_Seekers",
                   "trending/2026-04-04/superpowers",
-                  "trending/2026-04-04/timesfm",
-                  "trending/2026-04-04/TradingAgents-CN"
+                  "trending/2026-04-04/timesfm"
                 ]
               },
               {
-                "group": "2026-04-05",
+                "group": "2026-04-03",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-05/index",
-                  "trending/2026-04-05/openscreen",
-                  "trending/2026-04-05/claude-howto",
-                  "trending/2026-04-05/hermes-agent",
-                  "trending/2026-04-05/goose",
-                  "trending/2026-04-05/oh-my-codex",
-                  "trending/2026-04-05/agency-agents",
-                  "trending/2026-04-05/onyx",
-                  "trending/2026-04-05/oh-my-claudecode",
-                  "trending/2026-04-05/MiroFish",
-                  "trending/2026-04-05/sherlock"
+                  "trending/2026-04-03/index",
+                  "trending/2026-04-03/agency-agents",
+                  "trending/2026-04-03/claude-howto",
+                  "trending/2026-04-03/hermes-agent",
+                  "trending/2026-04-03/learn-claude-code",
+                  "trending/2026-04-03/oh-my-claudecode",
+                  "trending/2026-04-03/oh-my-codex",
+                  "trending/2026-04-03/onyx",
+                  "trending/2026-04-03/openscreen",
+                  "trending/2026-04-03/sherlock",
+                  "trending/2026-04-03/timesfm"
                 ]
               },
               {
-                "group": "2026-04-06",
+                "group": "2026-04-02",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-06/index",
-                  "trending/2026-04-06/VibeVoice",
-                  "trending/2026-04-06/oh-my-claudecode",
-                  "trending/2026-04-06/deer-flow",
-                  "trending/2026-04-06/last30days-skill",
-                  "trending/2026-04-06/hermes-agent",
-                  "trending/2026-04-06/claude-code-best-practice",
-                  "trending/2026-04-06/Deep-Live-Cam",
-                  "trending/2026-04-06/learn-claude-code",
-                  "trending/2026-04-06/agency-agents",
-                  "trending/2026-04-06/get-shit-done"
+                  "trending/2026-04-02/index",
+                  "trending/2026-04-02/VibeVoice",
+                  "trending/2026-04-02/agency-agents",
+                  "trending/2026-04-02/claude-howto",
+                  "trending/2026-04-02/codex",
+                  "trending/2026-04-02/hermes-agent",
+                  "trending/2026-04-02/learn-claude-code",
+                  "trending/2026-04-02/oh-my-claudecode",
+                  "trending/2026-04-02/onyx",
+                  "trending/2026-04-02/timesfm"
                 ]
               },
               {
-                "group": "2026-04-07",
+                "group": "2026-04-01",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-04-07/index",
-                  "trending/2026-04-07/agency-agents",
-                  "trending/2026-04-07/openscreen",
-                  "trending/2026-04-07/claude-howto",
-                  "trending/2026-04-07/obsidian-skills",
-                  "trending/2026-04-07/goose",
-                  "trending/2026-04-07/gallery",
-                  "trending/2026-04-07/shannon",
-                  "trending/2026-04-07/qmd",
-                  "trending/2026-04-07/oh-my-codex",
-                  "trending/2026-04-07/cc-switch"
-                ]
-              },
-              {
-                "group": "2026-04-08",
-                "expanded": false,
-                "pages": [
-                  "trending/2026-04-08/index"
+                  "trending/2026-04-01/index",
+                  "trending/2026-04-01/VibeVoice",
+                  "trending/2026-04-01/agency-agents",
+                  "trending/2026-04-01/claude-code-best-practice",
+                  "trending/2026-04-01/claude-howto",
+                  "trending/2026-04-01/deer-flow",
+                  "trending/2026-04-01/hermes-agent",
+                  "trending/2026-04-01/learn-claude-code",
+                  "trending/2026-04-01/oh-my-claudecode",
+                  "trending/2026-04-01/sherlock"
                 ]
               }
             ]
@@ -377,20 +890,10 @@
             "group": "2026年3月",
             "pages": [
               {
-                "group": "2026-03-29",
+                "group": "2026-03-31",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-03-29/index",
-                  "trending/2026-03-29/VibeVoice",
-                  "trending/2026-03-29/oh-my-claudecode",
-                  "trending/2026-03-29/deer-flow",
-                  "trending/2026-03-29/last30days-skill",
-                  "trending/2026-03-29/hermes-agent",
-                  "trending/2026-03-29/claude-code-best-practice",
-                  "trending/2026-03-29/Deep-Live-Cam",
-                  "trending/2026-03-29/learn-claude-code",
-                  "trending/2026-03-29/agency-agents",
-                  "trending/2026-03-29/get-shit-done"
+                  "trending/2026-03-31/index"
                 ]
               },
               {
@@ -411,12 +914,170 @@
                 ]
               },
               {
-                "group": "2026-03-31",
+                "group": "2026-03-29",
                 "expanded": false,
                 "pages": [
-                  "trending/2026-03-31/index"
+                  "trending/2026-03-29/index",
+                  "trending/2026-03-29/VibeVoice",
+                  "trending/2026-03-29/oh-my-claudecode",
+                  "trending/2026-03-29/deer-flow",
+                  "trending/2026-03-29/last30days-skill",
+                  "trending/2026-03-29/hermes-agent",
+                  "trending/2026-03-29/claude-code-best-practice",
+                  "trending/2026-03-29/Deep-Live-Cam",
+                  "trending/2026-03-29/learn-claude-code",
+                  "trending/2026-03-29/agency-agents",
+                  "trending/2026-03-29/get-shit-done"
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "GitHub Research",
+        "groups": [
+          {
+            "group": "scientific-agent-skills",
+            "expanded": false,
+            "pages": [
+              "github-research/scientific-agent-skills/index"
+            ]
+          },
+          {
+            "group": "subagent-driven-development",
+            "expanded": false,
+            "pages": [
+              "github-research/subagent-driven-development/index"
+            ]
+          },
+          {
+            "group": "openui",
+            "expanded": false,
+            "pages": [
+              "github-research/openui/index"
+            ]
+          },
+          {
+            "group": "open-agents",
+            "expanded": false,
+            "pages": [
+              "github-research/open-agents/index"
+            ]
+          },
+          {
+            "group": "Prismer",
+            "expanded": true,
+            "pages": [
+              "github-research/Prismer/index",
+              "github-research/Prismer/findings_core",
+              "github-research/Prismer/research_plan"
+            ]
+          },
+          {
+            "group": "onyx-foss",
+            "expanded": false,
+            "pages": [
+              "github-research/onyx-foss/index"
+            ]
+          },
+          {
+            "group": "marimo",
+            "expanded": true,
+            "pages": [
+              "github-research/marimo/index"
+            ]
+          },
+          {
+            "group": "mintlify",
+            "expanded": true,
+            "pages": [
+              {
+                "group": "docs-hermine",
+                "expanded": false,
+                "pages": [
+                  "github-research/docs-hermine/index"
+                ]
+              },
+              {
+                "group": "themes",
+                "expanded": false,
+                "pages": [
+                  "github-research/themes/index"
+                ]
+              },
+              {
+                "group": "starter",
+                "expanded": false,
+                "pages": [
+                  "github-research/starter/index"
+                ]
+              },
+              {
+                "group": "assistant-embed-example",
+                "expanded": false,
+                "pages": [
+                  "github-research/assistant-embed-example/index"
+                ]
+              },
+              {
+                "group": "astro",
+                "expanded": false,
+                "pages": [
+                  "github-research/astro/index"
+                ]
+              },
+              {
+                "group": "docs",
+                "expanded": false,
+                "pages": [
+                  "github-research/docs/index"
+                ]
+              },
+              {
+                "group": "mdx",
+                "expanded": false,
+                "pages": [
+                  "github-research/mdx/index"
+                ]
+              },
+              {
+                "group": "components",
+                "expanded": false,
+                "pages": [
+                  "github-research/components/index"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "DeepScientist",
+            "expanded": false,
+            "pages": [
+              "github-research/DeepScientist/index",
+              {
+                "group": "Findings",
+                "expanded": false,
+                "pages": [
+                  "github-research/DeepScientist/核心发现",
+                  "github-research/DeepScientist/竞品分析",
+                  "github-research/DeepScientist/学术反响",
+                  "github-research/DeepScientist/研究计划"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "DeepTutor",
+            "expanded": true,
+            "pages": [
+              "github-research/DeepTutor/index",
+              "github-research/DeepTutor/overview",
+              "github-research/DeepTutor/llm-configuration",
+              "github-research/DeepTutor/embedding-configuration",
+              "github-research/DeepTutor/search-configuration",
+              "github-research/DeepTutor/knowledge-management",
+              "github-research/DeepTutor/agent-system"
             ]
           }
         ]
@@ -428,32 +1089,135 @@
             "group": "我的笔记",
             "pages": [
               "my-notes/index",
-              "my-notes/关于我",
-              "my-notes/想法",
-              "my-notes/工作",
-              "my-notes/学习",
-              "my-notes/会议",
+              {
+                "group": "关于我",
+                "expanded": false,
+                "pages": [
+                  "my-notes/关于我"
+                ]
+              },
+              {
+                "group": "想法",
+                "expanded": false,
+                "pages": [
+                  "my-notes/想法"
+                ]
+              },
+              {
+                "group": "工作",
+                "expanded": false,
+                "pages": [
+                  "my-notes/工作"
+                ]
+              },
+              {
+                "group": "学习",
+                "expanded": false,
+                "pages": [
+                  "my-notes/学习"
+                ]
+              },
+              {
+                "group": "会议",
+                "expanded": false,
+                "pages": [
+                  "my-notes/会议"
+                ]
+              },
               {
                 "group": "研究",
                 "expanded": false,
                 "pages": [
                   "my-notes/研究",
-                  "my-notes/open-notebook-后端架构深度分析",
-                  "my-notes/open-notebook-前端架构与功能分析",
-                  "my-notes/研究-多Agent框架综合结论",
-                  "my-notes/研究-Claude_Code_Harness综合对比",
-                  "my-notes/研究-claw-code底层架构解析",
-                  "my-notes/研究-LangGraph框架深度解析",
-                  "my-notes/研究-CrewAI框架深度解析",
-                  "my-notes/研究-AutoGen_AgentsSDK框架深度解析",
-                  "my-notes/研究-生产级Agent_Harness架构",
-                  "my-notes/研究-Multi-Agent框架对比_gurusup",
-                  "my-notes/研究-Minimax_M2.7复刻Grok_4Agent方案",
+                  {
+                    "group": "Onyx",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/onyx-整体架构",
+                      "my-notes/onyx-Groups管理",
+                      "my-notes/onyx-Projects管理",
+                      "my-notes/onyx-文件处理流程",
+                      "my-notes/onyx-RAG实现机制",
+                      "my-notes/onyx-MinerU集成可行性",
+                      "my-notes/onyx-GraphRAG集成可行性",
+                      "my-notes/onyx-LaTeX编译器可行性",
+                      "my-notes/onyx-笔记生成功能"
+                    ]
+                  },
+                  {
+                    "group": "Open Notebook",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/open-notebook-后端架构深度分析",
+                      "my-notes/open-notebook-前端架构与功能分析"
+                    ]
+                  },
+                  {
+                    "group": "CrewAI",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/研究-CrewAI框架深度解析"
+                    ]
+                  },
+                  {
+                    "group": "Prismer",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/Prismer/index",
+                      "my-notes/Prismer/Prismer-整体架构",
+                      "my-notes/Prismer/Prismer-前端架构",
+                      "my-notes/Prismer/Prismer-后端架构",
+                      "my-notes/Prismer/Prismer-LaTeX编译",
+                      "my-notes/Prismer/Prismer-Agent编排",
+                      "my-notes/Prismer/Prismer-协作功能",
+                      "my-notes/Prismer/Prismer-AI功能"
+                    ]
+                  },
+                  {
+                    "group": "Multi-Agent",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/研究-多Agent框架综合结论",
+                      "my-notes/研究-Claude_Code_Harness综合对比",
+                      "my-notes/研究-claw-code底层架构解析",
+                      "my-notes/研究-LangGraph框架深度解析",
+                      "my-notes/研究-AutoGen_AgentsSDK框架深度解析",
+                      "my-notes/研究-生产级Agent_Harness架构",
+                      "my-notes/研究-Multi-Agent框架对比_gurusup",
+                      "my-notes/研究-Minimax_M2.7复刻Grok_4Agent方案"
+                    ]
+                  },
+                  {
+                    "group": "中科院数学与系统科学研究院",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/中科院数学与系统科学研究院-导师信息"
+                    ]
+                  },
+                  {
+                    "group": "香港科技大学数学系",
+                    "expanded": false,
+                    "pages": [
+                      "my-notes/香港科技大学数学系-Faculty档案"
+                    ]
+                  },
                   "my-notes/研究-react-resizable-panels组件库详解"
                 ]
               },
-              "my-notes/行政",
-              "my-notes/代码"
+              {
+                "group": "行政",
+                "expanded": false,
+                "pages": [
+                  "my-notes/行政"
+                ]
+              },
+              {
+                "group": "代码",
+                "expanded": false,
+                "pages": [
+                  "my-notes/代码"
+                ]
+              }
             ]
           }
         ]
