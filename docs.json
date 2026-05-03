@@ -228,6 +228,28 @@
         "tab": "GitHub Trending",
         "groups": [
           {
+            "group": "2026年5月",
+            "pages": [
+              {
+                "group": "2026-05-02",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-05-02/index",
+                  "trending/2026-05-02/skills",
+                  "trending/2026-05-02/TradingAgents",
+                  "trending/2026-05-02/Scrapling",
+                  "trending/2026-05-02/claude-flow",
+                  "trending/2026-05-02/maigret",
+                  "trending/2026-05-02/hackingtool",
+                  "trending/2026-05-02/dexter",
+                  "trending/2026-05-02/rtk",
+                  "trending/2026-05-02/free-claude-code",
+                  "trending/2026-05-02/VoxCPM"
+                ]
+              }
+            ]
+          },
+          {
             "group": "2026年4月",
             "pages": [
               {
