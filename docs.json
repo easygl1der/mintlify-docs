@@ -244,6 +244,23 @@
             "group": "2026年5月",
             "pages": [
               {
+                "group": "2026-05-05",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-05-05/index",
+                  "trending/2026-05-05/DeepSeek-TUI",
+                  "trending/2026-05-05/claude-flow",
+                  "trending/2026-05-05/TradingAgents",
+                  "trending/2026-05-05/skills",
+                  "trending/2026-05-05/agency-agents",
+                  "trending/2026-05-05/Scrapling",
+                  "trending/2026-05-05/agent-skills",
+                  "trending/2026-05-05/rtk",
+                  "trending/2026-05-05/Pixelle-Video",
+                  "trending/2026-05-05/maigret"
+                ]
+              },
+              {
                 "group": "2026-05-04",
                 "expanded": false,
                 "pages": [
