@@ -244,6 +244,23 @@
             "group": "2026年5月",
             "pages": [
               {
+                "group": "2026-05-04",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-05-04/index",
+                  "trending/2026-05-04/claude-flow",
+                  "trending/2026-05-04/TradingAgents",
+                  "trending/2026-05-04/skills",
+                  "trending/2026-05-04/DeepSeek-TUI",
+                  "trending/2026-05-04/Scrapling",
+                  "trending/2026-05-04/maigret",
+                  "trending/2026-05-04/Pixelle-Video",
+                  "trending/2026-05-04/rtk",
+                  "trending/2026-05-04/free-claude-code",
+                  "trending/2026-05-04/dexter"
+                ]
+              },
+              {
                 "group": "2026-05-03",
                 "expanded": false,
                 "pages": [
