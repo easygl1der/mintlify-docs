@@ -244,6 +244,23 @@
             "group": "2026年5月",
             "pages": [
               {
+                "group": "2026-05-07",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-05-07/index",
+                  "trending/2026-05-07/DeepSeek-TUI",
+                  "trending/2026-05-07/agent-skills",
+                  "trending/2026-05-07/financial-services",
+                  "trending/2026-05-07/skills",
+                  "trending/2026-05-07/Scrapling",
+                  "trending/2026-05-07/claude-flow",
+                  "trending/2026-05-07/rtk",
+                  "trending/2026-05-07/TradingAgents",
+                  "trending/2026-05-07/hello-agents",
+                  "trending/2026-05-07/docuseal"
+                ]
+              },
+              {
                 "group": "2026-05-09",
                 "expanded": false,
                 "pages": [
