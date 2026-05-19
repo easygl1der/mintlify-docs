@@ -46,6 +46,18 @@
         "tab": "社交热点",
         "groups": [
           {
+            "group": "2026年5月",
+            "pages": [
+              {
+                "group": "2026-05-19",
+                "expanded": false,
+                "pages": [
+                  "social-media/2026-05-19/22:54"
+                ]
+              }
+            ]
+          },
+          {
             "group": "2026年4月",
             "pages": [
               {
