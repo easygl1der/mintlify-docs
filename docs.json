@@ -244,6 +244,23 @@
             "group": "2026年5月",
             "pages": [
               {
+                "group": "2026-05-03",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-05-03/index",
+                  "trending/2026-05-03/TradingAgents",
+                  "trending/2026-05-03/claude-flow",
+                  "trending/2026-05-03/skills",
+                  "trending/2026-05-03/Scrapling",
+                  "trending/2026-05-03/maigret",
+                  "trending/2026-05-03/Pixelle-Video",
+                  "trending/2026-05-03/rtk",
+                  "trending/2026-05-03/jcode",
+                  "trending/2026-05-03/hackingtool",
+                  "trending/2026-05-03/free-claude-code"
+                ]
+              },
+              {
                 "group": "2026-05-02",
                 "expanded": false,
                 "pages": [
