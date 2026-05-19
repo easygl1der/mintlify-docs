@@ -244,6 +244,23 @@
             "group": "2026年5月",
             "pages": [
               {
+                "group": "2026-05-14",
+                "expanded": false,
+                "pages": [
+                  "trending/2026-05-14/index",
+                  "trending/2026-05-14/skills",
+                  "trending/2026-05-14/openhuman",
+                  "trending/2026-05-14/CloakBrowser",
+                  "trending/2026-05-14/agentmemory",
+                  "trending/2026-05-14/wifi-densepose",
+                  "trending/2026-05-14/DeepSeek-TUI",
+                  "trending/2026-05-14/AiToEarn",
+                  "trending/2026-05-14/financial-services",
+                  "trending/2026-05-14/LLMs-from-scratch",
+                  "trending/2026-05-14/agent-skills"
+                ]
+              },
+              {
                 "group": "2026-05-05",
                 "expanded": false,
                 "pages": [
